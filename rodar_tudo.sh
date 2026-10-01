@@ -6,11 +6,12 @@ cd "$(dirname "$0")"
 PY="${PYTHON:-python}"
 ANOS=(2023 2024 2025); [ $# -gt 0 ] && ANOS=("$@")
 
+echo "== ligação CBO -> O*NET (interesses) =="; "$PY" analise/prepara_interesses.py
 for a in "${ANOS[@]}"; do
   echo "== ETL $a =="; "$PY" analise/etl.py "$a"
 done
 for a in "${ANOS[@]}"; do
-  for s in analise estatistica extra mapa teses ocupacoes feminina combinado porte forca completa; do
+  for s in analise estatistica extra mapa teses ocupacoes feminina interesses combinado porte forca completa; do
     echo "== $s $a =="; "$PY" "analise/$s.py" "$a"
   done
 done

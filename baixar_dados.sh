@@ -49,4 +49,24 @@ curl -fsS "$SIDRA/t/5938/n6/all/v/37/p/2021" -o "$GEO/censo/pib.json"
 echo "== Ipeadata: IDHM (Atlas do Desenvolvimento Humano, PNUD) =="
 curl -fsS "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='ADH_IDHM')" -o "$GEO/censo/idhm.json"
 
+echo "== Interesses vocacionais: O*NET, ESCO e tábuas de conversão =="
+ON="$GEO/onet"; mkdir -p "$ON/esco_api"
+# O*NET 31.0 (Departamento do Trabalho dos EUA, licença CC BY 4.0): notas RIASEC por ocupação
+curl -fsSL -A "Mozilla/5.0" "https://www.onetcenter.org/dl_files/database/db_31_0_csv/career_interest_types.csv" -o "$ON/career_interest_types.csv"
+# Correspondência oficial ESCO-O*NET (Comissão Europeia e Departamento do Trabalho dos EUA, 2022)
+curl -fsSL -A "Mozilla/5.0" "https://esco.ec.europa.eu/system/files/2023-08/ONET_(Occupations)_0_updated.csv" -o "$ON/esco_onet.csv"
+# Grupo ISCO-08 de cada ocupação ESCO, pela API pública da ESCO (uma consulta por ocupação; leva alguns minutos)
+python3 - "$ON" <<'PY'
+import csv, sys
+on = sys.argv[1]
+r = list(csv.reader(open(f"{on}/esco_onet.csv", encoding="utf-8-sig"))); h = [i for i, x in enumerate(r) if x and x[0] == "O*NET Id"][0]
+open(f"{on}/uris.txt", "w").write("\n".join(sorted({x[3] for x in r[h + 1:] if "/occupation/" in x[3]})))
+PY
+xargs -n1 -P8 sh -c 'f="'"$ON"'/esco_api/$(basename "$0").json"; [ -s "$f" ] || curl -s --retry 3 --max-time 40 -o "$f" "https://ec.europa.eu/esco/api/resource/occupation?uri=$0&language=en"' < "$ON/uris.txt"
+# Tábua oficial CBO 2002 x CBO 94 x CIUO 88 (MTE), na cópia verificável do pacote ocupacoesBR,
+# raspada família a família de mtecbo.gov.br/cbosite/pages/tabua/FiltroConversao_CBO2002_CBO94_CIUO88.jsf
+curl -fsSL "https://raw.githubusercontent.com/moraespeixoto/ocupacoesBR/main/inst/extdata/fontes/tabua_oficial.csv" -o "$ON/cbo2002_ciuo88_mte.csv"
+# Ponte ISCO-88 -> ISCO-08 de Ganzeboom e Treiman (International Stratification and Mobility File)
+curl -fsSL "https://raw.githubusercontent.com/moraespeixoto/ocupacoesBR/main/inst/extdata/fontes/ganzeboom/isco8808.sps" -o "$ON/isco8808_ganzeboom.sps"
+
 echo "pronto. Próximo passo: ./rodar_tudo.sh"

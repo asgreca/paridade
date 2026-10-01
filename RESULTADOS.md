@@ -61,6 +61,17 @@ As mulheres trabalham menos horas contratadas (40,5 contra 42,1 por semana). Qua
 
 A diferença encolhe para cerca de um quarto do gap geral, mas não se inverte. Os empates estão em educação infantil, enfermagem, nutrição, saúde bucal e costura.
 
+## 4c. O eixo pessoas × coisas (teste de Su, Rounds e Armstrong)
+
+`interesses_ANO.json`. Cada ocupação medida na escala de interesses da O*NET; d de Cohen entre homens e mulheres na ocupação em que trabalham (positivo = homens mais perto de "coisas"):
+
+| | Su e colegas (interesses) | 2023 | 2024 | 2025 |
+|---|---:|---:|---:|---:|
+| d pessoas × coisas | 0,93 | 0,82 | 0,82 | 0,80 |
+| d só com a ligação oficial | | 0,83 | 0,83 | 0,82 |
+
+Em 2025, por quinto do eixo: as mulheres são 70% no quinto mais ligado a pessoas e 14% no mais ligado a coisas; a mediana salarial é R$ 3.868 no primeiro e R$ 2.893 no último; o gap na mesma ocupação vai de -7,8% a -16,1%. Com o mesmo perfil, cada desvio-padrão em direção a "coisas" muda o salário em -0,6% (IC -3,8 a +2,7). A separação se confirma; o prêmio salarial do lado das coisas, não.
+
 ## 5. Teto de vidro
 
 Gap na mesma ocupação por quantil da distribuição de salários (RIF, `estat_2025.json` → `quantis`):
@@ -101,6 +112,7 @@ Gap na mesma ocupação por quantil da distribuição de salários (RIF, `estat_
 | `forca_ANO.json` | `classes` (pesado, leve, outro operacional), `premio_pesado_sobre_leve`, `perigo` |
 | `combinado_ANO.json` | `sem_ocupacao`, `com_ocupacao` (fatores em p.p. com EP), `medias` |
 | `feminina_ANO.json` | `ocupacoes` (20 ocupações de maioria feminina, com bruto, ajustado e IC), `resumo` |
+| `interesses_ANO.json` | cobertura da ligação, d por escala, distribuição no eixo, quintis, tipos de Holland, prêmio do eixo, áreas STEM |
 | `ocupacoes_ANO.json` | `pontos` (uma linha por ocupação com 1.000+ vínculos), `fluxos` (Sankey), `resumo` |
 | `teses_ANO.json` | eixo pessoas x coisas, caudas, segregação (Duncan), diretoria por idade |
 | `mapa_ANO.json` | `mesos`, `ufs`, `regioes`, testes `homog_*` |

@@ -77,6 +77,20 @@ As URLs completas, com todos os códigos de classificação, estão em `baixar_d
 - **Endpoint OData:** `http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='ADH_IDHM')`
 - **Arquivo:** `geo/censo/idhm.json`
 
+## Interesses vocacionais: O*NET, ESCO e tábuas de conversão
+
+| Arquivo | Fonte | Uso |
+|---|---|---|
+| `geo/onet/career_interest_types.csv` | [O*NET 31.0](https://www.onetcenter.org/database.html), Departamento do Trabalho dos EUA, licença CC BY 4.0 | notas RIASEC (1 a 7) por ocupação americana |
+| `geo/onet/esco_onet.csv` | [Correspondência ESCO-O*NET](https://esco.ec.europa.eu/en/about-esco/data-science-and-esco/crosswalk-between-esco-and-onet), Comissão Europeia e Departamento do Trabalho dos EUA, 2022 | ocupações O*NET -> ocupações ESCO |
+| `geo/onet/esco_api/*.json` | [API da ESCO](https://esco.ec.europa.eu/en/use-esco/use-esco-services-api) | grupo ISCO-08 de cada ocupação ESCO |
+| `geo/onet/cbo2002_ciuo88_mte.csv` | Tábua oficial CBO 2002 x CBO 94 x CIUO 88 do MTE, na cópia verificável do pacote [ocupacoesBR](https://github.com/moraespeixoto/ocupacoesBR) | CBO -> ISCO-88 |
+| `geo/onet/isco8808_ganzeboom.sps` | Ganzeboom e Treiman, International Stratification and Mobility File | ISCO-88 -> ISCO-08 |
+| `dados_auxiliares/cbo_isco08_manual.csv` | ligação manual deste projeto, com observação em cada linha | famílias que a tábua não cobre e correções de erros da tábua |
+| `dados_auxiliares/cbo_riasec.csv` | gerado por `prepara_interesses.py` | CBO -> ISCO-08 -> notas RIASEC e eixos de Prediger |
+
+Fórmulas dos eixos: manual técnico do [ACT Interest Inventory](https://www.act.org/content/dam/act/unsecured/documents/ACT-Interest-Inventory-Technical-Manual.pdf) (2023).
+
 ## O que não está no repositório
 
 Os dados brutos (`brutos/`), os parquet (`dados/`) e as tabelas do IBGE (`geo/`) não são versionados. Juntos somam dezenas de GB, e qualquer pessoa pode baixá-los das fontes oficiais com `./baixar_dados.sh`. Os **resultados** (`resultados/*.json`) estão versionados. São exatamente os arquivos que o site lê.

@@ -215,6 +215,40 @@ ln(rem) = α + δ·mulher + ln(horas), idade, idade², tempo de casa, tempo², p
 
 com erro-padrão agrupado por município. O resumo conta em quantas o IC de 95% fica abaixo de zero (homem ganha mais), cruza o zero (empate) ou fica acima (mulher ganha mais), e calcula a média de δ ponderada pelo número de vínculos.
 
+## 14c. Interesses vocacionais: RIASEC e o eixo pessoas x coisas de Prediger
+
+`prepara_interesses.py` e `interesses.py`. A meta-análise de Su, Rounds e Armstrong (2009) mede, por questionário, o **interesse** de homens e mulheres por trabalho com coisas ou com pessoas (d = 0,93). A RAIS não mede interesse, mas mostra o **emprego** que cada pessoa tem. Medimos cada ocupação brasileira na mesma escala do artigo e vemos onde homens e mulheres estão nela e quanto ganham ao longo dela.
+
+**Notas das ocupações.** O*NET 31.0 (Departamento do Trabalho dos EUA), escala *Occupational Interests* de 1 a 7 nos seis tipos de Holland: Realista, Investigativo, Artístico, Social, Empreendedor e Convencional. Na versão 31.0, parte das notas foi estimada com aprendizado de máquina e revisada por especialistas (campo *Domain Source*).
+
+**Eixos de Prediger**, com as fórmulas do manual técnico do ACT Interest Inventory (2023):
+
+```
+Pessoas/Coisas = 2R + I + C - 2S - A - E        (positivo = coisas)
+Dados/Ideias   = 1,73 x (E + C - I - A)         (positivo = dados)
+```
+
+**Cadeia de ligação.** A CBO 2002 não tem correspondência direta com a classificação americana. A ligação é feita em etapas, e cada ocupação recebe a primeira que estiver disponível:
+
+| Nível | Caminho | Fonte |
+|---|---|---|
+| manual | CBO (ocupação ou família) → ISCO-08 | ligação feita à mão, `dados_auxiliares/cbo_isco08_manual.csv` |
+| direto | CBO (ocupação) → ISCO-88 → ISCO-08 | tábua oficial CBO 2002 x CBO 94 x CIUO 88 do MTE; ponte ISCO-88 → ISCO-08 de Ganzeboom e Treiman |
+| família | CBO fora da tábua, com ocupações irmãs na tábua → código ISCO-88 mais comum na família → ISCO-08 | idem |
+
+Depois, ISCO-08 → O*NET-SOC 2019 pela correspondência oficial ESCO-O*NET (Comissão Europeia e Departamento do Trabalho dos EUA, 2022). Cada ocupação da ESCO pertence a um grupo ISCO-08; a nota de um grupo é a média das ocupações O*NET ligadas a ele. Um grupo sem ligação usa a média do subgrupo de 3 dígitos.
+
+**Por que há ligação manual.** A tábua oficial do MTE foi montada a partir da CBO de 1994 e não inclui as famílias criadas na CBO 2002. Conferimos no site oficial (mtecbo.gov.br) que essas famílias não constam da tábua. Entre elas estão professores de nível médio, auxiliar de desenvolvimento infantil, supervisor administrativo, motoristas de ônibus, dirigentes do serviço público e policiais militares: 190 famílias e 13,4% dos vínculos de 2023 a 2025. Testamos ligá-las pela família vizinha da CBO e descartamos a ideia, porque o resultado era errado (o motorista de ônibus virava operador de guindaste). Essas famílias foram ligadas à ISCO-08 uma a uma, pelo título e pela descrição oficial da CBO. Nas famílias que juntam ocupações de natureza diferente, a ligação é feita por ocupação (por exemplo, professor de nível médio na educação infantil → 2342 e auxiliar de desenvolvimento infantil → 5311). **Erros corrigidos na tábua oficial.** Conferimos se o grande grupo da CBO (1 dirigentes, 2 profissionais de nível superior, 3 técnicos, 4 serviços administrativos, 5 serviços e comércio) bate com o da ISCO. A maior parte das divergências é diferença legítima entre as classificações (a CBO põe faxineiros e coletores de lixo em serviços; a ISCO, em ocupações elementares). Três casos são erro da tábua e foram corrigidos à mão: (1) gerentes administrativos, financeiros e de riscos (família 1421) e profissionais de finanças (família 2525) aparecem com o código 2149 da CIUO-88, de engenheiros, quase certamente uma inversão de dígitos de 2419, profissionais de negócios; (2) gerentes comerciais, de marketing, de vendas e de comunicação (família 1423) aparecem como profissionais, e não como dirigentes; (3) diretores e gerentes de escola (família 1313) aparecem como professores. Sem a correção, 47% dos vínculos de "engenharia" eram de mulheres; com ela, 26%.
+
+A tabela manual está publicada para revisão, com uma observação em cada linha, e a análise é refeita só com a ligação oficial (níveis direto e família) para mostrar que o resultado não depende dessas escolhas.
+
+**Medidas.**
+
+- **d de Cohen** entre homens e mulheres na nota da ocupação em que trabalham, com desvio-padrão combinado e todos os vínculos. Positivo = homens acima. O sinal é comparável ao de Su e colegas, mas a medida é outra: o d de Su compara interesses individuais; o nosso compara o conteúdo dos empregos ocupados.
+- **Quintis do eixo pessoas/coisas** e **tipo RIASEC dominante** da ocupação: % de mulheres, mediana salarial e gap na mesma ocupação (efeito fixo de CBO, amostra 1/20, EP agrupado por ocupação).
+- **Quanto o eixo paga**: regressão sem efeito fixo de ocupação, com os eixos padronizados e a interação mulher x eixo.
+- **Áreas STEM** pelos grupos ISCO-08, no recorte de Su e colegas: engenharia (214, 215), computação e TI (25), ciências exatas (211, 212), ciências da vida (213) e saúde de nível superior (22).
+
 ## 15. Esforço físico
 
 `forca.py`. "Esforço físico pesado" reúne pedreiros e serventes, carregadores, trabalhadores agrícolas braçais, mineiros, abate de animais e coleta de lixo (prefixos em `PESADO`). "Operacional leve ou de precisão" reúne embaladores, costureiras e montadores de precisão (`LEVE`). Medimos:

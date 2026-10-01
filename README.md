@@ -24,9 +24,9 @@ Em resumo: as mulheres estudam mais que os homens, por isso controlar a instruç
 ## O que tem aqui
 
 ```
-analise/            os 14 scripts de análise (um por tema, cada um com docstring explicando o que faz)
+analise/            os 16 scripts de análise (um por tema, cada um com docstring explicando o que faz)
 config.py           caminhos de entrada e saída (sobrescrevíveis por variável de ambiente)
-dados_auxiliares/   rótulos oficiais da CBO 2002 (código -> nome da ocupação)
+dados_auxiliares/   rótulos da CBO 2002, ligação manual CBO -> ISCO-08 e a tabela CBO -> notas RIASEC
 resultados/         os JSONs gerados, exatamente os que alimentam o site
 baixar_dados.sh     baixa RAIS (FTP do MTE), malhas e localidades do IBGE, tabelas do SIDRA e IDHM (Ipeadata)
 rodar_tudo.sh       executa o pipeline inteiro na ordem certa
@@ -46,6 +46,8 @@ RESULTADOS.md       o que cada JSON contém e os principais números
 | `forca.py` | Esforço físico pesado x operacional leve: composição por sexo e gap | `forca_ANO.json` |
 | `combinado.py` | Decomposição única: tempo de trabalho + condições do posto, com bootstrap | `combinado_ANO.json` |
 | `feminina.py` | As 20 maiores ocupações de maioria feminina: gap na mesma ocupação com IC | `feminina_ANO.json` |
+| `prepara_interesses.py` | Liga a CBO às notas de interesse RIASEC da O*NET (via ISCO e ESCO) e calcula o eixo pessoas × coisas de Prediger | `dados_auxiliares/cbo_riasec.csv` |
+| `interesses.py` | Homens e mulheres no eixo pessoas × coisas: d de Cohen comparável a Su, Rounds e Armstrong (2009), gap por quinto do eixo, tipos de Holland e áreas STEM | `interesses_ANO.json` |
 | `ocupacoes.py` | Tabela por ocupação: % mulheres, eixo pessoas x coisas, gap na mesma função | `ocupacoes_ANO.json` |
 | `teses.py` | Pessoas x coisas, caudas da distribuição, segregação, chegada à diretoria | `teses_ANO.json` |
 | `mapa.py` | Gap por mesorregião, UF e região, com teste de homogeneidade (Cochran Q, I²) | `mapa_ANO.json` |
