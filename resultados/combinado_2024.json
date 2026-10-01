@@ -1,0 +1,163 @@
+{
+ "sem_ocupacao": {
+  "bruto_pp": -9.81,
+  "fatores": [
+   {
+    "fator": "Horas contratadas",
+    "pp": -2.3,
+    "ep": 0.37
+   },
+   {
+    "fator": "Tempo no emprego atual",
+    "pp": 0.89,
+    "ep": 0.87
+   },
+   {
+    "fator": "Experiência na carreira",
+    "pp": -0.06,
+    "ep": 0.45
+   },
+   {
+    "fator": "Periculosidade",
+    "pp": -0.48,
+    "ep": 0.15
+   },
+   {
+    "fator": "Insalubridade",
+    "pp": 0.16,
+    "ep": 0.16
+   },
+   {
+    "fator": "Confinamento",
+    "pp": -0.04,
+    "ep": 0.02
+   },
+   {
+    "fator": "Turno irregular",
+    "pp": -0.16,
+    "ep": 1.0
+   },
+   {
+    "fator": "Risco de acidente do posto",
+    "pp": 0.67,
+    "ep": 0.33
+   },
+   {
+    "fator": "Instrução",
+    "pp": 11.25,
+    "ep": 2.63
+   },
+   {
+    "fator": "Empregador (setor, porte, estado, público)",
+    "pp": -1.64,
+    "ep": 1.49
+   },
+   {
+    "fator": "Não explicado",
+    "pp": -18.09,
+    "ep": 1.15
+   }
+  ]
+ },
+ "com_ocupacao": {
+  "bruto_pp": -9.81,
+  "fatores": [
+   {
+    "fator": "Horas contratadas",
+    "pp": -2.38,
+    "ep": 0.33
+   },
+   {
+    "fator": "Tempo no emprego atual",
+    "pp": 0.78,
+    "ep": 0.77
+   },
+   {
+    "fator": "Experiência na carreira",
+    "pp": -0.15,
+    "ep": 0.43
+   },
+   {
+    "fator": "Periculosidade",
+    "pp": -0.0,
+    "ep": 0.0
+   },
+   {
+    "fator": "Insalubridade",
+    "pp": -0.04,
+    "ep": 0.11
+   },
+   {
+    "fator": "Confinamento",
+    "pp": 0.08,
+    "ep": 0.03
+   },
+   {
+    "fator": "Turno irregular",
+    "pp": -0.0,
+    "ep": 0.0
+   },
+   {
+    "fator": "Risco de acidente do posto",
+    "pp": -0.15,
+    "ep": 0.09
+   },
+   {
+    "fator": "Instrução",
+    "pp": 5.62,
+    "ep": 1.32
+   },
+   {
+    "fator": "Empregador (setor, porte, estado, público)",
+    "pp": -0.93,
+    "ep": 1.12
+   },
+   {
+    "fator": "Ocupação (demais diferenças)",
+    "pp": -2.49,
+    "ep": 3.03
+   },
+   {
+    "fator": "Não explicado",
+    "pp": -10.15,
+    "ep": 0.51
+   }
+  ]
+ },
+ "medias": {
+  "horas": {
+   "h": 42.18,
+   "m": 40.59
+  },
+  "tempo_meses": {
+   "h": 59.71,
+   "m": 63.69
+  },
+  "exp": {
+   "h": 20.46,
+   "m": 19.26
+  },
+  "peric": {
+   "h": 5.4,
+   "m": 0.78
+  },
+  "insal": {
+   "h": 5.11,
+   "m": 3.0
+  },
+  "conf": {
+   "h": 0.74,
+   "m": 0.06
+  },
+  "turno": {
+   "h": 6.75,
+   "m": 5.95
+  },
+  "risco": {
+   "h": 1.21,
+   "m": 0.87
+  }
+ },
+ "ano": 2024,
+ "amostra": 2502327
+}

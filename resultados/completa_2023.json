@@ -1,0 +1,23 @@
+{
+ "ano": 2023,
+ "vinculos": 48870760,
+ "mesma_ocupacao": -10.04,
+ "mesma_ocupacao_cidade": -8.37,
+ "amostra": {
+  "mesma_ocupacao": {
+   "passo": "Mesma ocupação",
+   "gap": -9.99,
+   "ic_baixo": -11.01,
+   "ic_alto": -8.97,
+   "ep_log": 0.00579
+  },
+  "mesma_ocupacao_cidade": {
+   "passo": "Mesma ocupação, mesma cidade",
+   "gap": -8.28,
+   "ic_baixo": -9.16,
+   "ic_alto": -7.39,
+   "ep_log": 0.00491
+  },
+  "n": 2440478
+ }
+}

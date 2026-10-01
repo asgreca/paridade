@@ -1,0 +1,1709 @@
+{
+ "2023": {
+  "mte_bruto": -19.8,
+  "mte_media_m": 3448,
+  "mte_media_h": 4299,
+  "mte_n": 16473746,
+  "formal_homens_a_mais": 12.1,
+  "formal_mulheres_a_menos": -10.8,
+  "superior_bruto": -29.8,
+  "superior_media_m": 5879,
+  "superior_media_h": 8377,
+  "gestao_bruto": -26.5,
+  "gestao_media_m": 6762,
+  "gestao_media_h": 9200,
+  "raca_bruto": -38.9,
+  "mte_mesma_ocupacao": {
+   "gap": -10.8,
+   "ic": [
+    -11.9,
+    -9.7
+   ]
+  },
+  "mte_mesma_ocupacao_cidade": {
+   "gap": -8.8,
+   "ic": [
+    -9.8,
+    -7.7
+   ]
+  },
+  "todos_mesma_ocupacao_cidade": {
+   "gap": -8.3,
+   "ic": [
+    -9.2,
+    -7.4
+   ]
+  },
+  "superior_ajustado": {
+   "gap": -9.0,
+   "ic": [
+    -10.5,
+    -7.5
+   ]
+  },
+  "gestao_ajustado": {
+   "gap": -9.3,
+   "ic": [
+    -11.2,
+    -7.4
+   ]
+  },
+  "raca_ajustado": {
+   "gap": -14.3,
+   "ic": [
+    -15.8,
+    -12.8
+   ]
+  },
+  "setores": [
+   {
+    "secao": "Finanças e seguros",
+    "n": 977211,
+    "pct_m": 55.1,
+    "bruto": -33.6,
+    "ajustado": {
+     "gap": -12.1,
+     "ic": [
+      -14.5,
+      -9.7
+     ]
+    }
+   },
+   {
+    "secao": "Indústria de transformação",
+    "n": 7082915,
+    "pct_m": 30.7,
+    "bruto": -26.4,
+    "ajustado": {
+     "gap": -15.2,
+     "ic": [
+      -16.6,
+      -13.8
+     ]
+    }
+   },
+   {
+    "secao": "Educação",
+    "n": 2715180,
+    "pct_m": 68.1,
+    "bruto": -25.6,
+    "ajustado": {
+     "gap": -4.6,
+     "ic": [
+      -6.4,
+      -2.7
+     ]
+    }
+   },
+   {
+    "secao": "Informação e comunicação",
+    "n": 1057357,
+    "pct_m": 37.4,
+    "bruto": -22.5,
+    "ajustado": {
+     "gap": -9.3,
+     "ic": [
+      -11.0,
+      -7.5
+     ]
+    }
+   },
+   {
+    "secao": "Serviços profissionais e técnicos",
+    "n": 1554779,
+    "pct_m": 50.3,
+    "bruto": -20.5,
+    "ajustado": {
+     "gap": -7.8,
+     "ic": [
+      -9.8,
+      -5.8
+     ]
+    }
+   },
+   {
+    "secao": "Administração pública e defesa",
+    "n": 8088914,
+    "pct_m": 58.9,
+    "bruto": -20.1,
+    "ajustado": {
+     "gap": -8.0,
+     "ic": [
+      -10.7,
+      -5.3
+     ]
+    }
+   },
+   {
+    "secao": "Serviços administrativos",
+    "n": 5057406,
+    "pct_m": 44.0,
+    "bruto": -19.7,
+    "ajustado": {
+     "gap": -8.9,
+     "ic": [
+      -10.5,
+      -7.3
+     ]
+    }
+   },
+   {
+    "secao": "Saúde e serviço social",
+    "n": 2941085,
+    "pct_m": 76.6,
+    "bruto": -18.1,
+    "ajustado": {
+     "gap": -4.4,
+     "ic": [
+      -5.4,
+      -3.4
+     ]
+    }
+   },
+   {
+    "secao": "Agropecuária",
+    "n": 1594354,
+    "pct_m": 17.5,
+    "bruto": -17.7,
+    "ajustado": {
+     "gap": -14.2,
+     "ic": [
+      -15.6,
+      -12.7
+     ]
+    }
+   },
+   {
+    "secao": "Outros serviços",
+    "n": 1223231,
+    "pct_m": 57.3,
+    "bruto": -16.0,
+    "ajustado": {
+     "gap": -6.8,
+     "ic": [
+      -8.4,
+      -5.2
+     ]
+    }
+   },
+   {
+    "secao": "Comércio",
+    "n": 9210742,
+    "pct_m": 44.7,
+    "bruto": -13.6,
+    "ajustado": {
+     "gap": -7.8,
+     "ic": [
+      -9.2,
+      -6.4
+     ]
+    }
+   },
+   {
+    "secao": "Alojamento e alimentação",
+    "n": 1850784,
+    "pct_m": 57.5,
+    "bruto": -12.6,
+    "ajustado": {
+     "gap": -7.2,
+     "ic": [
+      -9.8,
+      -4.5
+     ]
+    }
+   },
+   {
+    "secao": "Transporte e correio",
+    "n": 2306893,
+    "pct_m": 19.2,
+    "bruto": -12.0,
+    "ajustado": {
+     "gap": -9.8,
+     "ic": [
+      -10.9,
+      -8.6
+     ]
+    }
+   },
+   {
+    "secao": "Eletricidade, água e resíduos",
+    "n": 500899,
+    "pct_m": 19.9,
+    "bruto": -8.1,
+    "ajustado": {
+     "gap": -11.2,
+     "ic": [
+      -13.2,
+      -9.2
+     ]
+    }
+   },
+   {
+    "secao": "Indústria extrativa",
+    "n": 247016,
+    "pct_m": 16.1,
+    "bruto": -6.4,
+    "ajustado": {
+     "gap": -15.8,
+     "ic": [
+      -18.6,
+      -12.9
+     ]
+    }
+   },
+   {
+    "secao": "Construção",
+    "n": 2461994,
+    "pct_m": 11.7,
+    "bruto": -1.2,
+    "ajustado": {
+     "gap": -10.5,
+     "ic": [
+      -12.5,
+      -8.4
+     ]
+    }
+   }
+  ],
+  "estados": [
+   {
+    "uf": "ES",
+    "razao_bruta": 71.2,
+    "ajustado": {
+     "gap": -9.6,
+     "ic": [
+      -11.0,
+      -8.3
+     ]
+    }
+   },
+   {
+    "uf": "PR",
+    "razao_bruta": 71.7,
+    "ajustado": {
+     "gap": -9.1,
+     "ic": [
+      -10.1,
+      -8.0
+     ]
+    }
+   },
+   {
+    "uf": "MS",
+    "razao_bruta": 72.1,
+    "ajustado": {
+     "gap": -12.7,
+     "ic": [
+      -14.2,
+      -11.1
+     ]
+    }
+   },
+   {
+    "uf": "SC",
+    "razao_bruta": 72.6,
+    "ajustado": {
+     "gap": -10.5,
+     "ic": [
+      -11.7,
+      -9.2
+     ]
+    }
+   },
+   {
+    "uf": "MT",
+    "razao_bruta": 73.4,
+    "ajustado": {
+     "gap": -11.7,
+     "ic": [
+      -13.8,
+      -9.6
+     ]
+    }
+   },
+   {
+    "uf": "RJ",
+    "razao_bruta": 74.0,
+    "ajustado": {
+     "gap": -7.0,
+     "ic": [
+      -8.8,
+      -5.2
+     ]
+    }
+   },
+   {
+    "uf": "MG",
+    "razao_bruta": 76.2,
+    "ajustado": {
+     "gap": -10.1,
+     "ic": [
+      -10.9,
+      -9.2
+     ]
+    }
+   },
+   {
+    "uf": "GO",
+    "razao_bruta": 77.4,
+    "ajustado": {
+     "gap": -11.0,
+     "ic": [
+      -12.5,
+      -9.5
+     ]
+    }
+   },
+   {
+    "uf": "SP",
+    "razao_bruta": 78.8,
+    "ajustado": {
+     "gap": -10.9,
+     "ic": [
+      -12.2,
+      -9.7
+     ]
+    }
+   },
+   {
+    "uf": "RO",
+    "razao_bruta": 79.7,
+    "ajustado": {
+     "gap": -9.3,
+     "ic": [
+      -11.9,
+      -6.6
+     ]
+    }
+   },
+   {
+    "uf": "RS",
+    "razao_bruta": 80.1,
+    "ajustado": {
+     "gap": -10.6,
+     "ic": [
+      -11.9,
+      -9.3
+     ]
+    }
+   },
+   {
+    "uf": "AM",
+    "razao_bruta": 80.7,
+    "ajustado": {
+     "gap": -5.4,
+     "ic": [
+      -7.2,
+      -3.5
+     ]
+    }
+   },
+   {
+    "uf": "BA",
+    "razao_bruta": 80.7,
+    "ajustado": {
+     "gap": -7.4,
+     "ic": [
+      -8.6,
+      -6.1
+     ]
+    }
+   },
+   {
+    "uf": "RN",
+    "razao_bruta": 80.9,
+    "ajustado": {
+     "gap": -5.4,
+     "ic": [
+      -7.4,
+      -3.4
+     ]
+    }
+   },
+   {
+    "uf": "TO",
+    "razao_bruta": 82.2,
+    "ajustado": {
+     "gap": -8.2,
+     "ic": [
+      -10.6,
+      -5.9
+     ]
+    }
+   },
+   {
+    "uf": "RR",
+    "razao_bruta": 82.3,
+    "ajustado": {
+     "gap": -2.0,
+     "ic": [
+      -4.4,
+      0.5
+     ]
+    }
+   },
+   {
+    "uf": "PA",
+    "razao_bruta": 85.0,
+    "ajustado": {
+     "gap": -7.6,
+     "ic": [
+      -8.8,
+      -6.4
+     ]
+    }
+   },
+   {
+    "uf": "PB",
+    "razao_bruta": 86.5,
+    "ajustado": {
+     "gap": -5.8,
+     "ic": [
+      -7.3,
+      -4.2
+     ]
+    }
+   },
+   {
+    "uf": "MA",
+    "razao_bruta": 86.6,
+    "ajustado": {
+     "gap": -8.7,
+     "ic": [
+      -15.0,
+      -1.9
+     ]
+    }
+   },
+   {
+    "uf": "SE",
+    "razao_bruta": 86.6,
+    "ajustado": {
+     "gap": -8.5,
+     "ic": [
+      -10.2,
+      -6.8
+     ]
+    }
+   },
+   {
+    "uf": "AP",
+    "razao_bruta": 86.7,
+    "ajustado": {
+     "gap": -4.0,
+     "ic": [
+      -6.6,
+      -1.4
+     ]
+    }
+   },
+   {
+    "uf": "PI",
+    "razao_bruta": 88.1,
+    "ajustado": {
+     "gap": -4.8,
+     "ic": [
+      -6.8,
+      -2.7
+     ]
+    }
+   },
+   {
+    "uf": "AL",
+    "razao_bruta": 90.2,
+    "ajustado": {
+     "gap": -7.3,
+     "ic": [
+      -8.8,
+      -5.7
+     ]
+    }
+   },
+   {
+    "uf": "AC",
+    "razao_bruta": 90.4,
+    "ajustado": {
+     "gap": -5.2,
+     "ic": [
+      -7.4,
+      -2.8
+     ]
+    }
+   },
+   {
+    "uf": "PE",
+    "razao_bruta": 91.2,
+    "ajustado": {
+     "gap": -8.1,
+     "ic": [
+      -9.5,
+      -6.6
+     ]
+    }
+   },
+   {
+    "uf": "CE",
+    "razao_bruta": 91.6,
+    "ajustado": {
+     "gap": -6.3,
+     "ic": [
+      -7.7,
+      -4.9
+     ]
+    }
+   },
+   {
+    "uf": "DF",
+    "razao_bruta": 92.4,
+    "ajustado": {
+     "gap": -3.9,
+     "ic": [
+      -6.0,
+      -1.7
+     ]
+    }
+   }
+  ],
+  "estados_corr_bruto_ajustado": 0.62,
+  "estados_amplitude_bruta": 21.2,
+  "estados_amplitude_ajustada": 10.7
+ },
+ "2024": {
+  "mte_bruto": -20.0,
+  "mte_media_m": 3631,
+  "mte_media_h": 4539,
+  "mte_n": 17294612,
+  "formal_homens_a_mais": 12.4,
+  "formal_mulheres_a_menos": -11.0,
+  "superior_bruto": -29.6,
+  "superior_media_m": 6227,
+  "superior_media_h": 8842,
+  "gestao_bruto": -26.0,
+  "gestao_media_m": 7474,
+  "gestao_media_h": 10094,
+  "raca_bruto": -39.3,
+  "mte_mesma_ocupacao": {
+   "gap": -10.5,
+   "ic": [
+    -11.6,
+    -9.4
+   ]
+  },
+  "mte_mesma_ocupacao_cidade": {
+   "gap": -8.5,
+   "ic": [
+    -9.6,
+    -7.4
+   ]
+  },
+  "todos_mesma_ocupacao_cidade": {
+   "gap": -8.1,
+   "ic": [
+    -9.0,
+    -7.3
+   ]
+  },
+  "superior_ajustado": {
+   "gap": -8.7,
+   "ic": [
+    -10.3,
+    -7.0
+   ]
+  },
+  "gestao_ajustado": {
+   "gap": -9.5,
+   "ic": [
+    -11.5,
+    -7.4
+   ]
+  },
+  "raca_ajustado": {
+   "gap": -14.1,
+   "ic": [
+    -15.5,
+    -12.6
+   ]
+  },
+  "setores": [
+   {
+    "secao": "Finanças e seguros",
+    "n": 985069,
+    "pct_m": 54.9,
+    "bruto": -32.1,
+    "ajustado": {
+     "gap": -11.2,
+     "ic": [
+      -13.2,
+      -9.2
+     ]
+    }
+   },
+   {
+    "secao": "Educação",
+    "n": 2776211,
+    "pct_m": 68.7,
+    "bruto": -26.6,
+    "ajustado": {
+     "gap": -5.0,
+     "ic": [
+      -6.7,
+      -3.2
+     ]
+    }
+   },
+   {
+    "secao": "Indústria de transformação",
+    "n": 7332571,
+    "pct_m": 31.3,
+    "bruto": -26.1,
+    "ajustado": {
+     "gap": -14.9,
+     "ic": [
+      -16.2,
+      -13.6
+     ]
+    }
+   },
+   {
+    "secao": "Informação e comunicação",
+    "n": 1084376,
+    "pct_m": 37.6,
+    "bruto": -22.4,
+    "ajustado": {
+     "gap": -10.1,
+     "ic": [
+      -12.0,
+      -8.2
+     ]
+    }
+   },
+   {
+    "secao": "Serviços profissionais e técnicos",
+    "n": 1618866,
+    "pct_m": 50.6,
+    "bruto": -20.4,
+    "ajustado": {
+     "gap": -7.3,
+     "ic": [
+      -9.1,
+      -5.5
+     ]
+    }
+   },
+   {
+    "secao": "Administração pública e defesa",
+    "n": 7929656,
+    "pct_m": 58.8,
+    "bruto": -20.2,
+    "ajustado": {
+     "gap": -6.7,
+     "ic": [
+      -9.5,
+      -3.9
+     ]
+    }
+   },
+   {
+    "secao": "Serviços administrativos",
+    "n": 5325088,
+    "pct_m": 44.7,
+    "bruto": -19.3,
+    "ajustado": {
+     "gap": -8.7,
+     "ic": [
+      -10.2,
+      -7.1
+     ]
+    }
+   },
+   {
+    "secao": "Agropecuária",
+    "n": 1600966,
+    "pct_m": 18.0,
+    "bruto": -18.2,
+    "ajustado": {
+     "gap": -13.9,
+     "ic": [
+      -15.6,
+      -12.2
+     ]
+    }
+   },
+   {
+    "secao": "Saúde e serviço social",
+    "n": 3099748,
+    "pct_m": 76.6,
+    "bruto": -17.9,
+    "ajustado": {
+     "gap": -4.1,
+     "ic": [
+      -5.2,
+      -3.0
+     ]
+    }
+   },
+   {
+    "secao": "Outros serviços",
+    "n": 1261713,
+    "pct_m": 57.4,
+    "bruto": -16.5,
+    "ajustado": {
+     "gap": -7.3,
+     "ic": [
+      -8.8,
+      -5.8
+     ]
+    }
+   },
+   {
+    "secao": "Comércio",
+    "n": 9424719,
+    "pct_m": 45.2,
+    "bruto": -13.6,
+    "ajustado": {
+     "gap": -8.0,
+     "ic": [
+      -9.4,
+      -6.5
+     ]
+    }
+   },
+   {
+    "secao": "Transporte e correio",
+    "n": 2406179,
+    "pct_m": 19.9,
+    "bruto": -13.1,
+    "ajustado": {
+     "gap": -9.9,
+     "ic": [
+      -11.0,
+      -8.9
+     ]
+    }
+   },
+   {
+    "secao": "Alojamento e alimentação",
+    "n": 1906745,
+    "pct_m": 58.0,
+    "bruto": -12.8,
+    "ajustado": {
+     "gap": -6.8,
+     "ic": [
+      -9.6,
+      -3.8
+     ]
+    }
+   },
+   {
+    "secao": "Eletricidade, água e resíduos",
+    "n": 507627,
+    "pct_m": 20.0,
+    "bruto": -8.5,
+    "ajustado": {
+     "gap": -12.9,
+     "ic": [
+      -14.8,
+      -11.0
+     ]
+    }
+   },
+   {
+    "secao": "Indústria extrativa",
+    "n": 256530,
+    "pct_m": 16.7,
+    "bruto": -7.1,
+    "ajustado": {
+     "gap": -18.2,
+     "ic": [
+      -21.1,
+      -15.2
+     ]
+    }
+   },
+   {
+    "secao": "Construção",
+    "n": 2525528,
+    "pct_m": 12.1,
+    "bruto": -1.6,
+    "ajustado": {
+     "gap": -10.1,
+     "ic": [
+      -12.1,
+      -8.1
+     ]
+    }
+   }
+  ],
+  "estados": [
+   {
+    "uf": "ES",
+    "razao_bruta": 71.4,
+    "ajustado": {
+     "gap": -9.2,
+     "ic": [
+      -10.4,
+      -8.0
+     ]
+    }
+   },
+   {
+    "uf": "PR",
+    "razao_bruta": 72.3,
+    "ajustado": {
+     "gap": -8.8,
+     "ic": [
+      -9.8,
+      -7.8
+     ]
+    }
+   },
+   {
+    "uf": "SC",
+    "razao_bruta": 72.9,
+    "ajustado": {
+     "gap": -9.8,
+     "ic": [
+      -10.9,
+      -8.7
+     ]
+    }
+   },
+   {
+    "uf": "MT",
+    "razao_bruta": 73.4,
+    "ajustado": {
+     "gap": -10.9,
+     "ic": [
+      -13.9,
+      -7.9
+     ]
+    }
+   },
+   {
+    "uf": "RJ",
+    "razao_bruta": 73.4,
+    "ajustado": {
+     "gap": -7.4,
+     "ic": [
+      -9.0,
+      -5.8
+     ]
+    }
+   },
+   {
+    "uf": "MS",
+    "razao_bruta": 74.1,
+    "ajustado": {
+     "gap": -12.0,
+     "ic": [
+      -13.5,
+      -10.5
+     ]
+    }
+   },
+   {
+    "uf": "MG",
+    "razao_bruta": 76.7,
+    "ajustado": {
+     "gap": -9.6,
+     "ic": [
+      -10.6,
+      -8.5
+     ]
+    }
+   },
+   {
+    "uf": "GO",
+    "razao_bruta": 77.6,
+    "ajustado": {
+     "gap": -10.4,
+     "ic": [
+      -11.7,
+      -9.0
+     ]
+    }
+   },
+   {
+    "uf": "SP",
+    "razao_bruta": 78.3,
+    "ajustado": {
+     "gap": -10.9,
+     "ic": [
+      -12.1,
+      -9.7
+     ]
+    }
+   },
+   {
+    "uf": "RS",
+    "razao_bruta": 79.7,
+    "ajustado": {
+     "gap": -10.6,
+     "ic": [
+      -11.9,
+      -9.3
+     ]
+    }
+   },
+   {
+    "uf": "AM",
+    "razao_bruta": 80.0,
+    "ajustado": {
+     "gap": -5.7,
+     "ic": [
+      -7.2,
+      -4.2
+     ]
+    }
+   },
+   {
+    "uf": "RO",
+    "razao_bruta": 80.0,
+    "ajustado": {
+     "gap": -11.0,
+     "ic": [
+      -13.3,
+      -8.7
+     ]
+    }
+   },
+   {
+    "uf": "TO",
+    "razao_bruta": 81.0,
+    "ajustado": {
+     "gap": -8.3,
+     "ic": [
+      -10.4,
+      -6.1
+     ]
+    }
+   },
+   {
+    "uf": "RR",
+    "razao_bruta": 81.1,
+    "ajustado": {
+     "gap": -4.9,
+     "ic": [
+      -9.4,
+      -0.2
+     ]
+    }
+   },
+   {
+    "uf": "RN",
+    "razao_bruta": 81.8,
+    "ajustado": {
+     "gap": -6.0,
+     "ic": [
+      -7.6,
+      -4.4
+     ]
+    }
+   },
+   {
+    "uf": "BA",
+    "razao_bruta": 82.0,
+    "ajustado": {
+     "gap": -7.0,
+     "ic": [
+      -8.1,
+      -5.8
+     ]
+    }
+   },
+   {
+    "uf": "MA",
+    "razao_bruta": 84.7,
+    "ajustado": {
+     "gap": -9.4,
+     "ic": [
+      -15.2,
+      -3.2
+     ]
+    }
+   },
+   {
+    "uf": "PB",
+    "razao_bruta": 84.7,
+    "ajustado": {
+     "gap": -6.3,
+     "ic": [
+      -7.7,
+      -4.9
+     ]
+    }
+   },
+   {
+    "uf": "PA",
+    "razao_bruta": 85.4,
+    "ajustado": {
+     "gap": -7.8,
+     "ic": [
+      -9.2,
+      -6.3
+     ]
+    }
+   },
+   {
+    "uf": "AP",
+    "razao_bruta": 86.5,
+    "ajustado": {
+     "gap": -4.7,
+     "ic": [
+      -7.0,
+      -2.4
+     ]
+    }
+   },
+   {
+    "uf": "SE",
+    "razao_bruta": 87.1,
+    "ajustado": {
+     "gap": -7.2,
+     "ic": [
+      -8.9,
+      -5.4
+     ]
+    }
+   },
+   {
+    "uf": "AL",
+    "razao_bruta": 89.7,
+    "ajustado": {
+     "gap": -6.4,
+     "ic": [
+      -8.4,
+      -4.5
+     ]
+    }
+   },
+   {
+    "uf": "PI",
+    "razao_bruta": 90.9,
+    "ajustado": {
+     "gap": -6.2,
+     "ic": [
+      -8.8,
+      -3.5
+     ]
+    }
+   },
+   {
+    "uf": "CE",
+    "razao_bruta": 90.9,
+    "ajustado": {
+     "gap": -5.3,
+     "ic": [
+      -6.7,
+      -3.8
+     ]
+    }
+   },
+   {
+    "uf": "AC",
+    "razao_bruta": 90.9,
+    "ajustado": {
+     "gap": -3.9,
+     "ic": [
+      -6.0,
+      -1.7
+     ]
+    }
+   },
+   {
+    "uf": "PE",
+    "razao_bruta": 91.3,
+    "ajustado": {
+     "gap": -7.0,
+     "ic": [
+      -8.8,
+      -5.2
+     ]
+    }
+   },
+   {
+    "uf": "DF",
+    "razao_bruta": 93.1,
+    "ajustado": {
+     "gap": -3.8,
+     "ic": [
+      -6.0,
+      -1.6
+     ]
+    }
+   }
+  ],
+  "estados_corr_bruto_ajustado": 0.7,
+  "estados_amplitude_bruta": 21.7,
+  "estados_amplitude_ajustada": 8.2
+ },
+ "2025": {
+  "mte_bruto": -20.2,
+  "mte_media_m": 3798,
+  "mte_media_h": 4761,
+  "mte_n": 17850995,
+  "formal_homens_a_mais": 12.3,
+  "formal_mulheres_a_menos": -11.0,
+  "superior_bruto": -28.4,
+  "superior_media_m": 6550,
+  "superior_media_h": 9155,
+  "gestao_bruto": -25.4,
+  "gestao_media_m": 7608,
+  "gestao_media_h": 10204,
+  "raca_bruto": -40.0,
+  "mte_mesma_ocupacao": {
+   "gap": -10.4,
+   "ic": [
+    -11.5,
+    -9.2
+   ]
+  },
+  "mte_mesma_ocupacao_cidade": {
+   "gap": -8.3,
+   "ic": [
+    -9.4,
+    -7.3
+   ]
+  },
+  "todos_mesma_ocupacao_cidade": {
+   "gap": -8.1,
+   "ic": [
+    -8.9,
+    -7.2
+   ]
+  },
+  "superior_ajustado": {
+   "gap": -8.8,
+   "ic": [
+    -10.3,
+    -7.3
+   ]
+  },
+  "gestao_ajustado": {
+   "gap": -9.2,
+   "ic": [
+    -11.1,
+    -7.3
+   ]
+  },
+  "raca_ajustado": {
+   "gap": -14.4,
+   "ic": [
+    -15.9,
+    -12.8
+   ]
+  },
+  "setores": [
+   {
+    "secao": "Finanças e seguros",
+    "n": 993281,
+    "pct_m": 55.0,
+    "bruto": -32.6,
+    "ajustado": {
+     "gap": -12.3,
+     "ic": [
+      -14.6,
+      -10.0
+     ]
+    }
+   },
+   {
+    "secao": "Educação",
+    "n": 2764203,
+    "pct_m": 68.4,
+    "bruto": -27.2,
+    "ajustado": {
+     "gap": -5.6,
+     "ic": [
+      -7.6,
+      -3.6
+     ]
+    }
+   },
+   {
+    "secao": "Indústria de transformação",
+    "n": 7417388,
+    "pct_m": 31.8,
+    "bruto": -25.9,
+    "ajustado": {
+     "gap": -14.9,
+     "ic": [
+      -16.2,
+      -13.6
+     ]
+    }
+   },
+   {
+    "secao": "Informação e comunicação",
+    "n": 1111946,
+    "pct_m": 37.9,
+    "bruto": -22.6,
+    "ajustado": {
+     "gap": -10.0,
+     "ic": [
+      -12.0,
+      -7.9
+     ]
+    }
+   },
+   {
+    "secao": "Administração pública e defesa",
+    "n": 8860358,
+    "pct_m": 60.2,
+    "bruto": -20.8,
+    "ajustado": {
+     "gap": -7.4,
+     "ic": [
+      -10.0,
+      -4.7
+     ]
+    }
+   },
+   {
+    "secao": "Serviços profissionais e técnicos",
+    "n": 1684160,
+    "pct_m": 50.8,
+    "bruto": -20.1,
+    "ajustado": {
+     "gap": -8.3,
+     "ic": [
+      -10.2,
+      -6.3
+     ]
+    }
+   },
+   {
+    "secao": "Serviços administrativos",
+    "n": 5458545,
+    "pct_m": 45.2,
+    "bruto": -18.5,
+    "ajustado": {
+     "gap": -8.2,
+     "ic": [
+      -9.7,
+      -6.6
+     ]
+    }
+   },
+   {
+    "secao": "Agropecuária",
+    "n": 1620962,
+    "pct_m": 18.5,
+    "bruto": -18.2,
+    "ajustado": {
+     "gap": -14.4,
+     "ic": [
+      -15.9,
+      -12.9
+     ]
+    }
+   },
+   {
+    "secao": "Saúde e serviço social",
+    "n": 3223868,
+    "pct_m": 76.9,
+    "bruto": -17.7,
+    "ajustado": {
+     "gap": -4.5,
+     "ic": [
+      -5.8,
+      -3.3
+     ]
+    }
+   },
+   {
+    "secao": "Outros serviços",
+    "n": 1328560,
+    "pct_m": 57.2,
+    "bruto": -15.4,
+    "ajustado": {
+     "gap": -6.7,
+     "ic": [
+      -8.2,
+      -5.2
+     ]
+    }
+   },
+   {
+    "secao": "Transporte e correio",
+    "n": 2488270,
+    "pct_m": 21.0,
+    "bruto": -14.1,
+    "ajustado": {
+     "gap": -9.6,
+     "ic": [
+      -10.8,
+      -8.4
+     ]
+    }
+   },
+   {
+    "secao": "Comércio",
+    "n": 9551698,
+    "pct_m": 45.6,
+    "bruto": -13.4,
+    "ajustado": {
+     "gap": -7.5,
+     "ic": [
+      -9.0,
+      -5.9
+     ]
+    }
+   },
+   {
+    "secao": "Alojamento e alimentação",
+    "n": 1967999,
+    "pct_m": 58.4,
+    "bruto": -12.5,
+    "ajustado": {
+     "gap": -6.8,
+     "ic": [
+      -9.2,
+      -4.3
+     ]
+    }
+   },
+   {
+    "secao": "Eletricidade, água e resíduos",
+    "n": 531915,
+    "pct_m": 20.4,
+    "bruto": -8.7,
+    "ajustado": {
+     "gap": -12.0,
+     "ic": [
+      -14.0,
+      -10.0
+     ]
+    }
+   },
+   {
+    "secao": "Indústria extrativa",
+    "n": 266380,
+    "pct_m": 17.3,
+    "bruto": -8.2,
+    "ajustado": {
+     "gap": -17.5,
+     "ic": [
+      -21.1,
+      -13.8
+     ]
+    }
+   },
+   {
+    "secao": "Construção",
+    "n": 2572681,
+    "pct_m": 11.9,
+    "bruto": -1.6,
+    "ajustado": {
+     "gap": -11.0,
+     "ic": [
+      -13.4,
+      -8.5
+     ]
+    }
+   }
+  ],
+  "estados": [
+   {
+    "uf": "ES",
+    "razao_bruta": 71.2,
+    "ajustado": {
+     "gap": -9.0,
+     "ic": [
+      -10.2,
+      -7.9
+     ]
+    }
+   },
+   {
+    "uf": "MT",
+    "razao_bruta": 71.6,
+    "ajustado": {
+     "gap": -11.0,
+     "ic": [
+      -13.4,
+      -8.5
+     ]
+    }
+   },
+   {
+    "uf": "PR",
+    "razao_bruta": 72.3,
+    "ajustado": {
+     "gap": -9.7,
+     "ic": [
+      -10.7,
+      -8.7
+     ]
+    }
+   },
+   {
+    "uf": "RJ",
+    "razao_bruta": 72.7,
+    "ajustado": {
+     "gap": -7.3,
+     "ic": [
+      -9.2,
+      -5.4
+     ]
+    }
+   },
+   {
+    "uf": "SC",
+    "razao_bruta": 73.1,
+    "ajustado": {
+     "gap": -10.0,
+     "ic": [
+      -11.2,
+      -8.6
+     ]
+    }
+   },
+   {
+    "uf": "MS",
+    "razao_bruta": 74.6,
+    "ajustado": {
+     "gap": -11.8,
+     "ic": [
+      -13.7,
+      -9.8
+     ]
+    }
+   },
+   {
+    "uf": "MG",
+    "razao_bruta": 76.3,
+    "ajustado": {
+     "gap": -9.5,
+     "ic": [
+      -10.4,
+      -8.6
+     ]
+    }
+   },
+   {
+    "uf": "GO",
+    "razao_bruta": 77.2,
+    "ajustado": {
+     "gap": -10.6,
+     "ic": [
+      -11.9,
+      -9.2
+     ]
+    }
+   },
+   {
+    "uf": "SP",
+    "razao_bruta": 78.2,
+    "ajustado": {
+     "gap": -10.7,
+     "ic": [
+      -11.9,
+      -9.6
+     ]
+    }
+   },
+   {
+    "uf": "RS",
+    "razao_bruta": 79.7,
+    "ajustado": {
+     "gap": -10.1,
+     "ic": [
+      -11.2,
+      -9.1
+     ]
+    }
+   },
+   {
+    "uf": "AM",
+    "razao_bruta": 80.0,
+    "ajustado": {
+     "gap": -6.0,
+     "ic": [
+      -7.8,
+      -4.2
+     ]
+    }
+   },
+   {
+    "uf": "BA",
+    "razao_bruta": 80.2,
+    "ajustado": {
+     "gap": -7.8,
+     "ic": [
+      -9.0,
+      -6.5
+     ]
+    }
+   },
+   {
+    "uf": "RO",
+    "razao_bruta": 80.7,
+    "ajustado": {
+     "gap": -10.7,
+     "ic": [
+      -12.7,
+      -8.7
+     ]
+    }
+   },
+   {
+    "uf": "TO",
+    "razao_bruta": 81.2,
+    "ajustado": {
+     "gap": -7.1,
+     "ic": [
+      -9.0,
+      -5.1
+     ]
+    }
+   },
+   {
+    "uf": "RN",
+    "razao_bruta": 81.3,
+    "ajustado": {
+     "gap": -6.3,
+     "ic": [
+      -8.0,
+      -4.5
+     ]
+    }
+   },
+   {
+    "uf": "PB",
+    "razao_bruta": 83.3,
+    "ajustado": {
+     "gap": -5.3,
+     "ic": [
+      -6.5,
+      -4.0
+     ]
+    }
+   },
+   {
+    "uf": "PA",
+    "razao_bruta": 83.5,
+    "ajustado": {
+     "gap": -7.4,
+     "ic": [
+      -8.8,
+      -6.1
+     ]
+    }
+   },
+   {
+    "uf": "MA",
+    "razao_bruta": 84.2,
+    "ajustado": {
+     "gap": -8.2,
+     "ic": [
+      -13.7,
+      -2.4
+     ]
+    }
+   },
+   {
+    "uf": "RR",
+    "razao_bruta": 85.7,
+    "ajustado": {
+     "gap": -7.1,
+     "ic": [
+      -10.3,
+      -3.8
+     ]
+    }
+   },
+   {
+    "uf": "SE",
+    "razao_bruta": 86.8,
+    "ajustado": {
+     "gap": -7.0,
+     "ic": [
+      -8.8,
+      -5.2
+     ]
+    }
+   },
+   {
+    "uf": "AP",
+    "razao_bruta": 87.0,
+    "ajustado": {
+     "gap": -6.1,
+     "ic": [
+      -8.2,
+      -4.0
+     ]
+    }
+   },
+   {
+    "uf": "AL",
+    "razao_bruta": 89.8,
+    "ajustado": {
+     "gap": -6.0,
+     "ic": [
+      -7.6,
+      -4.4
+     ]
+    }
+   },
+   {
+    "uf": "PE",
+    "razao_bruta": 90.1,
+    "ajustado": {
+     "gap": -7.2,
+     "ic": [
+      -9.2,
+      -5.2
+     ]
+    }
+   },
+   {
+    "uf": "AC",
+    "razao_bruta": 91.3,
+    "ajustado": {
+     "gap": -2.6,
+     "ic": [
+      -4.5,
+      -0.6
+     ]
+    }
+   },
+   {
+    "uf": "CE",
+    "razao_bruta": 91.8,
+    "ajustado": {
+     "gap": -5.5,
+     "ic": [
+      -6.9,
+      -4.1
+     ]
+    }
+   },
+   {
+    "uf": "PI",
+    "razao_bruta": 92.8,
+    "ajustado": {
+     "gap": -6.0,
+     "ic": [
+      -8.6,
+      -3.3
+     ]
+    }
+   },
+   {
+    "uf": "DF",
+    "razao_bruta": 93.5,
+    "ajustado": {
+     "gap": -4.5,
+     "ic": [
+      -6.4,
+      -2.6
+     ]
+    }
+   }
+  ],
+  "estados_corr_bruto_ajustado": 0.76,
+  "estados_amplitude_bruta": 22.3,
+  "estados_amplitude_ajustada": 9.2
+ }
+}

@@ -1,0 +1,22 @@
+# segredos: nunca versionar
+.env
+*.env
+!.env.example
+
+# dados brutos e intermediários (dezenas de GB; baixe com ./baixar_dados.sh)
+brutos/
+dados/
+geo/
+*.parquet
+*.7z
+*.tmp
+
+# imagens geradas pelo script opcional
+site_img/
+
+# ambiente
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store

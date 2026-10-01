@@ -1,0 +1,603 @@
+{
+ "grupo": {
+  "celulas": 147523,
+  "vinculos": 26509113,
+  "gap_medio": -8.93,
+  "gap_mediano": -6.81,
+  "pct_celulas_mulher_menos": 74.0,
+  "pct_celulas_empate": 13.6,
+  "pct_celulas_mulher_mais": 12.3,
+  "placebo_homens": {
+   "gap_medio": 0.02,
+   "celulas": 130783,
+   "pct_celulas_diferenca_maior_que_8": 17.9
+  },
+  "placebo_mulheres": {
+   "gap_medio": 0.0,
+   "celulas": 134671
+  },
+  "pct_celulas_homem_mulher_diferenca_maior_que_8": 52.2,
+  "hist": [
+   {
+    "de": -40,
+    "ate": -35,
+    "peso": 0.0184
+   },
+   {
+    "de": -35,
+    "ate": -30,
+    "peso": 0.0187
+   },
+   {
+    "de": -30,
+    "ate": -25,
+    "peso": 0.0341
+   },
+   {
+    "de": -25,
+    "ate": -20,
+    "peso": 0.0623
+   },
+   {
+    "de": -20,
+    "ate": -15,
+    "peso": 0.1019
+   },
+   {
+    "de": -15,
+    "ate": -10,
+    "peso": 0.1457
+   },
+   {
+    "de": -10,
+    "ate": -5,
+    "peso": 0.2167
+   },
+   {
+    "de": -5,
+    "ate": 0,
+    "peso": 0.2208
+   },
+   {
+    "de": 0,
+    "ate": 5,
+    "peso": 0.106
+   },
+   {
+    "de": 5,
+    "ate": 10,
+    "peso": 0.0373
+   },
+   {
+    "de": 10,
+    "ate": 15,
+    "peso": 0.0172
+   },
+   {
+    "de": 15,
+    "ate": 20,
+    "peso": 0.0075
+   },
+   {
+    "de": 20,
+    "ate": 25,
+    "peso": 0.0044
+   },
+   {
+    "de": 25,
+    "ate": 30,
+    "peso": 0.003
+   },
+   {
+    "de": 30,
+    "ate": 35,
+    "peso": 0.0014
+   },
+   {
+    "de": 35,
+    "ate": 40,
+    "peso": 0.0044
+   }
+  ],
+  "hist_placebo": [
+   {
+    "de": -40,
+    "ate": -35,
+    "peso": 0.0024
+   },
+   {
+    "de": -35,
+    "ate": -30,
+    "peso": 0.0021
+   },
+   {
+    "de": -30,
+    "ate": -25,
+    "peso": 0.0041
+   },
+   {
+    "de": -25,
+    "ate": -20,
+    "peso": 0.0072
+   },
+   {
+    "de": -20,
+    "ate": -15,
+    "peso": 0.0153
+   },
+   {
+    "de": -15,
+    "ate": -10,
+    "peso": 0.0316
+   },
+   {
+    "de": -10,
+    "ate": -5,
+    "peso": 0.0806
+   },
+   {
+    "de": -5,
+    "ate": 0,
+    "peso": 0.3467
+   },
+   {
+    "de": 0,
+    "ate": 5,
+    "peso": 0.3616
+   },
+   {
+    "de": 5,
+    "ate": 10,
+    "peso": 0.0774
+   },
+   {
+    "de": 10,
+    "ate": 15,
+    "peso": 0.0318
+   },
+   {
+    "de": 15,
+    "ate": 20,
+    "peso": 0.0151
+   },
+   {
+    "de": 20,
+    "ate": 25,
+    "peso": 0.0083
+   },
+   {
+    "de": 25,
+    "ate": 30,
+    "peso": 0.0052
+   },
+   {
+    "de": 30,
+    "ate": 35,
+    "peso": 0.003
+   },
+   {
+    "de": 35,
+    "ate": 40,
+    "peso": 0.0075
+   }
+  ]
+ },
+ "painel": {
+  "1955-64": {
+   "2023": {
+    "gap": -9.29,
+    "ic": [
+     -11.12,
+     -7.42
+    ],
+    "idade_media": 62.0,
+    "n": 129267
+   },
+   "2024": {
+    "gap": -8.77,
+    "ic": [
+     -10.68,
+     -6.81
+    ],
+    "idade_media": 63.0,
+    "n": 118740
+   },
+   "2025": {
+    "gap": -8.42,
+    "ic": [
+     -10.26,
+     -6.55
+    ],
+    "idade_media": 63.9,
+    "n": 111924
+   },
+   "variacao": 0.87
+  },
+  "1965-74": {
+   "2023": {
+    "gap": -11.41,
+    "ic": [
+     -13.13,
+     -9.65
+    ],
+    "idade_media": 53.0,
+    "n": 382455
+   },
+   "2024": {
+    "gap": -11.23,
+    "ic": [
+     -12.93,
+     -9.51
+    ],
+    "idade_media": 54.0,
+    "n": 375858
+   },
+   "2025": {
+    "gap": -11.12,
+    "ic": [
+     -12.75,
+     -9.47
+    ],
+    "idade_media": 54.9,
+    "n": 374862
+   },
+   "variacao": 0.29
+  },
+  "1975-84": {
+   "2023": {
+    "gap": -11.66,
+    "ic": [
+     -12.83,
+     -10.48
+    ],
+    "idade_media": 43.2,
+    "n": 633141
+   },
+   "2024": {
+    "gap": -10.93,
+    "ic": [
+     -12.24,
+     -9.61
+    ],
+    "idade_media": 44.2,
+    "n": 631993
+   },
+   "2025": {
+    "gap": -10.96,
+    "ic": [
+     -12.22,
+     -9.68
+    ],
+    "idade_media": 45.2,
+    "n": 645686
+   },
+   "variacao": 0.7
+  },
+  "1985-89": {
+   "2023": {
+    "gap": -10.67,
+    "ic": [
+     -11.63,
+     -9.7
+    ],
+    "idade_media": 36.0,
+    "n": 346251
+   },
+   "2024": {
+    "gap": -10.82,
+    "ic": [
+     -11.89,
+     -9.74
+    ],
+    "idade_media": 37.0,
+    "n": 346454
+   },
+   "2025": {
+    "gap": -10.83,
+    "ic": [
+     -11.92,
+     -9.73
+    ],
+    "idade_media": 38.0,
+    "n": 353388
+   },
+   "variacao": -0.16
+  },
+  "1990-94": {
+   "2023": {
+    "gap": -8.84,
+    "ic": [
+     -9.7,
+     -7.97
+    ],
+    "idade_media": 31.0,
+    "n": 328474
+   },
+   "2024": {
+    "gap": -9.19,
+    "ic": [
+     -10.03,
+     -8.34
+    ],
+    "idade_media": 32.0,
+    "n": 329187
+   },
+   "2025": {
+    "gap": -9.41,
+    "ic": [
+     -10.26,
+     -8.55
+    ],
+    "idade_media": 33.0,
+    "n": 335221
+   },
+   "variacao": -0.57
+  },
+  "1995-99": {
+   "2023": {
+    "gap": -6.06,
+    "ic": [
+     -6.78,
+     -5.34
+    ],
+    "idade_media": 26.0,
+    "n": 327107
+   },
+   "2024": {
+    "gap": -6.59,
+    "ic": [
+     -7.3,
+     -5.88
+    ],
+    "idade_media": 27.0,
+    "n": 334665
+   },
+   "2025": {
+    "gap": -7.02,
+    "ic": [
+     -7.76,
+     -6.27
+    ],
+    "idade_media": 28.0,
+    "n": 342598
+   },
+   "variacao": -0.96
+  },
+  "2000-07": {
+   "2023": {
+    "gap": -3.57,
+    "ic": [
+     -4.51,
+     -2.63
+    ],
+    "idade_media": 20.7,
+    "n": 287303
+   },
+   "2024": {
+    "gap": -3.73,
+    "ic": [
+     -4.69,
+     -2.76
+    ],
+    "idade_media": 21.3,
+    "n": 356121
+   },
+   "2025": {
+    "gap": -4.3,
+    "ic": [
+     -5.13,
+     -3.46
+    ],
+    "idade_media": 22.0,
+    "n": 409235
+   },
+   "variacao": -0.73
+  }
+ },
+ "interacoes": [
+  {
+   "var": "filhos_por_mulher",
+   "nome": "Filhos por mulher (Censo 2022)",
+   "gap_na_media": -8.74,
+   "efeito_pp_por_dp": -0.48,
+   "ep_pp": 0.24,
+   "dp": 0.259,
+   "media": 1.59
+  },
+  {
+   "var": "nascimentos_12m_por_mil",
+   "nome": "Nascimentos nos últimos 12 meses por mil mulheres (Censo 2022)",
+   "gap_na_media": -8.64,
+   "efeito_pp_por_dp": -0.51,
+   "ep_pp": 0.19,
+   "dp": 6.807,
+   "media": 26.209
+  },
+  {
+   "var": "idhm_2010",
+   "nome": "IDHM (PNUD, 2010)",
+   "gap_na_media": -9.03,
+   "efeito_pp_por_dp": 0.5,
+   "ep_pp": 0.36,
+   "dp": 0.062,
+   "media": 0.751
+  },
+  {
+   "var": "pib_per_capita",
+   "nome": "PIB per capita (IBGE, 2021)",
+   "gap_na_media": -9.28,
+   "efeito_pp_por_dp": -0.35,
+   "ep_pp": 0.48,
+   "dp": 0.602,
+   "media": 10.718
+  },
+  {
+   "var": "alfabetizacao",
+   "nome": "Taxa de alfabetização (Censo 2022)",
+   "gap_na_media": -9.28,
+   "efeito_pp_por_dp": -0.12,
+   "ep_pp": 0.23,
+   "dp": 4.57,
+   "media": 95.007
+  },
+  {
+   "var": "participacao_feminina",
+   "nome": "Participação feminina na força de trabalho (Censo 2022)",
+   "gap_na_media": -9.4,
+   "efeito_pp_por_dp": 0.48,
+   "ep_pp": 0.33,
+   "dp": 7.146,
+   "media": 51.423
+  },
+  {
+   "var": "renda_censo_m_sobre_h",
+   "nome": "Renda das mulheres ÷ homens, inclui informais (Censo 2022)",
+   "gap_na_media": -9.39,
+   "efeito_pp_por_dp": 1.03,
+   "ep_pp": 0.14,
+   "dp": 9.117,
+   "media": 79.573
+  },
+  {
+   "var": "populacao",
+   "nome": "População (Censo 2022)",
+   "gap_na_media": -8.32,
+   "efeito_pp_por_dp": 1.64,
+   "ep_pp": 0.32,
+   "dp": 2.061,
+   "media": 12.707
+  }
+ ],
+ "conjunto": [
+  {
+   "var": "filhos_por_mulher",
+   "nome": "Filhos por mulher (Censo 2022)",
+   "efeito_pp_por_dp": 0.68,
+   "ep_pp": 0.44
+  },
+  {
+   "var": "nascimentos_12m_por_mil",
+   "nome": "Nascimentos nos últimos 12 meses por mil mulheres (Censo 2022)",
+   "efeito_pp_por_dp": 0.06,
+   "ep_pp": 0.2
+  },
+  {
+   "var": "idhm_2010",
+   "nome": "IDHM (PNUD, 2010)",
+   "efeito_pp_por_dp": 1.35,
+   "ep_pp": 0.72
+  },
+  {
+   "var": "pib_per_capita",
+   "nome": "PIB per capita (IBGE, 2021)",
+   "efeito_pp_por_dp": -1.06,
+   "ep_pp": 0.31
+  },
+  {
+   "var": "alfabetizacao",
+   "nome": "Taxa de alfabetização (Censo 2022)",
+   "efeito_pp_por_dp": -0.63,
+   "ep_pp": 0.37
+  },
+  {
+   "var": "participacao_feminina",
+   "nome": "Participação feminina na força de trabalho (Censo 2022)",
+   "efeito_pp_por_dp": 1.57,
+   "ep_pp": 0.29
+  },
+  {
+   "var": "renda_censo_m_sobre_h",
+   "nome": "Renda das mulheres ÷ homens, inclui informais (Censo 2022)",
+   "efeito_pp_por_dp": 2.21,
+   "ep_pp": 0.37
+  },
+  {
+   "var": "populacao",
+   "nome": "População (Censo 2022)",
+   "efeito_pp_por_dp": 1.95,
+   "ep_pp": 0.23
+  }
+ ],
+ "quartis_fecundidade": [
+  {
+   "quartil": "1º quartil (menos filhos)",
+   "filhos": 1.35,
+   "gap": -8.87,
+   "ic": [
+    -9.95,
+    -7.77
+   ]
+  },
+  {
+   "quartil": "2º",
+   "filhos": 1.46,
+   "gap": -9.37,
+   "ic": [
+    -10.21,
+    -8.52
+   ]
+  },
+  {
+   "quartil": "3º",
+   "filhos": 1.6,
+   "gap": -10.05,
+   "ic": [
+    -10.65,
+    -9.45
+   ]
+  },
+  {
+   "quartil": "4º quartil (mais filhos)",
+   "filhos": 1.95,
+   "gap": -8.81,
+   "ic": [
+    -9.15,
+    -8.47
+   ]
+  }
+ ],
+ "quartis_idhm": [
+  {
+   "quartil": "1º quartil (menor IDHM)",
+   "idhm": 0.664,
+   "gap": -8.27,
+   "ic": [
+    -8.6,
+    -7.93
+   ]
+  },
+  {
+   "quartil": "2º",
+   "idhm": 0.747,
+   "gap": -9.61,
+   "ic": [
+    -10.5,
+    -8.72
+   ]
+  },
+  {
+   "quartil": "3º",
+   "idhm": 0.784,
+   "gap": -9.23,
+   "ic": [
+    -10.46,
+    -7.99
+   ]
+  },
+  {
+   "quartil": "4º quartil (maior IDHM)",
+   "idhm": 0.813,
+   "gap": -9.54,
+   "ic": [
+    -10.4,
+    -8.67
+   ]
+  }
+ ],
+ "licenca": {
+  "pct_mulheres_20_39_com_licenca_2023": 4.81,
+  "n": 610914
+ },
+ "amostra_2025": 2592021,
+ "amostra_com_indicadores": 2591406
+}

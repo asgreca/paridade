@@ -1,0 +1,95 @@
+{
+ "ano": 2025,
+ "classes": [
+  {
+   "classe": "Esforço físico pesado",
+   "n": 3920359,
+   "pct_m": 16.9,
+   "pct_dos_homens": 11.7,
+   "pct_das_mulheres": 2.8,
+   "med_h": 2275,
+   "med_m": 1973,
+   "media_h": 2582,
+   "media_m": 2168,
+   "bruto": -16.0,
+   "gap": -12.78,
+   "ic": [
+    -14.36,
+    -11.18
+   ]
+  },
+  {
+   "classe": "Operacional leve ou de precisão",
+   "n": 1890899,
+   "pct_m": 44.9,
+   "pct_dos_homens": 3.7,
+   "pct_das_mulheres": 3.6,
+   "med_h": 2166,
+   "med_m": 2016,
+   "media_h": 2404,
+   "media_m": 2115,
+   "bruto": -12.0,
+   "gap": -9.77,
+   "ic": [
+    -11.83,
+    -7.66
+   ]
+  },
+  {
+   "classe": "Outro operacional",
+   "n": 8000672,
+   "pct_m": 10.8,
+   "pct_dos_homens": 25.5,
+   "pct_das_mulheres": 3.6,
+   "med_h": 3042,
+   "med_m": 2259,
+   "media_h": 3614,
+   "media_m": 2611,
+   "bruto": -27.8,
+   "gap": -15.55,
+   "ic": [
+    -16.96,
+    -14.12
+   ]
+  }
+ ],
+ "premio_pesado_sobre_leve": {
+  "homens": {
+   "gap": 10.82,
+   "ic": [
+    3.92,
+    18.18
+   ]
+  },
+  "mulheres": {
+   "gap": 4.18,
+   "ic": [
+    -1.66,
+    10.36
+   ]
+  }
+ },
+ "perigo": [
+  {
+   "grupo": "Periculosidade (NR-16)",
+   "n": 1705557,
+   "pct_h": 89.0
+  },
+  {
+   "grupo": "Confinamento e subsolo",
+   "n": 110946,
+   "pct_h": 95.6
+  },
+  {
+   "grupo": "Ocupações com 2% ou mais de afastamento por acidente",
+   "n": 7280704,
+   "pct_h": 70.6
+  }
+ ],
+ "demais": {
+  "pct_m": 56.6,
+  "med_h": 2886,
+  "med_m": 2543
+ },
+ "mediana_geral": 2632
+}

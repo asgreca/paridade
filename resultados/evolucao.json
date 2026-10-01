@@ -1,0 +1,50 @@
+{
+ "2023": {
+  "n": 48870760,
+  "pct_mulheres": 45.1,
+  "gap_mensal": -10.8,
+  "gap_bruto": -8.8,
+  "gap_instrucao": -19.8,
+  "gap_ocupacao": -10.0,
+  "gap_final": -8.3,
+  "nao_explicado_pp": -10.5,
+  "sup_m": 0.3614105026630607,
+  "sup_h": 0.20534595531405017,
+  "horas_pp": -2.3,
+  "instrucao_pp": 5.4,
+  "gap_idade_50_54": -11.6,
+  "gap_idade_16_24": -4.1
+ },
+ "2024": {
+  "n": 50041592,
+  "pct_mulheres": 45.4,
+  "gap_mensal": -11.0,
+  "gap_bruto": -9.3,
+  "gap_instrucao": -19.9,
+  "gap_ocupacao": -9.7,
+  "gap_final": -8.1,
+  "nao_explicado_pp": -10.3,
+  "sup_m": 0.3585787637777157,
+  "sup_h": 0.20453856178099966,
+  "horas_pp": -2.4,
+  "instrucao_pp": 5.2,
+  "gap_idade_50_54": -11.3,
+  "gap_idade_16_24": -3.9
+ },
+ "2025": {
+  "n": 51842214,
+  "pct_mulheres": 46.1,
+  "gap_mensal": -11.0,
+  "gap_bruto": -9.0,
+  "gap_instrucao": -19.1,
+  "gap_ocupacao": -9.7,
+  "gap_final": -8.1,
+  "nao_explicado_pp": -10.2,
+  "sup_m": 0.3628802671847052,
+  "sup_h": 0.21361760073343072,
+  "horas_pp": -2.3,
+  "instrucao_pp": 4.9,
+  "gap_idade_50_54": -11.5,
+  "gap_idade_16_24": -4.0
+ }
+}

@@ -1,0 +1,1233 @@
+{
+ "ano": 2024,
+ "porte_privado": [
+  {
+   "grupo": "Até 9 empregados",
+   "n": 8282283,
+   "pct_m": 45.9,
+   "media_m": 2193,
+   "media_h": 2500,
+   "bruto": -12.3,
+   "gap": -6.17,
+   "ic": [
+    -7.55,
+    -4.77
+   ]
+  },
+  {
+   "grupo": "10 a 49",
+   "n": 10813079,
+   "pct_m": 42.1,
+   "media_m": 2720,
+   "media_h": 3100,
+   "bruto": -12.3,
+   "gap": -8.73,
+   "ic": [
+    -9.69,
+    -7.77
+   ]
+  },
+  {
+   "grupo": "50 a 99",
+   "n": 4199669,
+   "pct_m": 39.5,
+   "media_m": 2992,
+   "media_h": 3521,
+   "bruto": -15.0,
+   "gap": -10.01,
+   "ic": [
+    -11.21,
+    -8.79
+   ]
+  },
+  {
+   "grupo": "100 a 249",
+   "n": 4784764,
+   "pct_m": 38.5,
+   "media_m": 3298,
+   "media_h": 3933,
+   "bruto": -16.2,
+   "gap": -10.47,
+   "ic": [
+    -11.66,
+    -9.26
+   ]
+  },
+  {
+   "grupo": "250 a 499",
+   "n": 3337734,
+   "pct_m": 38.1,
+   "media_m": 3622,
+   "media_h": 4398,
+   "bruto": -17.6,
+   "gap": -11.05,
+   "ic": [
+    -12.35,
+    -9.73
+   ]
+  },
+  {
+   "grupo": "500 a 999",
+   "n": 2990815,
+   "pct_m": 39.5,
+   "media_m": 3806,
+   "media_h": 4808,
+   "bruto": -20.8,
+   "gap": -10.44,
+   "ic": [
+    -11.62,
+    -9.23
+   ]
+  },
+  {
+   "grupo": "1.000 ou mais",
+   "n": 6181299,
+   "pct_m": 44.0,
+   "media_m": 3785,
+   "media_h": 4999,
+   "bruto": -24.3,
+   "gap": -9.57,
+   "ic": [
+    -10.85,
+    -8.28
+   ]
+  }
+ ],
+ "natureza": [
+  {
+   "grupo": "Empresário individual e sociedades simples",
+   "n": 2418786,
+   "pct_m": 50.4,
+   "media_m": 2142,
+   "media_h": 2246,
+   "bruto": -4.6,
+   "gap": -3.99,
+   "ic": [
+    -4.91,
+    -3.07
+   ]
+  },
+  {
+   "grupo": "Empresa estatal",
+   "n": 657651,
+   "pct_m": 38.9,
+   "media_m": 9761,
+   "media_h": 11975,
+   "bruto": -18.5,
+   "gap": -6.58,
+   "ic": [
+    -8.15,
+    -4.98
+   ]
+  },
+  {
+   "grupo": "Administração pública",
+   "n": 9451949,
+   "pct_m": 59.9,
+   "media_m": 5846,
+   "media_h": 7366,
+   "bruto": -20.6,
+   "gap": -6.73,
+   "ic": [
+    -9.42,
+    -3.96
+   ]
+  },
+  {
+   "grupo": "Sem fins lucrativos",
+   "n": 3339485,
+   "pct_m": 61.8,
+   "media_m": 3722,
+   "media_h": 4040,
+   "bruto": -7.9,
+   "gap": -7.52,
+   "ic": [
+    -9.22,
+    -5.79
+   ]
+  },
+  {
+   "grupo": "Sociedade limitada (Ltda.)",
+   "n": 25938392,
+   "pct_m": 40.6,
+   "media_m": 2597,
+   "media_h": 3265,
+   "bruto": -20.5,
+   "gap": -9.03,
+   "ic": [
+    -10.14,
+    -7.91
+   ]
+  },
+  {
+   "grupo": "S.A. de capital aberto",
+   "n": 1603295,
+   "pct_m": 41.9,
+   "media_m": 4250,
+   "media_h": 5660,
+   "bruto": -24.9,
+   "gap": -10.31,
+   "ic": [
+    -11.57,
+    -9.04
+   ]
+  },
+  {
+   "grupo": "S.A. de capital fechado",
+   "n": 4351578,
+   "pct_m": 38.4,
+   "media_m": 3781,
+   "media_h": 4820,
+   "bruto": -21.6,
+   "gap": -10.9,
+   "ic": [
+    -12.25,
+    -9.52
+   ]
+  },
+  {
+   "grupo": "Pessoa física empregadora",
+   "n": 346510,
+   "pct_m": 22.3,
+   "media_m": 2194,
+   "media_h": 2706,
+   "bruto": -18.9,
+   "gap": -13.77,
+   "ic": [
+    -16.08,
+    -11.4
+   ]
+  }
+ ],
+ "segmentos": [
+  {
+   "grupo": "Agências de viagem",
+   "n": 59539,
+   "pct_m": 57.6,
+   "media_m": 3738,
+   "media_h": 3879,
+   "bruto": -3.6,
+   "gap": -1.38,
+   "ic": [
+    -6.26,
+    3.75
+   ],
+   "codigo": "79"
+  },
+  {
+   "grupo": "Rádio e televisão",
+   "n": 68082,
+   "pct_m": 36.5,
+   "media_m": 6119,
+   "media_h": 5843,
+   "bruto": 4.7,
+   "gap": -2.34,
+   "ic": [
+    -7.64,
+    3.25
+   ],
+   "codigo": "60"
+  },
+  {
+   "grupo": "Pesquisa e desenvolvimento",
+   "n": 55057,
+   "pct_m": 43.0,
+   "media_m": 12045,
+   "media_h": 13326,
+   "bruto": -9.6,
+   "gap": -3.12,
+   "ic": [
+    -6.74,
+    0.65
+   ],
+   "codigo": "72"
+  },
+  {
+   "grupo": "Veterinária",
+   "n": 33656,
+   "pct_m": 70.2,
+   "media_m": 2197,
+   "media_h": 2524,
+   "bruto": -13.0,
+   "gap": -3.18,
+   "ic": [
+    -6.29,
+    0.04
+   ],
+   "codigo": "75"
+  },
+  {
+   "grupo": "Assistência com alojamento",
+   "n": 146502,
+   "pct_m": 79.0,
+   "media_m": 2625,
+   "media_h": 2997,
+   "bruto": -12.4,
+   "gap": -3.53,
+   "ic": [
+    -5.31,
+    -1.71
+   ],
+   "codigo": "87"
+  },
+  {
+   "grupo": "Saúde",
+   "n": 2784787,
+   "pct_m": 77.1,
+   "media_m": 3644,
+   "media_h": 4493,
+   "bruto": -18.9,
+   "gap": -3.97,
+   "ic": [
+    -4.95,
+    -2.98
+   ],
+   "codigo": "86"
+  },
+  {
+   "grupo": "Edição",
+   "n": 47444,
+   "pct_m": 46.5,
+   "media_m": 4885,
+   "media_h": 5181,
+   "bruto": -5.7,
+   "gap": -4.04,
+   "ic": [
+    -8.93,
+    1.11
+   ],
+   "codigo": "58"
+  },
+  {
+   "grupo": "Jurídicas e contabilidade",
+   "n": 506871,
+   "pct_m": 68.9,
+   "media_m": 3078,
+   "media_h": 3658,
+   "bruto": -15.9,
+   "gap": -4.87,
+   "ic": [
+    -7.03,
+    -2.66
+   ],
+   "codigo": "69"
+  },
+  {
+   "grupo": "Educação",
+   "n": 2776211,
+   "pct_m": 68.7,
+   "media_m": 4457,
+   "media_h": 6068,
+   "bruto": -26.6,
+   "gap": -4.95,
+   "ic": [
+    -6.68,
+    -3.19
+   ],
+   "codigo": "85"
+  },
+  {
+   "grupo": "Confecção de roupas",
+   "n": 486142,
+   "pct_m": 72.0,
+   "media_m": 2123,
+   "media_h": 2372,
+   "bruto": -10.5,
+   "gap": -5.02,
+   "ic": [
+    -7.32,
+    -2.66
+   ],
+   "codigo": "14"
+  },
+  {
+   "grupo": "Comércio varejista",
+   "n": 6475275,
+   "pct_m": 51.8,
+   "media_m": 2282,
+   "media_h": 2476,
+   "bruto": -7.8,
+   "gap": -5.08,
+   "ic": [
+    -5.83,
+    -4.33
+   ],
+   "codigo": "47"
+  },
+  {
+   "grupo": "Seleção e locação de mão de obra",
+   "n": 834732,
+   "pct_m": 51.9,
+   "media_m": 1969,
+   "media_h": 2280,
+   "bruto": -13.7,
+   "gap": -5.26,
+   "ic": [
+    -6.73,
+    -3.76
+   ],
+   "codigo": "78"
+  },
+  {
+   "grupo": "Reparação de equipamentos",
+   "n": 69821,
+   "pct_m": 31.6,
+   "media_m": 2286,
+   "media_h": 2777,
+   "bruto": -17.7,
+   "gap": -5.57,
+   "ic": [
+    -10.02,
+    -0.9
+   ],
+   "codigo": "95"
+  },
+  {
+   "grupo": "Água",
+   "n": 124185,
+   "pct_m": 20.6,
+   "media_m": 7218,
+   "media_h": 7019,
+   "bruto": 2.8,
+   "gap": -5.66,
+   "ic": [
+    -9.1,
+    -2.09
+   ],
+   "codigo": "36"
+  },
+  {
+   "grupo": "Comércio de veículos",
+   "n": 1038434,
+   "pct_m": 23.9,
+   "media_m": 2864,
+   "media_h": 3066,
+   "bruto": -6.6,
+   "gap": -5.83,
+   "ic": [
+    -9.74,
+    -1.74
+   ],
+   "codigo": "45"
+  },
+  {
+   "grupo": "Esporte e lazer",
+   "n": 257945,
+   "pct_m": 45.7,
+   "media_m": 2226,
+   "media_h": 3144,
+   "bruto": -29.2,
+   "gap": -5.85,
+   "ic": [
+    -7.73,
+    -3.92
+   ],
+   "codigo": "93"
+  },
+  {
+   "grupo": "Transporte aéreo",
+   "n": 44006,
+   "pct_m": 36.1,
+   "media_m": 6286,
+   "media_h": 10974,
+   "bruto": -42.7,
+   "gap": -5.97,
+   "ic": [
+    -9.48,
+    -2.32
+   ],
+   "codigo": "51"
+  },
+  {
+   "grupo": "Atividades imobiliárias",
+   "n": 178359,
+   "pct_m": 54.2,
+   "media_m": 2882,
+   "media_h": 3288,
+   "bruto": -12.3,
+   "gap": -6.04,
+   "ic": [
+    -8.76,
+    -3.23
+   ],
+   "codigo": "68"
+  },
+  {
+   "grupo": "Alimentação (bares e restaurantes)",
+   "n": 1585954,
+   "pct_m": 57.7,
+   "media_m": 2028,
+   "media_h": 2315,
+   "bruto": -12.4,
+   "gap": -6.3,
+   "ic": [
+    -9.06,
+    -3.46
+   ],
+   "codigo": "56"
+  },
+  {
+   "grupo": "Publicidade",
+   "n": 155513,
+   "pct_m": 50.1,
+   "media_m": 3476,
+   "media_h": 4005,
+   "bruto": -13.2,
+   "gap": -6.38,
+   "ic": [
+    -8.95,
+    -3.73
+   ],
+   "codigo": "73"
+  },
+  {
+   "grupo": "Assistência social",
+   "n": 168459,
+   "pct_m": 67.8,
+   "media_m": 2943,
+   "media_h": 3285,
+   "bruto": -10.4,
+   "gap": -6.39,
+   "ic": [
+    -8.92,
+    -3.78
+   ],
+   "codigo": "88"
+  },
+  {
+   "grupo": "Vigilância e segurança",
+   "n": 646842,
+   "pct_m": 17.5,
+   "media_m": 2468,
+   "media_h": 2820,
+   "bruto": -12.5,
+   "gap": -6.5,
+   "ic": [
+    -8.29,
+    -4.67
+   ],
+   "codigo": "80"
+  },
+  {
+   "grupo": "Administração pública",
+   "n": 7929656,
+   "pct_m": 58.8,
+   "media_m": 5791,
+   "media_h": 7256,
+   "bruto": -20.2,
+   "gap": -6.74,
+   "ic": [
+    -9.55,
+    -3.85
+   ],
+   "codigo": "84"
+  },
+  {
+   "grupo": "Alojamento",
+   "n": 320791,
+   "pct_m": 59.5,
+   "media_m": 2249,
+   "media_h": 2646,
+   "bruto": -15.0,
+   "gap": -6.88,
+   "ic": [
+    -8.86,
+    -4.86
+   ],
+   "codigo": "55"
+  },
+  {
+   "grupo": "Cinema, vídeo e música",
+   "n": 22762,
+   "pct_m": 50.1,
+   "media_m": 3351,
+   "media_h": 4038,
+   "bruto": -17.0,
+   "gap": -7.45,
+   "ic": [
+    -12.63,
+    -1.97
+   ],
+   "codigo": "59"
+  },
+  {
+   "grupo": "Serviços pessoais",
+   "n": 208850,
+   "pct_m": 65.7,
+   "media_m": 2048,
+   "media_h": 2478,
+   "bruto": -17.4,
+   "gap": -7.62,
+   "ic": [
+    -9.74,
+    -5.45
+   ],
+   "codigo": "96"
+  },
+  {
+   "grupo": "Serviços de escritório",
+   "n": 1965491,
+   "pct_m": 55.0,
+   "media_m": 2606,
+   "media_h": 3426,
+   "bruto": -23.9,
+   "gap": -7.77,
+   "ic": [
+    -9.67,
+    -5.83
+   ],
+   "codigo": "82"
+  },
+  {
+   "grupo": "Organizações associativas",
+   "n": 693205,
+   "pct_m": 62.6,
+   "media_m": 3153,
+   "media_h": 3696,
+   "bruto": -14.7,
+   "gap": -7.9,
+   "ic": [
+    -9.55,
+    -6.23
+   ],
+   "codigo": "94"
+  },
+  {
+   "grupo": "Couro e calçados",
+   "n": 302531,
+   "pct_m": 49.5,
+   "media_m": 1972,
+   "media_h": 2422,
+   "bruto": -18.6,
+   "gap": -7.96,
+   "ic": [
+    -10.5,
+    -5.34
+   ],
+   "codigo": "15"
+  },
+  {
+   "grupo": "Fabricação de bebidas",
+   "n": 124745,
+   "pct_m": 22.5,
+   "media_m": 3362,
+   "media_h": 3727,
+   "bruto": -9.8,
+   "gap": -8.03,
+   "ic": [
+    -10.86,
+    -5.11
+   ],
+   "codigo": "11"
+  },
+  {
+   "grupo": "Construção de edifícios",
+   "n": 960478,
+   "pct_m": 13.1,
+   "media_m": 3163,
+   "media_h": 2746,
+   "bruto": 15.2,
+   "gap": -8.1,
+   "ic": [
+    -10.08,
+    -6.07
+   ],
+   "codigo": "41"
+  },
+  {
+   "grupo": "Arquitetura e engenharia",
+   "n": 376477,
+   "pct_m": 24.1,
+   "media_m": 4041,
+   "media_h": 4016,
+   "bruto": 0.6,
+   "gap": -8.61,
+   "ic": [
+    -11.64,
+    -5.48
+   ],
+   "codigo": "71"
+  },
+  {
+   "grupo": "Armazenamento e apoio ao transporte",
+   "n": 482196,
+   "pct_m": 28.4,
+   "media_m": 3223,
+   "media_h": 3583,
+   "bruto": -10.0,
+   "gap": -8.78,
+   "ic": [
+    -10.18,
+    -7.36
+   ],
+   "codigo": "52"
+  },
+  {
+   "grupo": "Sedes de empresas e consultoria",
+   "n": 170729,
+   "pct_m": 50.6,
+   "media_m": 5069,
+   "media_h": 7139,
+   "bruto": -29.0,
+   "gap": -8.99,
+   "ic": [
+    -11.28,
+    -6.64
+   ],
+   "codigo": "70"
+  },
+  {
+   "grupo": "Serviços especializados de construção",
+   "n": 859241,
+   "pct_m": 12.8,
+   "media_m": 2727,
+   "media_h": 3003,
+   "bruto": -9.2,
+   "gap": -9.05,
+   "ic": [
+    -11.93,
+    -6.08
+   ],
+   "codigo": "43"
+  },
+  {
+   "grupo": "Farmacêuticos",
+   "n": 105457,
+   "pct_m": 49.9,
+   "media_m": 6403,
+   "media_h": 6837,
+   "bruto": -6.3,
+   "gap": -9.08,
+   "ic": [
+    -11.8,
+    -6.27
+   ],
+   "codigo": "21"
+  },
+  {
+   "grupo": "Transporte terrestre",
+   "n": 1704803,
+   "pct_m": 16.7,
+   "media_m": 2822,
+   "media_h": 3419,
+   "bruto": -17.5,
+   "gap": -9.23,
+   "ic": [
+    -10.61,
+    -7.83
+   ],
+   "codigo": "49"
+  },
+  {
+   "grupo": "Produção florestal",
+   "n": 129015,
+   "pct_m": 17.2,
+   "media_m": 2502,
+   "media_h": 3034,
+   "bruto": -17.5,
+   "gap": -9.48,
+   "ic": [
+    -12.48,
+    -6.38
+   ],
+   "codigo": "02"
+  },
+  {
+   "grupo": "Outras atividades profissionais",
+   "n": 142204,
+   "pct_m": 50.6,
+   "media_m": 4210,
+   "media_h": 5756,
+   "bruto": -26.9,
+   "gap": -9.52,
+   "ic": [
+    -12.91,
+    -5.99
+   ],
+   "codigo": "74"
+  },
+  {
+   "grupo": "Serviços financeiros",
+   "n": 644727,
+   "pct_m": 50.1,
+   "media_m": 8647,
+   "media_h": 11472,
+   "bruto": -24.6,
+   "gap": -9.69,
+   "ic": [
+    -11.53,
+    -7.81
+   ],
+   "codigo": "64"
+  },
+  {
+   "grupo": "Correio",
+   "n": 136038,
+   "pct_m": 26.2,
+   "media_m": 4486,
+   "media_h": 4806,
+   "bruto": -6.7,
+   "gap": -10.13,
+   "ic": [
+    -11.92,
+    -8.29
+   ],
+   "codigo": "53"
+  },
+  {
+   "grupo": "Serviços para edifícios",
+   "n": 1503611,
+   "pct_m": 41.5,
+   "media_m": 1867,
+   "media_h": 2496,
+   "bruto": -25.2,
+   "gap": -10.18,
+   "ic": [
+    -12.81,
+    -7.46
+   ],
+   "codigo": "81"
+  },
+  {
+   "grupo": "Madeira",
+   "n": 159155,
+   "pct_m": 20.8,
+   "media_m": 2529,
+   "media_h": 2886,
+   "bruto": -12.4,
+   "gap": -10.26,
+   "ic": [
+    -12.03,
+    -8.45
+   ],
+   "codigo": "16"
+  },
+  {
+   "grupo": "Outros equipamentos de transporte",
+   "n": 83404,
+   "pct_m": 17.1,
+   "media_m": 5282,
+   "media_h": 6351,
+   "bruto": -16.8,
+   "gap": -10.41,
+   "ic": [
+    -14.02,
+    -6.65
+   ],
+   "codigo": "30"
+  },
+  {
+   "grupo": "Tecnologia da informação",
+   "n": 571385,
+   "pct_m": 36.4,
+   "media_m": 5605,
+   "media_h": 7762,
+   "bruto": -27.8,
+   "gap": -10.61,
+   "ic": [
+    -12.54,
+    -8.64
+   ],
+   "codigo": "62"
+  },
+  {
+   "grupo": "Coleta e tratamento de resíduos",
+   "n": 236787,
+   "pct_m": 20.0,
+   "media_m": 2598,
+   "media_h": 3014,
+   "bruto": -13.8,
+   "gap": -10.73,
+   "ic": [
+    -12.65,
+    -8.77
+   ],
+   "codigo": "38"
+  },
+  {
+   "grupo": "Auxiliares financeiros",
+   "n": 163262,
+   "pct_m": 59.5,
+   "media_m": 4649,
+   "media_h": 8191,
+   "bruto": -43.2,
+   "gap": -10.73,
+   "ic": [
+    -13.83,
+    -7.51
+   ],
+   "codigo": "66"
+  },
+  {
+   "grupo": "Aluguéis",
+   "n": 314873,
+   "pct_m": 29.8,
+   "media_m": 3214,
+   "media_h": 3446,
+   "bruto": -6.7,
+   "gap": -10.81,
+   "ic": [
+    -14.03,
+    -7.46
+   ],
+   "codigo": "77"
+  },
+  {
+   "grupo": "Comércio atacadista",
+   "n": 1911010,
+   "pct_m": 34.3,
+   "media_m": 3381,
+   "media_h": 3752,
+   "bruto": -9.9,
+   "gap": -11.02,
+   "ic": [
+    -13.31,
+    -8.67
+   ],
+   "codigo": "46"
+  },
+  {
+   "grupo": "Telecomunicações",
+   "n": 260383,
+   "pct_m": 34.7,
+   "media_m": 3779,
+   "media_h": 4470,
+   "bruto": -15.5,
+   "gap": -11.27,
+   "ic": [
+    -14.06,
+    -8.38
+   ],
+   "codigo": "61"
+  },
+  {
+   "grupo": "Seguros e previdência",
+   "n": 177080,
+   "pct_m": 68.2,
+   "media_m": 5116,
+   "media_h": 7853,
+   "bruto": -34.9,
+   "gap": -11.27,
+   "ic": [
+    -14.2,
+    -8.24
+   ],
+   "codigo": "65"
+  },
+  {
+   "grupo": "Equipamentos de informática e eletrônicos",
+   "n": 118769,
+   "pct_m": 44.1,
+   "media_m": 3399,
+   "media_h": 5048,
+   "bruto": -32.7,
+   "gap": -11.62,
+   "ic": [
+    -14.47,
+    -8.67
+   ],
+   "codigo": "26"
+  },
+  {
+   "grupo": "Móveis",
+   "n": 250771,
+   "pct_m": 25.5,
+   "media_m": 2522,
+   "media_h": 2799,
+   "bruto": -9.9,
+   "gap": -11.75,
+   "ic": [
+    -13.82,
+    -9.63
+   ],
+   "codigo": "31"
+  },
+  {
+   "grupo": "Fabricação de alimentos",
+   "n": 1663703,
+   "pct_m": 35.0,
+   "media_m": 2529,
+   "media_h": 3273,
+   "bruto": -22.7,
+   "gap": -11.84,
+   "ic": [
+    -13.07,
+    -10.6
+   ],
+   "codigo": "10"
+  },
+  {
+   "grupo": "Obras de infraestrutura",
+   "n": 705809,
+   "pct_m": 9.9,
+   "media_m": 3245,
+   "media_h": 3591,
+   "bruto": -9.7,
+   "gap": -12.28,
+   "ic": [
+    -14.73,
+    -9.75
+   ],
+   "codigo": "42"
+  },
+  {
+   "grupo": "Produtos diversos",
+   "n": 174036,
+   "pct_m": 47.3,
+   "media_m": 2782,
+   "media_h": 3397,
+   "bruto": -18.1,
+   "gap": -12.59,
+   "ic": [
+    -15.18,
+    -9.93
+   ],
+   "codigo": "32"
+  },
+  {
+   "grupo": "Serviços de informação",
+   "n": 114320,
+   "pct_m": 44.1,
+   "media_m": 6374,
+   "media_h": 8621,
+   "bruto": -26.1,
+   "gap": -12.63,
+   "ic": [
+    -17.0,
+    -8.02
+   ],
+   "codigo": "63"
+  },
+  {
+   "grupo": "Impressão e gravações",
+   "n": 96676,
+   "pct_m": 35.5,
+   "media_m": 2787,
+   "media_h": 3448,
+   "bruto": -19.2,
+   "gap": -12.89,
+   "ic": [
+    -16.1,
+    -9.56
+   ],
+   "codigo": "18"
+  },
+  {
+   "grupo": "Minerais não metálicos",
+   "n": 381427,
+   "pct_m": 14.4,
+   "media_m": 3071,
+   "media_h": 3184,
+   "bruto": -3.6,
+   "gap": -13.53,
+   "ic": [
+    -17.24,
+    -9.65
+   ],
+   "codigo": "23"
+  },
+  {
+   "grupo": "Produtos de metal",
+   "n": 483964,
+   "pct_m": 17.7,
+   "media_m": 3063,
+   "media_h": 3547,
+   "bruto": -13.6,
+   "gap": -13.84,
+   "ic": [
+    -16.17,
+    -11.45
+   ],
+   "codigo": "25"
+  },
+  {
+   "grupo": "Manutenção e reparação de máquinas",
+   "n": 264188,
+   "pct_m": 15.6,
+   "media_m": 3089,
+   "media_h": 3801,
+   "bruto": -18.7,
+   "gap": -14.22,
+   "ic": [
+    -17.86,
+    -10.42
+   ],
+   "codigo": "33"
+  },
+  {
+   "grupo": "Agricultura e pecuária",
+   "n": 1454070,
+   "pct_m": 18.1,
+   "media_m": 2284,
+   "media_h": 2800,
+   "bruto": -18.4,
+   "gap": -14.23,
+   "ic": [
+    -15.91,
+    -12.53
+   ],
+   "codigo": "01"
+  },
+  {
+   "grupo": "Têxteis",
+   "n": 249046,
+   "pct_m": 38.4,
+   "media_m": 2448,
+   "media_h": 3128,
+   "bruto": -21.7,
+   "gap": -14.28,
+   "ic": [
+    -15.76,
+    -12.77
+   ],
+   "codigo": "13"
+  },
+  {
+   "grupo": "Químicos",
+   "n": 302244,
+   "pct_m": 29.7,
+   "media_m": 4696,
+   "media_h": 5548,
+   "bruto": -15.4,
+   "gap": -15.24,
+   "ic": [
+    -19.35,
+    -10.92
+   ],
+   "codigo": "20"
+  },
+  {
+   "grupo": "Máquinas e equipamentos",
+   "n": 380863,
+   "pct_m": 17.7,
+   "media_m": 4225,
+   "media_h": 5216,
+   "bruto": -19.0,
+   "gap": -15.25,
+   "ic": [
+    -17.7,
+    -12.72
+   ],
+   "codigo": "28"
+  },
+  {
+   "grupo": "Metalurgia",
+   "n": 212912,
+   "pct_m": 13.9,
+   "media_m": 4699,
+   "media_h": 5166,
+   "bruto": -9.0,
+   "gap": -15.41,
+   "ic": [
+    -18.58,
+    -12.13
+   ],
+   "codigo": "24"
+  },
+  {
+   "grupo": "Máquinas e materiais elétricos",
+   "n": 211628,
+   "pct_m": 32.0,
+   "media_m": 3296,
+   "media_h": 4556,
+   "bruto": -27.7,
+   "gap": -15.42,
+   "ic": [
+    -18.37,
+    -12.37
+   ],
+   "codigo": "27"
+  },
+  {
+   "grupo": "Veículos automotores",
+   "n": 456382,
+   "pct_m": 22.8,
+   "media_m": 3760,
+   "media_h": 5360,
+   "bruto": -29.8,
+   "gap": -15.47,
+   "ic": [
+    -17.1,
+    -13.81
+   ],
+   "codigo": "29"
+  },
+  {
+   "grupo": "Eletricidade e gás",
+   "n": 129208,
+   "pct_m": 19.7,
+   "media_m": 7635,
+   "media_h": 8975,
+   "bruto": -14.9,
+   "gap": -15.7,
+   "ic": [
+    -18.52,
+    -12.78
+   ],
+   "codigo": "35"
+  },
+  {
+   "grupo": "Extração de minerais metálicos",
+   "n": 105024,
+   "pct_m": 22.4,
+   "media_m": 6322,
+   "media_h": 6696,
+   "bruto": -5.6,
+   "gap": -15.98,
+   "ic": [
+    -19.78,
+    -12.0
+   ],
+   "codigo": "07"
+  },
+  {
+   "grupo": "Borracha e plástico",
+   "n": 456359,
+   "pct_m": 30.4,
+   "media_m": 2924,
+   "media_h": 3825,
+   "bruto": -23.6,
+   "gap": -16.01,
+   "ic": [
+    -18.04,
+    -13.94
+   ],
+   "codigo": "22"
+  },
+  {
+   "grupo": "Papel e celulose",
+   "n": 190512,
+   "pct_m": 25.2,
+   "media_m": 3619,
+   "media_h": 4906,
+   "bruto": -26.2,
+   "gap": -17.0,
+   "ic": [
+    -20.84,
+    -12.97
+   ],
+   "codigo": "17"
+  },
+  {
+   "grupo": "Derivados de petróleo e biocombustíveis",
+   "n": 167314,
+   "pct_m": 14.8,
+   "media_m": 8093,
+   "media_h": 7436,
+   "bruto": 8.8,
+   "gap": -17.74,
+   "ic": [
+    -20.71,
+    -14.66
+   ],
+   "codigo": "19"
+  }
+ ],
+ "grande_vs_menor": {
+  "gap_ate_499": -9.54,
+  "gap_500_mais": -11.7,
+  "diferenca_pp": -2.42,
+  "ep_pp": 1.14
+ },
+ "amostra": 2502327
+}

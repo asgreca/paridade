@@ -1,0 +1,7705 @@
+{
+ "ano": 2025,
+ "amostra": 2592021,
+ "escada": [
+  {
+   "passo": "Comparação direta",
+   "gap": -9.04,
+   "ic_baixo": -15.76,
+   "ic_alto": -1.79,
+   "ep_log": 0.03916
+  },
+  {
+   "passo": "Mesma jornada",
+   "gap": -9.33,
+   "ic_baixo": -15.72,
+   "ic_alto": -2.44,
+   "ep_log": 0.03733
+  },
+  {
+   "passo": "Mesma instrução",
+   "gap": -19.14,
+   "ic_baixo": -22.67,
+   "ic_alto": -15.46,
+   "ep_log": 0.02274
+  },
+  {
+   "passo": "Mesmo perfil e empregador",
+   "gap": -16.29,
+   "ic_baixo": -18.53,
+   "ic_alto": -13.99,
+   "ep_log": 0.01381
+  },
+  {
+   "passo": "Mesma ocupação",
+   "gap": -9.71,
+   "ic_baixo": -10.7,
+   "ic_alto": -8.72,
+   "ep_log": 0.00559
+  },
+  {
+   "passo": "Mesma ocupação, mesma cidade",
+   "gap": -8.06,
+   "ic_baixo": -8.9,
+   "ic_alto": -7.21,
+   "ep_log": 0.00468
+  }
+ ],
+ "quantis": [
+  {
+   "quantil": 10,
+   "bruto": -4.21,
+   "gap": -2.11,
+   "ic_baixo": -2.69,
+   "ic_alto": -1.53,
+   "ep_log": 0.00301,
+   "salario_h": 1597,
+   "salario_m": 1530
+  },
+  {
+   "quantil": 25,
+   "bruto": -9.42,
+   "gap": -5.36,
+   "ic_baixo": -6.51,
+   "ic_alto": -4.2,
+   "ep_log": 0.00622,
+   "salario_h": 2008,
+   "salario_m": 1818
+  },
+  {
+   "quantil": 50,
+   "bruto": -11.85,
+   "gap": -10.57,
+   "ic_baixo": -11.89,
+   "ic_alto": -9.24,
+   "ep_log": 0.00758,
+   "salario_h": 2779,
+   "salario_m": 2450
+  },
+  {
+   "quantil": 75,
+   "bruto": -5.76,
+   "gap": -13.15,
+   "ic_baixo": -14.86,
+   "ic_alto": -11.4,
+   "ep_log": 0.01017,
+   "salario_h": 4491,
+   "salario_m": 4232
+  },
+  {
+   "quantil": 90,
+   "bruto": -7.81,
+   "gap": -14.33,
+   "ic_baixo": -17.12,
+   "ic_alto": -11.45,
+   "ep_log": 0.0169,
+   "salario_h": 8287,
+   "salario_m": 7639
+  },
+  {
+   "quantil": 95,
+   "bruto": -13.35,
+   "gap": -16.86,
+   "ic_baixo": -20.52,
+   "ic_alto": -13.02,
+   "ep_log": 0.023,
+   "salario_h": 12911,
+   "salario_m": 11188
+  }
+ ],
+ "correlacao": {
+  "n_ocupacoes": 1535,
+  "vinculos": 51142765,
+  "pearson_taxa_gap": -0.051,
+  "pearson_taxa_gap_ic": [
+   -0.205,
+   0.093
+  ],
+  "spearman_taxa_gap": -0.348,
+  "spearman_taxa_gap_ic": [
+   -0.393,
+   -0.301
+  ],
+  "pearson_taxa_salario": -0.181,
+  "pearson_taxa_salario_ic": [
+   -0.312,
+   -0.074
+  ],
+  "pearson_homens_gap": -0.192,
+  "pearson_homens_gap_ic": [
+   -0.334,
+   -0.061
+  ],
+  "regressao": [
+   {
+    "var": "constante",
+    "coef": -11.276,
+    "ep": 7.796
+   },
+   {
+    "var": "taxa de acidente (p.p.)",
+    "coef": 0.082,
+    "ep": 0.562
+   },
+   {
+    "var": "% homens na ocupação",
+    "coef": -0.06,
+    "ep": 0.02
+   },
+   {
+    "var": "log salário mediano",
+    "coef": 0.613,
+    "ep": 0.908
+   }
+  ],
+  "quintis": [
+   {
+    "quintil": 1,
+    "taxa": 0.24,
+    "gap_dentro": -8.6,
+    "pct_h": 44.3
+   },
+   {
+    "quintil": 2,
+    "taxa": 0.47,
+    "gap_dentro": -10.5,
+    "pct_h": 42.6
+   },
+   {
+    "quintil": 3,
+    "taxa": 0.81,
+    "gap_dentro": -7.3,
+    "pct_h": 46.6
+   },
+   {
+    "quintil": 4,
+    "taxa": 1.27,
+    "gap_dentro": -7.1,
+    "pct_h": 60.8
+   },
+   {
+    "quintil": 5,
+    "taxa": 2.59,
+    "gap_dentro": -11.4,
+    "pct_h": 72.4
+   }
+  ],
+  "pontos": [
+   {
+    "o": "Encarregado de acabamento de chapas e metais  (têmpera)",
+    "x": 1.9,
+    "y": -29.5,
+    "n": 16079,
+    "h": 88
+   },
+   {
+    "o": "Digitador",
+    "x": 0.31,
+    "y": -11.9,
+    "n": 24184,
+    "h": 45
+   },
+   {
+    "o": "Técnico de garantia da qualidade",
+    "x": 0.85,
+    "y": -12.4,
+    "n": 79081,
+    "h": 47
+   },
+   {
+    "o": "Analista de logistica",
+    "x": 0.55,
+    "y": -2.9,
+    "n": 34983,
+    "h": 63
+   },
+   {
+    "o": "Operador de filatório",
+    "x": 3.56,
+    "y": -7.2,
+    "n": 3629,
+    "h": 52
+   },
+   {
+    "o": "Montador de andaimes (edificações)",
+    "x": 1.32,
+    "y": -11.0,
+    "n": 35882,
+    "h": 99
+   },
+   {
+    "o": "Vendedor em domicílio",
+    "x": 0.55,
+    "y": -9.8,
+    "n": 39843,
+    "h": 61
+   },
+   {
+    "o": "Operador de empilhadeira",
+    "x": 2.16,
+    "y": -8.7,
+    "n": 191113,
+    "h": 96
+   },
+   {
+    "o": "Operador de máquinas de fabricação de doces, salgados e massas alimentícias",
+    "x": 2.86,
+    "y": -16.1,
+    "n": 31501,
+    "h": 64
+   },
+   {
+    "o": "Técnico em secretariado",
+    "x": 0.29,
+    "y": -16.8,
+    "n": 50425,
+    "h": 18
+   },
+   {
+    "o": "Gerente de operações de serviços de assistência técnica",
+    "x": 0.45,
+    "y": -11.2,
+    "n": 11890,
+    "h": 83
+   },
+   {
+    "o": "Técnico de alimentos",
+    "x": 1.8,
+    "y": -14.3,
+    "n": 8094,
+    "h": 54
+   },
+   {
+    "o": "Professor de medicina",
+    "x": 0.08,
+    "y": 4.5,
+    "n": 8023,
+    "h": 49
+   },
+   {
+    "o": "Professor de educação física do ensino fundamental",
+    "x": 0.61,
+    "y": -0.6,
+    "n": 44066,
+    "h": 52
+   },
+   {
+    "o": "Farmacêutico analista clínico",
+    "x": 0.39,
+    "y": -1.0,
+    "n": 8109,
+    "h": 30
+   },
+   {
+    "o": "Eletrotécnico na fabricação, montagem e instalação de máquinas e equipamentos",
+    "x": 1.47,
+    "y": -29.9,
+    "n": 20877,
+    "h": 94
+   },
+   {
+    "o": "Major da polícia militar",
+    "x": 0.0,
+    "y": -1.8,
+    "n": 4208,
+    "h": 82
+   },
+   {
+    "o": "Cartazeiro",
+    "x": 1.48,
+    "y": -10.5,
+    "n": 9079,
+    "h": 70
+   },
+   {
+    "o": "Desenvolvedor de sistemas de tecnologia da informação (técnico)",
+    "x": 0.18,
+    "y": -9.9,
+    "n": 83529,
+    "h": 87
+   },
+   {
+    "o": "Passador de roupas em geral",
+    "x": 0.61,
+    "y": -6.4,
+    "n": 5555,
+    "h": 22
+   },
+   {
+    "o": "Operador de máquinas de construção civil e mineração",
+    "x": 1.09,
+    "y": -17.5,
+    "n": 90769,
+    "h": 95
+   },
+   {
+    "o": "Desenhista técnico (arquitetura)",
+    "x": 0.35,
+    "y": -6.4,
+    "n": 3027,
+    "h": 57
+   },
+   {
+    "o": "Operador de máquina de usinagem de madeira (produção em série)",
+    "x": 3.2,
+    "y": -14.6,
+    "n": 6280,
+    "h": 83
+   },
+   {
+    "o": "Supervisor de operações portuárias",
+    "x": 1.02,
+    "y": -3.3,
+    "n": 4047,
+    "h": 89
+   },
+   {
+    "o": "Metrologista",
+    "x": 1.03,
+    "y": -14.2,
+    "n": 4072,
+    "h": 85
+   },
+   {
+    "o": "Analista de seguros (técnico)",
+    "x": 0.18,
+    "y": -11.8,
+    "n": 9007,
+    "h": 35
+   },
+   {
+    "o": "Auxiliar de biblioteca",
+    "x": 0.68,
+    "y": -11.9,
+    "n": 10520,
+    "h": 25
+   },
+   {
+    "o": "Analista de desenvolvimento de sistemas",
+    "x": 0.14,
+    "y": -10.2,
+    "n": 265307,
+    "h": 78
+   },
+   {
+    "o": "Mecânico de manutenção de equipamento de mineração",
+    "x": 2.24,
+    "y": -15.8,
+    "n": 6215,
+    "h": 97
+   },
+   {
+    "o": "Salgador de alimentos",
+    "x": 1.61,
+    "y": -10.5,
+    "n": 3387,
+    "h": 54
+   },
+   {
+    "o": "Psicólogo social",
+    "x": 0.41,
+    "y": 0.5,
+    "n": 14443,
+    "h": 17
+   },
+   {
+    "o": "Arquiteto urbanista",
+    "x": 0.36,
+    "y": 0.1,
+    "n": 4751,
+    "h": 37
+   },
+   {
+    "o": "Instalador de tubulações",
+    "x": 2.3,
+    "y": -5.6,
+    "n": 18268,
+    "h": 98
+   },
+   {
+    "o": "Auxiliar de banco de sangue",
+    "x": 2.81,
+    "y": -6.1,
+    "n": 4852,
+    "h": 14
+   },
+   {
+    "o": "Operador de guindaste (fixo)",
+    "x": 2.23,
+    "y": -14.3,
+    "n": 6475,
+    "h": 97
+   },
+   {
+    "o": "Técnico mecânico na manutenção de ferramentas",
+    "x": 1.13,
+    "y": -17.4,
+    "n": 3294,
+    "h": 93
+   },
+   {
+    "o": "Supervisor de contas a pagar",
+    "x": 0.2,
+    "y": -15.1,
+    "n": 5956,
+    "h": 27
+   },
+   {
+    "o": "Operador de pá carregadeira",
+    "x": 1.52,
+    "y": -11.3,
+    "n": 10120,
+    "h": 98
+   },
+   {
+    "o": "Operador de processo de moagem",
+    "x": 3.25,
+    "y": -16.1,
+    "n": 6350,
+    "h": 91
+   },
+   {
+    "o": "Trabalhador da cultura de café",
+    "x": 1.51,
+    "y": -6.4,
+    "n": 11207,
+    "h": 79
+   },
+   {
+    "o": "Administrador em segurança da informação",
+    "x": 0.2,
+    "y": -14.6,
+    "n": 13985,
+    "h": 80
+   },
+   {
+    "o": "Moldador de borracha por compressão",
+    "x": 2.43,
+    "y": -15.0,
+    "n": 6296,
+    "h": 77
+   },
+   {
+    "o": "Bobinador eletricista, à máquina",
+    "x": 1.53,
+    "y": -20.2,
+    "n": 4605,
+    "h": 79
+   },
+   {
+    "o": "Professor de nível superior na educação infantil (zero a três anos)",
+    "x": 1.13,
+    "y": -6.8,
+    "n": 92307,
+    "h": 4
+   },
+   {
+    "o": "Oficial da aeronáutica",
+    "x": 0.0,
+    "y": -20.2,
+    "n": 12087,
+    "h": 61
+   },
+   {
+    "o": "Operador de painel de controle (coqueificação)",
+    "x": 2.37,
+    "y": -21.5,
+    "n": 3433,
+    "h": 94
+   },
+   {
+    "o": "Moldador e fundição, a mão",
+    "x": 4.53,
+    "y": -26.1,
+    "n": 3522,
+    "h": 94
+   },
+   {
+    "o": "Operador de mídia audiovisual",
+    "x": 0.42,
+    "y": -7.4,
+    "n": 7191,
+    "h": 87
+   },
+   {
+    "o": "Encarregado de equipe de conservação de vias permanentes (exceto trilhos)",
+    "x": 1.05,
+    "y": -25.0,
+    "n": 10412,
+    "h": 79
+   },
+   {
+    "o": "Servente de obras",
+    "x": 1.42,
+    "y": 5.7,
+    "n": 582891,
+    "h": 96
+   },
+   {
+    "o": "Mestre (construção civil)",
+    "x": 0.93,
+    "y": -15.5,
+    "n": 119540,
+    "h": 98
+   },
+   {
+    "o": "Trabalhador de pecuária polivalente",
+    "x": 1.69,
+    "y": -23.0,
+    "n": 24512,
+    "h": 93
+   },
+   {
+    "o": "Psicólogo educacional",
+    "x": 0.35,
+    "y": 1.9,
+    "n": 14181,
+    "h": 15
+   },
+   {
+    "o": "Médico acupunturista",
+    "x": 0.01,
+    "y": 4.4,
+    "n": 11675,
+    "h": 52
+   },
+   {
+    "o": "Recepcionista de consultório médico ou dentário",
+    "x": 0.66,
+    "y": -6.1,
+    "n": 143438,
+    "h": 9
+   },
+   {
+    "o": "Assistente administrativo",
+    "x": 0.41,
+    "y": -14.1,
+    "n": 2430011,
+    "h": 36
+   },
+   {
+    "o": "Educador social",
+    "x": 1.25,
+    "y": -10.9,
+    "n": 47815,
+    "h": 30
+   },
+   {
+    "o": "Professor de ensino superior na área de didática",
+    "x": 0.02,
+    "y": -4.1,
+    "n": 146769,
+    "h": 50
+   },
+   {
+    "o": "Operador de produção (química, petroquímica e afins)",
+    "x": 2.45,
+    "y": -24.5,
+    "n": 55795,
+    "h": 79
+   },
+   {
+    "o": "Sócioeducador",
+    "x": 2.39,
+    "y": -30.5,
+    "n": 25386,
+    "h": 56
+   },
+   {
+    "o": "Assistente de laboratório industrial",
+    "x": 1.43,
+    "y": -14.4,
+    "n": 13103,
+    "h": 48
+   },
+   {
+    "o": "Médico ginecologista e obstetra",
+    "x": 0.62,
+    "y": -4.8,
+    "n": 7627,
+    "h": 32
+   },
+   {
+    "o": "Trabalhador agropecuário em geral",
+    "x": 1.16,
+    "y": -12.7,
+    "n": 328755,
+    "h": 86
+   },
+   {
+    "o": "Técnico de laboratório de análises físico-químicas (materiais de construção)",
+    "x": 0.49,
+    "y": -3.4,
+    "n": 23468,
+    "h": 68
+   },
+   {
+    "o": "Gerente de produção e operações da construção civil e obras públicas",
+    "x": 0.45,
+    "y": 3.4,
+    "n": 13410,
+    "h": 83
+   },
+   {
+    "o": "Professor de direito do ensino superior",
+    "x": 0.04,
+    "y": 6.5,
+    "n": 4250,
+    "h": 59
+   },
+   {
+    "o": "Supervisor de exploração agropecuária",
+    "x": 1.41,
+    "y": -7.9,
+    "n": 11000,
+    "h": 92
+   },
+   {
+    "o": "Inspetor de alunos de escola pública",
+    "x": 0.48,
+    "y": -7.4,
+    "n": 183733,
+    "h": 20
+   },
+   {
+    "o": "Técnico de suporte ao usuário de tecnologia da informação",
+    "x": 0.54,
+    "y": -6.9,
+    "n": 84925,
+    "h": 79
+   },
+   {
+    "o": "Professor de nível superior na educação infantil (quatro a seis anos)",
+    "x": 0.49,
+    "y": -7.5,
+    "n": 186931,
+    "h": 12
+   },
+   {
+    "o": "Pedagogo",
+    "x": 0.48,
+    "y": -4.6,
+    "n": 66384,
+    "h": 11
+   },
+   {
+    "o": "Supervisor da área florestal",
+    "x": 0.7,
+    "y": -8.9,
+    "n": 7536,
+    "h": 92
+   },
+   {
+    "o": "Revisor de tecidos acabados",
+    "x": 0.97,
+    "y": -18.4,
+    "n": 18017,
+    "h": 17
+   },
+   {
+    "o": "Caixa de banco",
+    "x": 1.28,
+    "y": -9.9,
+    "n": 29440,
+    "h": 30
+   },
+   {
+    "o": "Cuidador de idosos",
+    "x": 1.1,
+    "y": -5.4,
+    "n": 71741,
+    "h": 12
+   },
+   {
+    "o": "Comissário de vôo",
+    "x": 0.84,
+    "y": -0.2,
+    "n": 9793,
+    "h": 34
+   },
+   {
+    "o": "Fiscal de loja",
+    "x": 1.16,
+    "y": 1.1,
+    "n": 98198,
+    "h": 74
+   },
+   {
+    "o": "Auxiliar de serviços de importação e exportação",
+    "x": 0.67,
+    "y": -4.2,
+    "n": 14188,
+    "h": 51
+   },
+   {
+    "o": "Eletricista de instalações (veículos automotores e máquinas operatrizes, exceto aeronaves e embarcações)",
+    "x": 1.77,
+    "y": -14.4,
+    "n": 29997,
+    "h": 98
+   },
+   {
+    "o": "Confeiteiro",
+    "x": 1.19,
+    "y": -11.1,
+    "n": 59284,
+    "h": 32
+   },
+   {
+    "o": "Classificador de grãos",
+    "x": 1.37,
+    "y": -15.7,
+    "n": 6976,
+    "h": 80
+   },
+   {
+    "o": "Analista de recursos humanos",
+    "x": 0.36,
+    "y": -10.8,
+    "n": 138954,
+    "h": 17
+   },
+   {
+    "o": "Supervisor de exploração pecuária",
+    "x": 2.04,
+    "y": -13.4,
+    "n": 8320,
+    "h": 96
+   },
+   {
+    "o": "Advogado",
+    "x": 0.18,
+    "y": -10.2,
+    "n": 58973,
+    "h": 38
+   },
+   {
+    "o": "Operador de telemarketing ativo",
+    "x": 0.47,
+    "y": 2.9,
+    "n": 27740,
+    "h": 20
+   },
+   {
+    "o": "Investigador de polícia",
+    "x": 0.01,
+    "y": -1.0,
+    "n": 48310,
+    "h": 79
+   },
+   {
+    "o": "Instrumentador cirúrgico",
+    "x": 2.41,
+    "y": -8.5,
+    "n": 7926,
+    "h": 29
+   },
+   {
+    "o": "Técnico de mineração",
+    "x": 0.54,
+    "y": -13.5,
+    "n": 4328,
+    "h": 83
+   },
+   {
+    "o": "Desenhista projetista de máquinas",
+    "x": 0.54,
+    "y": -14.4,
+    "n": 4749,
+    "h": 90
+   },
+   {
+    "o": "Analista de redes e de comunicação de dados",
+    "x": 0.32,
+    "y": -11.7,
+    "n": 49566,
+    "h": 79
+   },
+   {
+    "o": "Maître",
+    "x": 0.74,
+    "y": -10.9,
+    "n": 11707,
+    "h": 79
+   },
+   {
+    "o": "Biólogo",
+    "x": 0.94,
+    "y": -4.8,
+    "n": 10672,
+    "h": 30
+   },
+   {
+    "o": "Psicopedagogo",
+    "x": 0.45,
+    "y": -4.0,
+    "n": 6620,
+    "h": 7
+   },
+   {
+    "o": "Gerente de bar",
+    "x": 0.38,
+    "y": -8.5,
+    "n": 12234,
+    "h": 53
+   },
+   {
+    "o": "Supervisor de produção na mineração",
+    "x": 1.48,
+    "y": 0.0,
+    "n": 4799,
+    "h": 92
+   },
+   {
+    "o": "Professor de geografia do ensino fundamental",
+    "x": 0.52,
+    "y": -5.1,
+    "n": 14251,
+    "h": 47
+   },
+   {
+    "o": "Gerente de serviços sociais",
+    "x": 0.38,
+    "y": -4.5,
+    "n": 9195,
+    "h": 29
+   },
+   {
+    "o": "Eletromecânico de manutenção de elevadores",
+    "x": 1.91,
+    "y": -16.2,
+    "n": 6629,
+    "h": 98
+   },
+   {
+    "o": "Médico anestesiologista",
+    "x": 0.49,
+    "y": -0.2,
+    "n": 3899,
+    "h": 50
+   },
+   {
+    "o": "Auxiliar geral de conservação de vias permanentes (exceto trilhos)",
+    "x": 1.45,
+    "y": -4.2,
+    "n": 99198,
+    "h": 67
+   },
+   {
+    "o": "Motorista de furgão ou veículo similar",
+    "x": 1.1,
+    "y": -10.5,
+    "n": 220987,
+    "h": 97
+   },
+   {
+    "o": "Planejista",
+    "x": 0.47,
+    "y": -13.0,
+    "n": 4170,
+    "h": 64
+   },
+   {
+    "o": "Auxiliar de lavanderia",
+    "x": 1.82,
+    "y": -6.2,
+    "n": 40184,
+    "h": 33
+   },
+   {
+    "o": "Supervisor de orçamento",
+    "x": 0.25,
+    "y": -7.9,
+    "n": 5988,
+    "h": 62
+   },
+   {
+    "o": "Técnico em manutenção de equipamentos de informática",
+    "x": 0.72,
+    "y": -1.1,
+    "n": 44056,
+    "h": 92
+   },
+   {
+    "o": "Recreador",
+    "x": 1.11,
+    "y": -9.0,
+    "n": 55377,
+    "h": 19
+   },
+   {
+    "o": "Recepcionista de seguro saúde",
+    "x": 1.08,
+    "y": -11.4,
+    "n": 3538,
+    "h": 18
+   },
+   {
+    "o": "Operador de máquina de usinagem madeira, em geral",
+    "x": 3.95,
+    "y": -11.4,
+    "n": 15967,
+    "h": 84
+   },
+   {
+    "o": "Instalador de linhas elétricas de alta e baixa tensão (rede aérea e subterrânea)",
+    "x": 2.01,
+    "y": -14.2,
+    "n": 73453,
+    "h": 98
+   },
+   {
+    "o": "Montador de equipamentos eletroeletrônicos (instrumentos de medição)",
+    "x": 1.2,
+    "y": -25.5,
+    "n": 4925,
+    "h": 73
+   },
+   {
+    "o": "Professor de matemática do ensino fundamental",
+    "x": 0.67,
+    "y": -1.4,
+    "n": 32101,
+    "h": 44
+   },
+   {
+    "o": "Despachante documentalista",
+    "x": 0.43,
+    "y": -8.5,
+    "n": 4402,
+    "h": 78
+   },
+   {
+    "o": "Cumim",
+    "x": 0.83,
+    "y": -6.9,
+    "n": 25459,
+    "h": 65
+   },
+   {
+    "o": "Trabalhador da avicultura de corte",
+    "x": 1.65,
+    "y": -6.8,
+    "n": 25445,
+    "h": 75
+   },
+   {
+    "o": "Vendedor em comércio atacadista",
+    "x": 0.56,
+    "y": -17.3,
+    "n": 129446,
+    "h": 58
+   },
+   {
+    "o": "Desenhista técnico (artes gráficas)",
+    "x": 0.24,
+    "y": -0.3,
+    "n": 5660,
+    "h": 71
+   },
+   {
+    "o": "Gerente de contas - pessoa física e jurídica",
+    "x": 1.25,
+    "y": -9.8,
+    "n": 68599,
+    "h": 42
+   },
+   {
+    "o": "Agente de microcrédito",
+    "x": 3.03,
+    "y": -11.6,
+    "n": 9721,
+    "h": 56
+   },
+   {
+    "o": "Guardador de veículos",
+    "x": 1.26,
+    "y": -3.3,
+    "n": 17599,
+    "h": 85
+   },
+   {
+    "o": "Auxiliar de veterinário",
+    "x": 1.2,
+    "y": -7.0,
+    "n": 11940,
+    "h": 36
+   },
+   {
+    "o": "Preparador de calçados",
+    "x": 0.97,
+    "y": -7.2,
+    "n": 22863,
+    "h": 33
+   },
+   {
+    "o": "Intérprete de língua de sinais",
+    "x": 0.25,
+    "y": -2.9,
+    "n": 5700,
+    "h": 27
+   },
+   {
+    "o": "Técnico em eletromecânica",
+    "x": 2.34,
+    "y": -15.8,
+    "n": 25901,
+    "h": 95
+   },
+   {
+    "o": "Orientador educacional",
+    "x": 0.63,
+    "y": -11.9,
+    "n": 80448,
+    "h": 20
+   },
+   {
+    "o": "Acabador de calçados",
+    "x": 1.07,
+    "y": -11.5,
+    "n": 13618,
+    "h": 34
+   },
+   {
+    "o": "Supervisor de embalagem e etiquetagem",
+    "x": 1.39,
+    "y": -23.0,
+    "n": 6489,
+    "h": 64
+   },
+   {
+    "o": "Analista de informações (pesquisador de informações de rede)",
+    "x": 0.18,
+    "y": -16.6,
+    "n": 10967,
+    "h": 54
+   },
+   {
+    "o": "Banhista de animais domésticos",
+    "x": 0.52,
+    "y": -2.2,
+    "n": 10879,
+    "h": 25
+   },
+   {
+    "o": "Contador",
+    "x": 0.31,
+    "y": -14.9,
+    "n": 154992,
+    "h": 41
+   },
+   {
+    "o": "Ajudante de confecção",
+    "x": 0.81,
+    "y": -5.5,
+    "n": 53295,
+    "h": 33
+   },
+   {
+    "o": "Engenheiro civil (transportes e trânsito)",
+    "x": 0.24,
+    "y": -2.2,
+    "n": 3139,
+    "h": 69
+   },
+   {
+    "o": "Encarregado de manutenção mecânica de sistemas operacionais",
+    "x": 1.24,
+    "y": -29.3,
+    "n": 26050,
+    "h": 96
+   },
+   {
+    "o": "Instalador-reparador de redes telefônicas e de comunicação de dados",
+    "x": 2.4,
+    "y": 6.7,
+    "n": 47135,
+    "h": 98
+   },
+   {
+    "o": "Operador de câmera de televisão",
+    "x": 1.13,
+    "y": -26.6,
+    "n": 5805,
+    "h": 84
+   },
+   {
+    "o": "Técnico em automobilística",
+    "x": 1.13,
+    "y": 2.2,
+    "n": 5253,
+    "h": 90
+   },
+   {
+    "o": "Auxiliar de produção farmacêutica",
+    "x": 2.08,
+    "y": -8.6,
+    "n": 16034,
+    "h": 36
+   },
+   {
+    "o": "Embalador, a máquina",
+    "x": 2.52,
+    "y": -13.3,
+    "n": 36784,
+    "h": 63
+   },
+   {
+    "o": "Operador de estação de bombeamento",
+    "x": 1.53,
+    "y": -9.8,
+    "n": 4385,
+    "h": 96
+   },
+   {
+    "o": "Professor de educação artística do ensino fundamental",
+    "x": 0.49,
+    "y": 0.4,
+    "n": 22231,
+    "h": 26
+   },
+   {
+    "o": "Mecânico de manutenção de máquinas agrícolas",
+    "x": 3.44,
+    "y": -20.5,
+    "n": 27453,
+    "h": 99
+   },
+   {
+    "o": "Editor de texto e imagem",
+    "x": 0.34,
+    "y": -3.7,
+    "n": 7746,
+    "h": 66
+   },
+   {
+    "o": "Terapeuta ocupacional",
+    "x": 1.13,
+    "y": 14.3,
+    "n": 9976,
+    "h": 9
+   },
+   {
+    "o": "Preparador de rações",
+    "x": 4.43,
+    "y": -14.6,
+    "n": 6964,
+    "h": 92
+   },
+   {
+    "o": "Praça da aeronáutica",
+    "x": 0.0,
+    "y": 14.8,
+    "n": 69834,
+    "h": 83
+   },
+   {
+    "o": "Operador de central de concreto",
+    "x": 2.22,
+    "y": -10.9,
+    "n": 3511,
+    "h": 97
+   },
+   {
+    "o": "Cozinhador (conservação de alimentos)",
+    "x": 1.29,
+    "y": -15.5,
+    "n": 22913,
+    "h": 28
+   },
+   {
+    "o": "Catador de material reciclável",
+    "x": 1.89,
+    "y": -8.8,
+    "n": 3061,
+    "h": 74
+   },
+   {
+    "o": "Despachante de transportes coletivos (exceto trem)",
+    "x": 0.76,
+    "y": -13.2,
+    "n": 11461,
+    "h": 80
+   },
+   {
+    "o": "Agente de pátio",
+    "x": 1.3,
+    "y": -14.1,
+    "n": 6784,
+    "h": 86
+   },
+   {
+    "o": "Técnico de manutenção eletrônica",
+    "x": 1.21,
+    "y": -17.0,
+    "n": 22301,
+    "h": 95
+   },
+   {
+    "o": "Caldeireiro (chapas de ferro e aço)",
+    "x": 2.63,
+    "y": -20.0,
+    "n": 44474,
+    "h": 99
+   },
+   {
+    "o": "Operador de trator florestal",
+    "x": 1.05,
+    "y": -7.0,
+    "n": 10565,
+    "h": 98
+   },
+   {
+    "o": "Trabalhador da pecuária (equinos)",
+    "x": 1.26,
+    "y": -14.4,
+    "n": 3763,
+    "h": 94
+   },
+   {
+    "o": "Trefilador de metais, à máquina",
+    "x": 3.34,
+    "y": -19.3,
+    "n": 5633,
+    "h": 93
+   },
+   {
+    "o": "Operador de tesoura mecânica e máquina de corte, no acabamento de chapas e metais",
+    "x": 4.34,
+    "y": -19.7,
+    "n": 7845,
+    "h": 94
+   },
+   {
+    "o": "Moldador de plástico por compressão",
+    "x": 3.28,
+    "y": -21.1,
+    "n": 7038,
+    "h": 68
+   },
+   {
+    "o": "Soldador elétrico",
+    "x": 3.47,
+    "y": -15.7,
+    "n": 6692,
+    "h": 93
+   },
+   {
+    "o": "Trabalhador da cultura de arroz",
+    "x": 1.7,
+    "y": -15.6,
+    "n": 3756,
+    "h": 96
+   },
+   {
+    "o": "Escrivão judicial",
+    "x": 0.0,
+    "y": -0.2,
+    "n": 3037,
+    "h": 40
+   },
+   {
+    "o": "Enfermeiro auditor",
+    "x": 0.8,
+    "y": -2.6,
+    "n": 7815,
+    "h": 11
+   },
+   {
+    "o": "Supervisor de fabricação de produtos cerâmicos, porcelanatos e afins",
+    "x": 1.62,
+    "y": -25.4,
+    "n": 3465,
+    "h": 91
+   },
+   {
+    "o": "Sinaleiro (ponte rolante)",
+    "x": 1.61,
+    "y": -14.7,
+    "n": 10263,
+    "h": 94
+   },
+   {
+    "o": "Salva-vidas",
+    "x": 1.02,
+    "y": -9.1,
+    "n": 9213,
+    "h": 89
+   },
+   {
+    "o": "Apontador de produção",
+    "x": 1.72,
+    "y": -21.2,
+    "n": 74286,
+    "h": 71
+   },
+   {
+    "o": "Auxiliar de prótese dentária",
+    "x": 0.57,
+    "y": 4.3,
+    "n": 9905,
+    "h": 52
+   },
+   {
+    "o": "Montador de veículos (linha de montagem)",
+    "x": 2.7,
+    "y": -13.6,
+    "n": 40416,
+    "h": 79
+   },
+   {
+    "o": "Médico generalista",
+    "x": 0.57,
+    "y": -4.0,
+    "n": 4728,
+    "h": 47
+   },
+   {
+    "o": "Técnico químico",
+    "x": 1.22,
+    "y": -14.1,
+    "n": 26662,
+    "h": 52
+   },
+   {
+    "o": "Analista de cobrança (instituições financeiras)",
+    "x": 0.41,
+    "y": -21.7,
+    "n": 5399,
+    "h": 31
+   },
+   {
+    "o": "Motorista de ônibus rodoviário",
+    "x": 1.16,
+    "y": -16.2,
+    "n": 103280,
+    "h": 97
+   },
+   {
+    "o": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "x": 0.0,
+    "y": -8.0,
+    "n": 5694,
+    "h": 44
+   },
+   {
+    "o": "Delegado de polícia",
+    "x": 0.0,
+    "y": -2.5,
+    "n": 12940,
+    "h": 76
+   },
+   {
+    "o": "Porteiro de edifícios",
+    "x": 0.45,
+    "y": -12.0,
+    "n": 575066,
+    "h": 86
+   },
+   {
+    "o": "Engenheiro agrônomo",
+    "x": 0.25,
+    "y": -10.5,
+    "n": 16995,
+    "h": 77
+   },
+   {
+    "o": "Professor de nível médio no ensino fundamental",
+    "x": 0.35,
+    "y": 0.8,
+    "n": 787007,
+    "h": 22
+   },
+   {
+    "o": "Moldador de plástico por injeção",
+    "x": 2.48,
+    "y": -19.0,
+    "n": 42232,
+    "h": 65
+   },
+   {
+    "o": "Manobrador",
+    "x": 0.88,
+    "y": -0.4,
+    "n": 7418,
+    "h": 90
+   },
+   {
+    "o": "Agente comunitário de saúde",
+    "x": 1.08,
+    "y": -1.4,
+    "n": 272910,
+    "h": 22
+   },
+   {
+    "o": "Magarefe",
+    "x": 3.36,
+    "y": -8.6,
+    "n": 104945,
+    "h": 57
+   },
+   {
+    "o": "Trabalhador da cultura de cana-de-açúcar",
+    "x": 2.02,
+    "y": -15.6,
+    "n": 98410,
+    "h": 93
+   },
+   {
+    "o": "Operador de computador",
+    "x": 0.48,
+    "y": -12.3,
+    "n": 28767,
+    "h": 72
+   },
+   {
+    "o": "Médico pediatra",
+    "x": 0.62,
+    "y": -4.9,
+    "n": 12194,
+    "h": 21
+   },
+   {
+    "o": "Vigia",
+    "x": 0.51,
+    "y": -10.0,
+    "n": 309983,
+    "h": 93
+   },
+   {
+    "o": "Professor de tecnologia e cálculo técnico",
+    "x": 0.01,
+    "y": -0.3,
+    "n": 51620,
+    "h": 59
+   },
+   {
+    "o": "Jardineiro",
+    "x": 1.35,
+    "y": -1.6,
+    "n": 66723,
+    "h": 96
+   },
+   {
+    "o": "Supervisor de exploração agrícola",
+    "x": 1.1,
+    "y": -24.5,
+    "n": 30684,
+    "h": 91
+   },
+   {
+    "o": "Supervisor de recepcionistas",
+    "x": 0.76,
+    "y": -11.2,
+    "n": 14338,
+    "h": 25
+   },
+   {
+    "o": "Gerente de serviços culturais",
+    "x": 0.41,
+    "y": -8.8,
+    "n": 5484,
+    "h": 44
+   },
+   {
+    "o": "Diretor de instituição educacional da área privada",
+    "x": 0.22,
+    "y": -8.2,
+    "n": 17324,
+    "h": 25
+   },
+   {
+    "o": "Geólogo",
+    "x": 0.35,
+    "y": -4.0,
+    "n": 4014,
+    "h": 68
+   },
+   {
+    "o": "Avaliador físico",
+    "x": 0.53,
+    "y": 3.9,
+    "n": 13639,
+    "h": 64
+   },
+   {
+    "o": "Apontador de mão-de-obra",
+    "x": 0.91,
+    "y": -13.0,
+    "n": 14594,
+    "h": 86
+   },
+   {
+    "o": "Professor de educação física no ensino médio",
+    "x": 0.34,
+    "y": -1.8,
+    "n": 12862,
+    "h": 55
+   },
+   {
+    "o": "Arquivista de documentos",
+    "x": 0.62,
+    "y": -4.2,
+    "n": 9687,
+    "h": 40
+   },
+   {
+    "o": "Retalhador de carne",
+    "x": 3.17,
+    "y": -5.1,
+    "n": 32085,
+    "h": 48
+   },
+   {
+    "o": "Auditor (contadores e afins)",
+    "x": 0.17,
+    "y": -15.8,
+    "n": 34109,
+    "h": 57
+   },
+   {
+    "o": "Engenheiro de minas",
+    "x": 0.12,
+    "y": -4.0,
+    "n": 5093,
+    "h": 70
+   },
+   {
+    "o": "Selecionador de material reciclável",
+    "x": 3.05,
+    "y": -6.6,
+    "n": 12348,
+    "h": 73
+   },
+   {
+    "o": "Técnico de telecomunicações (telefonia)",
+    "x": 2.06,
+    "y": -15.7,
+    "n": 20012,
+    "h": 95
+   },
+   {
+    "o": "Técnico de manutenção elétrica",
+    "x": 1.64,
+    "y": -18.9,
+    "n": 25771,
+    "h": 97
+   },
+   {
+    "o": "Fiscal de tributos estadual",
+    "x": 0.13,
+    "y": -15.5,
+    "n": 9351,
+    "h": 75
+   },
+   {
+    "o": "Montador de estruturas metálicas",
+    "x": 2.35,
+    "y": -12.7,
+    "n": 78936,
+    "h": 97
+   },
+   {
+    "o": "Professor de biologia no ensino médio",
+    "x": 0.1,
+    "y": -6.5,
+    "n": 9932,
+    "h": 36
+   },
+   {
+    "o": "Trabalhador de extração florestal, em geral",
+    "x": 1.59,
+    "y": -4.2,
+    "n": 33397,
+    "h": 89
+   },
+   {
+    "o": "Operador de máquinas de usinar madeira (cnc)",
+    "x": 2.94,
+    "y": -12.5,
+    "n": 3331,
+    "h": 89
+   },
+   {
+    "o": "Supervisor de andar",
+    "x": 1.37,
+    "y": -11.1,
+    "n": 3643,
+    "h": 25
+   },
+   {
+    "o": "Costureiro na confecção em série",
+    "x": 0.78,
+    "y": 0.4,
+    "n": 124107,
+    "h": 14
+   },
+   {
+    "o": "Arquiteto de edificações",
+    "x": 0.44,
+    "y": 1.9,
+    "n": 10998,
+    "h": 37
+   },
+   {
+    "o": "Gerente de suporte técnico de tecnologia da informação",
+    "x": 0.2,
+    "y": -1.9,
+    "n": 10643,
+    "h": 81
+   },
+   {
+    "o": "Impressor de corte e vinco",
+    "x": 2.25,
+    "y": -24.4,
+    "n": 5700,
+    "h": 88
+   },
+   {
+    "o": "Tecnólogo em gestão administrativo- financeira",
+    "x": 0.35,
+    "y": -12.9,
+    "n": 5496,
+    "h": 40
+   },
+   {
+    "o": "Gerente de desenvolvimento de sistemas",
+    "x": 0.07,
+    "y": -7.9,
+    "n": 15231,
+    "h": 79
+   },
+   {
+    "o": "Encarregado de produção (indústria de madeira e mobiliário)",
+    "x": 1.65,
+    "y": -11.6,
+    "n": 8887,
+    "h": 90
+   },
+   {
+    "o": "Preparador de sucata e aparas",
+    "x": 3.46,
+    "y": -11.3,
+    "n": 9564,
+    "h": 86
+   },
+   {
+    "o": "Ourives",
+    "x": 0.7,
+    "y": -23.5,
+    "n": 4693,
+    "h": 60
+   },
+   {
+    "o": "Operador de máquinas de beneficiamento de produtos agrícolas",
+    "x": 1.58,
+    "y": -16.7,
+    "n": 90313,
+    "h": 98
+   },
+   {
+    "o": "Trabalhador da suinocultura",
+    "x": 2.02,
+    "y": -7.6,
+    "n": 19607,
+    "h": 72
+   },
+   {
+    "o": "Cobrador de transportes coletivos (exceto trem)",
+    "x": 1.38,
+    "y": -4.5,
+    "n": 35372,
+    "h": 69
+   },
+   {
+    "o": "Agente de defesa ambiental",
+    "x": 0.62,
+    "y": -1.4,
+    "n": 28586,
+    "h": 52
+   },
+   {
+    "o": "Polidor de pedras",
+    "x": 2.06,
+    "y": -10.0,
+    "n": 8233,
+    "h": 97
+   },
+   {
+    "o": "Vidraceiro",
+    "x": 2.01,
+    "y": -4.7,
+    "n": 23234,
+    "h": 97
+   },
+   {
+    "o": "Chefe de serviço de transporte rodoviário (passageiros e cargas)",
+    "x": 0.98,
+    "y": -17.3,
+    "n": 15419,
+    "h": 86
+   },
+   {
+    "o": "Médico da estratégia de saúde da família",
+    "x": 1.38,
+    "y": -1.4,
+    "n": 6043,
+    "h": 42
+   },
+   {
+    "o": "Passadeira de peças confeccionadas",
+    "x": 0.6,
+    "y": -7.4,
+    "n": 6034,
+    "h": 8
+   },
+   {
+    "o": "Montador de equipamentos eletroeletrônicos (aparelhos eletrodomésticos)",
+    "x": 1.65,
+    "y": -11.1,
+    "n": 8824,
+    "h": 58
+   },
+   {
+    "o": "Operador de motosserra",
+    "x": 3.18,
+    "y": -0.1,
+    "n": 14395,
+    "h": 99
+   },
+   {
+    "o": "Operador de motoniveladora",
+    "x": 0.86,
+    "y": -12.7,
+    "n": 14612,
+    "h": 99
+   },
+   {
+    "o": "Agente fiscal de qualidade",
+    "x": 0.76,
+    "y": -19.1,
+    "n": 8602,
+    "h": 61
+   },
+   {
+    "o": "Pesquisador em ciências agronômicas",
+    "x": 0.61,
+    "y": -6.0,
+    "n": 4202,
+    "h": 63
+   },
+   {
+    "o": "Técnico em hemoterapia",
+    "x": 2.56,
+    "y": -7.1,
+    "n": 3309,
+    "h": 17
+   },
+   {
+    "o": "Topógrafo",
+    "x": 0.52,
+    "y": -11.0,
+    "n": 18870,
+    "h": 97
+   },
+   {
+    "o": "Instrutor de aprendizagem e treinamento comercial",
+    "x": 1.15,
+    "y": -5.8,
+    "n": 13858,
+    "h": 43
+   },
+   {
+    "o": "Administrador de edifícios",
+    "x": 0.68,
+    "y": -9.1,
+    "n": 9306,
+    "h": 71
+   },
+   {
+    "o": "Cortador de calçados, a  máquina (exceto solas e palmilhas)",
+    "x": 1.05,
+    "y": -13.2,
+    "n": 11716,
+    "h": 68
+   },
+   {
+    "o": "Professores de cursos livres",
+    "x": 0.31,
+    "y": -2.6,
+    "n": 21266,
+    "h": 37
+   },
+   {
+    "o": "Auxiliar de laboratório de análises físico-químicas",
+    "x": 1.28,
+    "y": -13.3,
+    "n": 17073,
+    "h": 50
+   },
+   {
+    "o": "Embalador, a mão",
+    "x": 1.2,
+    "y": -3.7,
+    "n": 157364,
+    "h": 57
+   },
+   {
+    "o": "Desenhista projetista mecânico",
+    "x": 0.5,
+    "y": -13.7,
+    "n": 14600,
+    "h": 90
+   },
+   {
+    "o": "Encarregado de costura na confecção do vestuário",
+    "x": 0.78,
+    "y": -9.6,
+    "n": 10490,
+    "h": 25
+   },
+   {
+    "o": "Empregado  doméstico  nos serviços gerais",
+    "x": 0.49,
+    "y": -6.3,
+    "n": 21210,
+    "h": 43
+   },
+   {
+    "o": "Professor da  educação de jovens e adultos do ensino fundamental (primeira a quarta série)",
+    "x": 0.35,
+    "y": -5.8,
+    "n": 321003,
+    "h": 22
+   },
+   {
+    "o": "Juiz do trabalho",
+    "x": 0.03,
+    "y": 0.8,
+    "n": 3571,
+    "h": 50
+   },
+   {
+    "o": "Recebedor de apostas (loteria)",
+    "x": 0.17,
+    "y": -2.3,
+    "n": 17505,
+    "h": 12
+   },
+   {
+    "o": "Garagista",
+    "x": 0.88,
+    "y": -6.4,
+    "n": 47235,
+    "h": 91
+   },
+   {
+    "o": "Professor de língua portuguesa do ensino fundamental",
+    "x": 0.21,
+    "y": -2.4,
+    "n": 36327,
+    "h": 21
+   },
+   {
+    "o": "Técnico de contabilidade",
+    "x": 0.39,
+    "y": -9.6,
+    "n": 16793,
+    "h": 46
+   },
+   {
+    "o": "Barman",
+    "x": 0.75,
+    "y": -6.3,
+    "n": 28584,
+    "h": 74
+   },
+   {
+    "o": "Confeccionador de pneumáticos",
+    "x": 3.76,
+    "y": -19.2,
+    "n": 11365,
+    "h": 94
+   },
+   {
+    "o": "Técnico em farmácia",
+    "x": 2.0,
+    "y": -6.2,
+    "n": 12750,
+    "h": 25
+   },
+   {
+    "o": "Professor de educação física no ensino superior",
+    "x": 0.37,
+    "y": 1.8,
+    "n": 5789,
+    "h": 63
+   },
+   {
+    "o": "Operador de telemarketing ativo e receptivo",
+    "x": 0.46,
+    "y": -1.5,
+    "n": 257120,
+    "h": 29
+   },
+   {
+    "o": "Técnico em administração",
+    "x": 0.38,
+    "y": -12.8,
+    "n": 49660,
+    "h": 42
+   },
+   {
+    "o": "Salsicheiro (fabricação de lingüiça, salsicha e produtos similares)",
+    "x": 3.54,
+    "y": -8.3,
+    "n": 8542,
+    "h": 59
+   },
+   {
+    "o": "Conservador de via permanente (trilhos)",
+    "x": 1.19,
+    "y": 1.9,
+    "n": 5879,
+    "h": 98
+   },
+   {
+    "o": "Técnico em manutenção de equipamentos e instrumentos odonto-médico-hospitalares",
+    "x": 1.56,
+    "y": -7.0,
+    "n": 7001,
+    "h": 75
+   },
+   {
+    "o": "Copeiro de hospital",
+    "x": 4.41,
+    "y": -2.6,
+    "n": 29682,
+    "h": 5
+   },
+   {
+    "o": "Encanador",
+    "x": 1.89,
+    "y": -9.1,
+    "n": 71967,
+    "h": 99
+   },
+   {
+    "o": "Supervisor de vendas de serviços",
+    "x": 0.5,
+    "y": -14.4,
+    "n": 16263,
+    "h": 50
+   },
+   {
+    "o": "Subtenente da policia militar",
+    "x": 0.0,
+    "y": 1.9,
+    "n": 14292,
+    "h": 89
+   },
+   {
+    "o": "Gerente de vendas",
+    "x": 0.19,
+    "y": -28.9,
+    "n": 109580,
+    "h": 57
+   },
+   {
+    "o": "Vendedor pracista",
+    "x": 0.48,
+    "y": -21.0,
+    "n": 38654,
+    "h": 71
+   },
+   {
+    "o": "Montador de equipamentos elétricos",
+    "x": 1.31,
+    "y": -18.5,
+    "n": 22228,
+    "h": 58
+   },
+   {
+    "o": "Auxiliar de corte (preparação da confecção de roupas)",
+    "x": 0.75,
+    "y": -5.1,
+    "n": 15802,
+    "h": 45
+   },
+   {
+    "o": "Preparador de tintas",
+    "x": 1.53,
+    "y": -13.1,
+    "n": 7534,
+    "h": 91
+   },
+   {
+    "o": "Administrador de redes",
+    "x": 0.35,
+    "y": -14.9,
+    "n": 6420,
+    "h": 88
+   },
+   {
+    "o": "Operador de transporte multimodal",
+    "x": 1.1,
+    "y": -9.6,
+    "n": 14948,
+    "h": 75
+   },
+   {
+    "o": "Lustrador de peças de madeira",
+    "x": 1.4,
+    "y": -9.1,
+    "n": 3171,
+    "h": 71
+   },
+   {
+    "o": "Gerente de riscos",
+    "x": 0.3,
+    "y": -8.8,
+    "n": 6021,
+    "h": 55
+   },
+   {
+    "o": "Redator de publicidade",
+    "x": 0.17,
+    "y": -2.6,
+    "n": 9745,
+    "h": 38
+   },
+   {
+    "o": "Pintor de veículos (reparação)",
+    "x": 1.32,
+    "y": -10.1,
+    "n": 12973,
+    "h": 98
+   },
+   {
+    "o": "Programador de máquinas - ferramenta com comando numérico",
+    "x": 1.51,
+    "y": -21.8,
+    "n": 6199,
+    "h": 95
+   },
+   {
+    "o": "Inspetor de serviços de transportes rodoviários (passageiros e cargas)",
+    "x": 1.2,
+    "y": -19.4,
+    "n": 11207,
+    "h": 85
+   },
+   {
+    "o": "Limpador de vidros",
+    "x": 1.21,
+    "y": -5.7,
+    "n": 5974,
+    "h": 70
+   },
+   {
+    "o": "Engenheiro químico (petróleo e borracha)",
+    "x": 0.18,
+    "y": -17.1,
+    "n": 3435,
+    "h": 82
+   },
+   {
+    "o": "Técnico em instalação de equipamentos de áudio",
+    "x": 1.13,
+    "y": -15.6,
+    "n": 4778,
+    "h": 94
+   },
+   {
+    "o": "Inspetor de risco",
+    "x": 0.77,
+    "y": -2.2,
+    "n": 5871,
+    "h": 86
+   },
+   {
+    "o": "Mecânico de manutenção de aeronaves, em geral",
+    "x": 1.39,
+    "y": -26.1,
+    "n": 7137,
+    "h": 96
+   },
+   {
+    "o": "Engenheiro químico",
+    "x": 0.45,
+    "y": -18.2,
+    "n": 4363,
+    "h": 60
+   },
+   {
+    "o": "Teleoperador",
+    "x": 1.06,
+    "y": -2.2,
+    "n": 26131,
+    "h": 36
+   },
+   {
+    "o": "Bibliotecário",
+    "x": 0.4,
+    "y": -9.6,
+    "n": 11590,
+    "h": 20
+   },
+   {
+    "o": "Técnico em instrumentação",
+    "x": 0.75,
+    "y": -19.7,
+    "n": 9552,
+    "h": 95
+   },
+   {
+    "o": "Técnico de laboratório industrial",
+    "x": 1.6,
+    "y": -16.5,
+    "n": 25466,
+    "h": 54
+   },
+   {
+    "o": "Trabalhador da cultura de milho e sorgo",
+    "x": 0.67,
+    "y": -15.4,
+    "n": 3378,
+    "h": 71
+   },
+   {
+    "o": "Escrivão de polícia",
+    "x": 0.0,
+    "y": -4.6,
+    "n": 24101,
+    "h": 57
+   },
+   {
+    "o": "Projetista de móveis",
+    "x": 0.21,
+    "y": -10.6,
+    "n": 8376,
+    "h": 42
+   },
+   {
+    "o": "Montador de veículos (reparação)",
+    "x": 1.34,
+    "y": -6.2,
+    "n": 8642,
+    "h": 98
+   },
+   {
+    "o": "Trabalhador de fabricação de tintas",
+    "x": 2.06,
+    "y": -17.7,
+    "n": 4431,
+    "h": 94
+   },
+   {
+    "o": "Carregador (aeronaves)",
+    "x": 3.17,
+    "y": -10.0,
+    "n": 11870,
+    "h": 95
+   },
+   {
+    "o": "Polidor de metais",
+    "x": 2.14,
+    "y": -11.3,
+    "n": 12391,
+    "h": 94
+   },
+   {
+    "o": "Subtenente bombeiro militar",
+    "x": 0.0,
+    "y": -4.7,
+    "n": 3829,
+    "h": 91
+   },
+   {
+    "o": "Operador de máquina de fabricar papel e papelão",
+    "x": 3.91,
+    "y": -37.3,
+    "n": 9955,
+    "h": 88
+   },
+   {
+    "o": "Professor de desenho técnico",
+    "x": 0.02,
+    "y": -9.5,
+    "n": 5115,
+    "h": 45
+   },
+   {
+    "o": "Passador de roupas, à mão",
+    "x": 0.57,
+    "y": -7.9,
+    "n": 3248,
+    "h": 24
+   },
+   {
+    "o": "Lubrificador industrial",
+    "x": 2.24,
+    "y": -15.6,
+    "n": 7944,
+    "h": 96
+   },
+   {
+    "o": "Secretário  bilíngüe",
+    "x": 0.41,
+    "y": 4.1,
+    "n": 3838,
+    "h": 18
+   },
+   {
+    "o": "Advogado (áreas especiais)",
+    "x": 0.0,
+    "y": 1.3,
+    "n": 3377,
+    "h": 56
+   },
+   {
+    "o": "Limpador de piscinas",
+    "x": 1.7,
+    "y": -12.8,
+    "n": 4843,
+    "h": 96
+   },
+   {
+    "o": "Operador de colheitadeira",
+    "x": 1.4,
+    "y": -11.6,
+    "n": 15759,
+    "h": 97
+   },
+   {
+    "o": "Mestre de pintura (tratamento de superfícies)",
+    "x": 0.85,
+    "y": -20.4,
+    "n": 3285,
+    "h": 95
+   },
+   {
+    "o": "Montador de equipamentos eletrônicos (estação de rádio, tv e equipamentos de radar)",
+    "x": 2.34,
+    "y": -9.8,
+    "n": 3449,
+    "h": 96
+   },
+   {
+    "o": "Entrevistador censitário e de pesquisas amostrais",
+    "x": 1.47,
+    "y": -4.6,
+    "n": 6202,
+    "h": 49
+   },
+   {
+    "o": "Operador de acabamento de peças fundidas",
+    "x": 4.99,
+    "y": -18.6,
+    "n": 8998,
+    "h": 87
+   },
+   {
+    "o": "Operador polivalente da indústria têxtil",
+    "x": 2.73,
+    "y": -13.5,
+    "n": 34708,
+    "h": 57
+   },
+   {
+    "o": "Controlador de serviços de máquinas e veículos",
+    "x": 1.11,
+    "y": -17.6,
+    "n": 7132,
+    "h": 82
+   },
+   {
+    "o": "Supervisor de produção da indústria alimentícia",
+    "x": 1.43,
+    "y": -24.8,
+    "n": 27796,
+    "h": 70
+   },
+   {
+    "o": "Auxiliar de logística",
+    "x": 1.18,
+    "y": -6.9,
+    "n": 346666,
+    "h": 60
+   },
+   {
+    "o": "Operador de processo (química, petroquímica e afins)",
+    "x": 1.98,
+    "y": -23.3,
+    "n": 4685,
+    "h": 89
+   },
+   {
+    "o": "Trabalhador volante da agricultura",
+    "x": 1.31,
+    "y": -11.0,
+    "n": 157857,
+    "h": 83
+   },
+   {
+    "o": "Agente de saúde pública",
+    "x": 0.96,
+    "y": -15.6,
+    "n": 79524,
+    "h": 44
+   },
+   {
+    "o": "Impressor (serigrafia)",
+    "x": 1.26,
+    "y": -15.9,
+    "n": 14439,
+    "h": 80
+   },
+   {
+    "o": "Eletricista de instalações",
+    "x": 1.66,
+    "y": -12.3,
+    "n": 116735,
+    "h": 98
+   },
+   {
+    "o": "Dirigente do serviço público municipal",
+    "x": 0.26,
+    "y": -9.2,
+    "n": 345714,
+    "h": 49
+   },
+   {
+    "o": "Frentista",
+    "x": 0.71,
+    "y": -3.5,
+    "n": 301126,
+    "h": 83
+   },
+   {
+    "o": "Afretador",
+    "x": 0.69,
+    "y": -5.4,
+    "n": 6590,
+    "h": 77
+   },
+   {
+    "o": "Leiturista",
+    "x": 2.49,
+    "y": -10.4,
+    "n": 32046,
+    "h": 89
+   },
+   {
+    "o": "Trabalhador no cultivo de espécies frutíferas rasteiras",
+    "x": 1.13,
+    "y": -6.2,
+    "n": 9242,
+    "h": 82
+   },
+   {
+    "o": "Fiscal de transportes coletivos (exceto trem)",
+    "x": 1.1,
+    "y": -17.8,
+    "n": 18311,
+    "h": 77
+   },
+   {
+    "o": "Assistente social",
+    "x": 0.68,
+    "y": -7.0,
+    "n": 107232,
+    "h": 9
+   },
+   {
+    "o": "Auditor-fiscal da receita federal",
+    "x": 0.0,
+    "y": -2.6,
+    "n": 7750,
+    "h": 76
+   },
+   {
+    "o": "Professor de nível médio na educação infantil",
+    "x": 1.02,
+    "y": -4.1,
+    "n": 232871,
+    "h": 5
+   },
+   {
+    "o": "Costureira de peças sob encomenda",
+    "x": 0.6,
+    "y": -4.7,
+    "n": 21990,
+    "h": 13
+   },
+   {
+    "o": "Gerente de departamento pessoal",
+    "x": 0.25,
+    "y": -6.8,
+    "n": 18973,
+    "h": 30
+   },
+   {
+    "o": "Conferente-expedidor de roupas (lavanderias)",
+    "x": 1.5,
+    "y": -5.5,
+    "n": 3812,
+    "h": 52
+   },
+   {
+    "o": "Galvanizador",
+    "x": 3.13,
+    "y": -24.5,
+    "n": 6136,
+    "h": 92
+   },
+   {
+    "o": "Professor de nível superior do ensino fundamental (primeira a quarta série)",
+    "x": 0.41,
+    "y": -1.3,
+    "n": 648947,
+    "h": 17
+   },
+   {
+    "o": "Engenheiro mecânico automotivo",
+    "x": 0.27,
+    "y": -4.4,
+    "n": 3578,
+    "h": 84
+   },
+   {
+    "o": "Viveirista florestal",
+    "x": 1.9,
+    "y": -11.9,
+    "n": 3960,
+    "h": 52
+   },
+   {
+    "o": "Auxiliar de cartório",
+    "x": 0.24,
+    "y": -9.5,
+    "n": 30883,
+    "h": 35
+   },
+   {
+    "o": "Coordenador pedagógico",
+    "x": 0.27,
+    "y": -6.0,
+    "n": 96039,
+    "h": 18
+   },
+   {
+    "o": "Trabalhador na cultura de dendê",
+    "x": 1.33,
+    "y": 0.8,
+    "n": 7091,
+    "h": 89
+   },
+   {
+    "o": "Trabalhador polivalente da confecção de calçados",
+    "x": 1.3,
+    "y": -4.4,
+    "n": 80039,
+    "h": 42
+   },
+   {
+    "o": "Analista de suporte computacional",
+    "x": 0.36,
+    "y": -4.4,
+    "n": 103964,
+    "h": 78
+   },
+   {
+    "o": "Engenheiro de segurança do trabalho",
+    "x": 0.37,
+    "y": -3.6,
+    "n": 12117,
+    "h": 68
+   },
+   {
+    "o": "Montador de máquinas, motores e acessórios (montagem em série)",
+    "x": 2.88,
+    "y": -18.0,
+    "n": 37711,
+    "h": 73
+   },
+   {
+    "o": "Operador de caminhão (minas e pedreiras)",
+    "x": 0.9,
+    "y": -9.8,
+    "n": 10157,
+    "h": 92
+   },
+   {
+    "o": "Operador de ponte rolante",
+    "x": 5.4,
+    "y": -15.1,
+    "n": 14061,
+    "h": 95
+   },
+   {
+    "o": "Preparador de estruturas metálicas",
+    "x": 2.71,
+    "y": -4.5,
+    "n": 22070,
+    "h": 95
+   },
+   {
+    "o": "Operador de moenda na fabricação de açúcar",
+    "x": 4.41,
+    "y": -21.6,
+    "n": 3528,
+    "h": 95
+   },
+   {
+    "o": "Técnico em atendimento e vendas",
+    "x": 0.45,
+    "y": -19.4,
+    "n": 34892,
+    "h": 39
+   },
+   {
+    "o": "Serrador de madeira (serra circular múltipla)",
+    "x": 3.47,
+    "y": -6.6,
+    "n": 3345,
+    "h": 97
+   },
+   {
+    "o": "Bordador, à máquina",
+    "x": 0.89,
+    "y": -6.9,
+    "n": 8257,
+    "h": 50
+   },
+   {
+    "o": "Arquivista",
+    "x": 0.51,
+    "y": 2.7,
+    "n": 4378,
+    "h": 42
+   },
+   {
+    "o": "Forjador",
+    "x": 2.89,
+    "y": -22.5,
+    "n": 4072,
+    "h": 97
+   },
+   {
+    "o": "Técnico em óptica e optometria",
+    "x": 0.5,
+    "y": -1.5,
+    "n": 3187,
+    "h": 54
+   },
+   {
+    "o": "Atleta profissional de futebol",
+    "x": 1.45,
+    "y": 10.5,
+    "n": 7859,
+    "h": 94
+   },
+   {
+    "o": "Organizador de evento",
+    "x": 0.8,
+    "y": 4.0,
+    "n": 8426,
+    "h": 41
+   },
+   {
+    "o": "Trabalhador da pecuária (bovinos leite)",
+    "x": 1.43,
+    "y": -5.5,
+    "n": 19118,
+    "h": 84
+   },
+   {
+    "o": "Preparador de solas e palmilhas",
+    "x": 1.0,
+    "y": -10.4,
+    "n": 4780,
+    "h": 63
+   },
+   {
+    "o": "Trabalhador da elaboração de pré-fabricados (concreto armado)",
+    "x": 3.5,
+    "y": -10.8,
+    "n": 11169,
+    "h": 97
+   },
+   {
+    "o": "Mestre de produção química",
+    "x": 1.19,
+    "y": -22.5,
+    "n": 6067,
+    "h": 86
+   },
+   {
+    "o": "Editor",
+    "x": 0.36,
+    "y": 4.1,
+    "n": 6980,
+    "h": 53
+   },
+   {
+    "o": "Telefonista",
+    "x": 0.69,
+    "y": -6.8,
+    "n": 30681,
+    "h": 12
+   },
+   {
+    "o": "Assentador de mármores, granitos e outras pedras decorativas",
+    "x": 1.69,
+    "y": -9.4,
+    "n": 16727,
+    "h": 99
+   },
+   {
+    "o": "Mecânico de veículos automotores a diesel (exceto tratores)",
+    "x": 3.18,
+    "y": -18.1,
+    "n": 57900,
+    "h": 99
+   },
+   {
+    "o": "Diretor de mídia (publicidade)",
+    "x": 0.15,
+    "y": -9.9,
+    "n": 5652,
+    "h": 43
+   },
+   {
+    "o": "Montador de máquinas agrícolas",
+    "x": 5.65,
+    "y": -13.0,
+    "n": 5297,
+    "h": 89
+   },
+   {
+    "o": "Operador de ceifadeira na conservação de vias permanentes",
+    "x": 2.95,
+    "y": 10.4,
+    "n": 4489,
+    "h": 97
+   },
+   {
+    "o": "Analista de gestão de estoque",
+    "x": 0.96,
+    "y": -0.7,
+    "n": 6680,
+    "h": 72
+   },
+   {
+    "o": "Técnico de transmissão (telecomunicações)",
+    "x": 1.85,
+    "y": 10.3,
+    "n": 4811,
+    "h": 97
+   },
+   {
+    "o": "Gerente de produtos bancários",
+    "x": 0.48,
+    "y": -23.3,
+    "n": 6216,
+    "h": 57
+   },
+   {
+    "o": "Supervisor  (indústria de calçados e artefatos de couro)",
+    "x": 0.82,
+    "y": -15.8,
+    "n": 7873,
+    "h": 66
+   },
+   {
+    "o": "Propagandista de produtos famacêuticos",
+    "x": 0.3,
+    "y": -11.9,
+    "n": 17769,
+    "h": 49
+   },
+   {
+    "o": "Atendente de enfermagem",
+    "x": 1.16,
+    "y": 9.5,
+    "n": 29632,
+    "h": 64
+   },
+   {
+    "o": "Promotor de vendas",
+    "x": 1.36,
+    "y": -4.1,
+    "n": 220422,
+    "h": 50
+   },
+   {
+    "o": "Operador de máquinas fixas, em geral",
+    "x": 3.25,
+    "y": -17.5,
+    "n": 198034,
+    "h": 79
+   },
+   {
+    "o": "Supervisor administrativo",
+    "x": 0.48,
+    "y": -13.9,
+    "n": 492655,
+    "h": 44
+   },
+   {
+    "o": "Desossador",
+    "x": 5.09,
+    "y": -15.8,
+    "n": 18435,
+    "h": 85
+   },
+   {
+    "o": "Trabalhador de tratamento do leite e fabricação de laticínios e afins",
+    "x": 3.17,
+    "y": -13.4,
+    "n": 24204,
+    "h": 71
+   },
+   {
+    "o": "Auxiliar de pessoal",
+    "x": 0.46,
+    "y": -4.6,
+    "n": 83871,
+    "h": 24
+   },
+   {
+    "o": "Analista de negócios",
+    "x": 0.25,
+    "y": -14.4,
+    "n": 155955,
+    "h": 44
+   },
+   {
+    "o": "Agente de segurança",
+    "x": 0.85,
+    "y": -14.0,
+    "n": 35716,
+    "h": 86
+   },
+   {
+    "o": "Professor de ensino superior na área de prática de ensino",
+    "x": 0.29,
+    "y": 0.8,
+    "n": 59511,
+    "h": 44
+   },
+   {
+    "o": "Motorista de ônibus urbano",
+    "x": 1.12,
+    "y": -13.2,
+    "n": 208707,
+    "h": 97
+   },
+   {
+    "o": "Agente de higiene e segurança",
+    "x": 1.14,
+    "y": -8.6,
+    "n": 7178,
+    "h": 30
+   },
+   {
+    "o": "Operador de máquina de costura para acabamento",
+    "x": 1.3,
+    "y": -5.7,
+    "n": 14223,
+    "h": 28
+   },
+   {
+    "o": "Supervisor de almoxarifado",
+    "x": 0.68,
+    "y": -12.8,
+    "n": 26684,
+    "h": 84
+   },
+   {
+    "o": "Tecnólogo em secretariado escolar",
+    "x": 0.33,
+    "y": -7.6,
+    "n": 13204,
+    "h": 17
+   },
+   {
+    "o": "Entrevistador social",
+    "x": 0.41,
+    "y": -3.3,
+    "n": 3394,
+    "h": 25
+   },
+   {
+    "o": "Gerente de grandes contas (corporate)",
+    "x": 0.04,
+    "y": -25.0,
+    "n": 3541,
+    "h": 56
+   },
+   {
+    "o": "Tosador de animais domésticos",
+    "x": 0.63,
+    "y": -5.3,
+    "n": 9625,
+    "h": 36
+   },
+   {
+    "o": "Engenheiro eletricista",
+    "x": 0.3,
+    "y": -8.2,
+    "n": 15963,
+    "h": 89
+   },
+   {
+    "o": "Abatedor",
+    "x": 2.65,
+    "y": -8.2,
+    "n": 39168,
+    "h": 57
+   },
+   {
+    "o": "Estofador de móveis",
+    "x": 1.56,
+    "y": -10.2,
+    "n": 13820,
+    "h": 89
+   },
+   {
+    "o": "Professor de filosofia no ensino médio",
+    "x": 0.14,
+    "y": -6.9,
+    "n": 3761,
+    "h": 64
+   },
+   {
+    "o": "Gerente de almoxarifado",
+    "x": 0.66,
+    "y": -3.5,
+    "n": 5008,
+    "h": 80
+   },
+   {
+    "o": "Supervisor de controle patrimonial",
+    "x": 0.58,
+    "y": -8.0,
+    "n": 6203,
+    "h": 72
+   },
+   {
+    "o": "Professor leigo no ensino fundamental",
+    "x": 0.34,
+    "y": -8.5,
+    "n": 19869,
+    "h": 14
+   },
+   {
+    "o": "Trabalhador da elaboração de pré-fabricados (fibrocimento sem amianto)",
+    "x": 2.48,
+    "y": -11.3,
+    "n": 8143,
+    "h": 96
+   },
+   {
+    "o": "Professor de química no ensino médio",
+    "x": 0.16,
+    "y": -6.0,
+    "n": 7161,
+    "h": 49
+   },
+   {
+    "o": "Trabalhador no cultivo de mudas",
+    "x": 0.44,
+    "y": -4.2,
+    "n": 3743,
+    "h": 58
+   },
+   {
+    "o": "Operador de instalação de extração, processamento, envasamento e distribuição de gases",
+    "x": 2.04,
+    "y": -16.3,
+    "n": 3501,
+    "h": 96
+   },
+   {
+    "o": "Dirigente do serviço público federal",
+    "x": 0.44,
+    "y": 12.6,
+    "n": 49242,
+    "h": 48
+   },
+   {
+    "o": "Operador de máquinas-ferramenta convencionais",
+    "x": 3.67,
+    "y": -22.0,
+    "n": 85833,
+    "h": 88
+   },
+   {
+    "o": "Funileiro de veículos (reparação)",
+    "x": 2.09,
+    "y": -18.8,
+    "n": 17118,
+    "h": 99
+   },
+   {
+    "o": "Professor de língua portuguesa",
+    "x": 0.53,
+    "y": 0.2,
+    "n": 27706,
+    "h": 22
+   },
+   {
+    "o": "Professor prático no ensino profissionalizante",
+    "x": 0.49,
+    "y": 1.7,
+    "n": 4287,
+    "h": 29
+   },
+   {
+    "o": "Barista",
+    "x": 0.71,
+    "y": -5.3,
+    "n": 10248,
+    "h": 33
+   },
+   {
+    "o": "Professor de matemática no ensino médio",
+    "x": 0.14,
+    "y": -2.6,
+    "n": 19389,
+    "h": 47
+   },
+   {
+    "o": "Pintor a pincel e rolo (exceto obras e estruturas metálicas)",
+    "x": 1.22,
+    "y": -15.9,
+    "n": 5234,
+    "h": 96
+   },
+   {
+    "o": "Gerente de pesquisa e desenvolvimento (p&d)",
+    "x": 0.15,
+    "y": -14.0,
+    "n": 20380,
+    "h": 63
+   },
+   {
+    "o": "Estatístico",
+    "x": 0.22,
+    "y": -11.1,
+    "n": 3975,
+    "h": 61
+   },
+   {
+    "o": "Operador de centro de controle (ferrovia e metrô)",
+    "x": 0.73,
+    "y": -26.1,
+    "n": 3440,
+    "h": 71
+   },
+   {
+    "o": "Pesquisador em ciências da computação e informática",
+    "x": 0.12,
+    "y": -8.5,
+    "n": 3069,
+    "h": 74
+   },
+   {
+    "o": "Operador de máquina misturadeira (tratamentos químicos e afins)",
+    "x": 2.75,
+    "y": -10.8,
+    "n": 7674,
+    "h": 87
+   },
+   {
+    "o": "Professor de alunos com deficiência mental",
+    "x": 0.74,
+    "y": -5.2,
+    "n": 10418,
+    "h": 8
+   },
+   {
+    "o": "Piloto de aeronaves",
+    "x": 0.24,
+    "y": 3.4,
+    "n": 8742,
+    "h": 97
+   },
+   {
+    "o": "Mecânico de manutenção de motocicletas",
+    "x": 1.13,
+    "y": -1.5,
+    "n": 11974,
+    "h": 99
+   },
+   {
+    "o": "Concierge",
+    "x": 1.23,
+    "y": -8.4,
+    "n": 3235,
+    "h": 26
+   },
+   {
+    "o": "Oxicortador a mão e a  máquina",
+    "x": 5.09,
+    "y": -22.8,
+    "n": 3884,
+    "h": 96
+   },
+   {
+    "o": "Diretor de instituição educacional pública",
+    "x": 0.14,
+    "y": -4.6,
+    "n": 28023,
+    "h": 19
+   },
+   {
+    "o": "Desenhista industrial de produto (designer de produto)",
+    "x": 0.19,
+    "y": 2.0,
+    "n": 3598,
+    "h": 60
+   },
+   {
+    "o": "Técnico de enfermagem de terapia intensiva",
+    "x": 3.3,
+    "y": -2.1,
+    "n": 7687,
+    "h": 16
+   },
+   {
+    "o": "Lubrificador de veículos automotores (exceto embarcações)",
+    "x": 1.67,
+    "y": -11.9,
+    "n": 20029,
+    "h": 98
+   },
+   {
+    "o": "Almoxarife",
+    "x": 1.43,
+    "y": -10.7,
+    "n": 397587,
+    "h": 82
+   },
+   {
+    "o": "Marceneiro",
+    "x": 2.44,
+    "y": -16.7,
+    "n": 72169,
+    "h": 97
+   },
+   {
+    "o": "Documentalista",
+    "x": 0.43,
+    "y": 0.7,
+    "n": 6853,
+    "h": 37
+   },
+   {
+    "o": "Atendente comercial (agência postal)",
+    "x": 1.5,
+    "y": -14.5,
+    "n": 40994,
+    "h": 39
+   },
+   {
+    "o": "Médico do trabalho",
+    "x": 0.38,
+    "y": 9.5,
+    "n": 6806,
+    "h": 56
+   },
+   {
+    "o": "Carregador (armazém)",
+    "x": 1.91,
+    "y": -13.3,
+    "n": 84582,
+    "h": 91
+   },
+   {
+    "o": "Diretor administrativo",
+    "x": 0.12,
+    "y": -15.6,
+    "n": 47937,
+    "h": 52
+   },
+   {
+    "o": "Técnico de enfermagem",
+    "x": 3.71,
+    "y": -3.5,
+    "n": 959655,
+    "h": 15
+   },
+   {
+    "o": "Padeiro",
+    "x": 1.25,
+    "y": -9.1,
+    "n": 99208,
+    "h": 80
+   },
+   {
+    "o": "Mecânico de manutenção de automóveis e veículos similares",
+    "x": 1.68,
+    "y": -8.7,
+    "n": 201011,
+    "h": 99
+   },
+   {
+    "o": "Supervisor de logística",
+    "x": 0.61,
+    "y": -6.0,
+    "n": 40736,
+    "h": 79
+   },
+   {
+    "o": "Escriturário de banco",
+    "x": 0.59,
+    "y": -7.0,
+    "n": 192911,
+    "h": 56
+   },
+   {
+    "o": "Técnico eletrônico",
+    "x": 1.12,
+    "y": -16.9,
+    "n": 45902,
+    "h": 92
+   },
+   {
+    "o": "Locutor de mídias audiovisuais",
+    "x": 0.24,
+    "y": 8.6,
+    "n": 9431,
+    "h": 79
+   },
+   {
+    "o": "Oleiro (fabricação de tijolos)",
+    "x": 1.24,
+    "y": -14.2,
+    "n": 24432,
+    "h": 96
+   },
+   {
+    "o": "Operador de câmaras frias",
+    "x": 3.57,
+    "y": -7.0,
+    "n": 11817,
+    "h": 94
+   },
+   {
+    "o": "Armador de estrutura de concreto armado",
+    "x": 1.37,
+    "y": 1.8,
+    "n": 40117,
+    "h": 99
+   },
+   {
+    "o": "Diretor de planejamento estratégico",
+    "x": 0.12,
+    "y": -23.9,
+    "n": 5059,
+    "h": 56
+   },
+   {
+    "o": "Supervisor da manutenção e reparação de veículos pesados",
+    "x": 1.19,
+    "y": -18.8,
+    "n": 7255,
+    "h": 96
+   },
+   {
+    "o": "Nutricionista",
+    "x": 0.7,
+    "y": 1.3,
+    "n": 62810,
+    "h": 8
+   },
+   {
+    "o": "Analista de crédito (instituições financeiras)",
+    "x": 0.27,
+    "y": -24.9,
+    "n": 17683,
+    "h": 36
+   },
+   {
+    "o": "Sepultador",
+    "x": 1.57,
+    "y": 0.3,
+    "n": 8673,
+    "h": 96
+   },
+   {
+    "o": "Operador de negócios",
+    "x": 0.49,
+    "y": -24.1,
+    "n": 18530,
+    "h": 34
+   },
+   {
+    "o": "Operador de acabamento (indústria gráfica)",
+    "x": 2.19,
+    "y": -22.6,
+    "n": 20586,
+    "h": 62
+   },
+   {
+    "o": "Sargento bombeiro militar",
+    "x": 0.0,
+    "y": -2.7,
+    "n": 9046,
+    "h": 89
+   },
+   {
+    "o": "Operador de utilidade (produção e distribuição de vapor, gás, óleo, combustível, energia, oxigênio)",
+    "x": 2.42,
+    "y": -21.6,
+    "n": 7766,
+    "h": 95
+   },
+   {
+    "o": "Técnico de saneamento",
+    "x": 1.37,
+    "y": 4.0,
+    "n": 7821,
+    "h": 70
+   },
+   {
+    "o": "Auxiliar de judiciário",
+    "x": 0.28,
+    "y": -5.2,
+    "n": 36689,
+    "h": 44
+   },
+   {
+    "o": "Economista financeiro",
+    "x": 0.24,
+    "y": -21.7,
+    "n": 26325,
+    "h": 34
+   },
+   {
+    "o": "Cuidador em saúde",
+    "x": 1.42,
+    "y": -8.8,
+    "n": 34118,
+    "h": 14
+   },
+   {
+    "o": "Técnico em plástico",
+    "x": 1.75,
+    "y": -28.2,
+    "n": 5823,
+    "h": 73
+   },
+   {
+    "o": "Classificador de madeira",
+    "x": 3.06,
+    "y": -5.1,
+    "n": 8094,
+    "h": 79
+   },
+   {
+    "o": "Gerente de produção e operações",
+    "x": 0.73,
+    "y": -20.0,
+    "n": 85657,
+    "h": 79
+   },
+   {
+    "o": "Mecânico de manutenção e instalação de aparelhos de climatização e  refrigeração",
+    "x": 1.64,
+    "y": -8.6,
+    "n": 32541,
+    "h": 99
+   },
+   {
+    "o": "Técnico em mecatrônica - automação da manufatura",
+    "x": 1.14,
+    "y": -17.0,
+    "n": 9775,
+    "h": 93
+   },
+   {
+    "o": "Gerente de loja e supermercado",
+    "x": 0.49,
+    "y": -11.6,
+    "n": 167925,
+    "h": 49
+   },
+   {
+    "o": "Operador de inspeção de qualidade",
+    "x": 1.6,
+    "y": -10.4,
+    "n": 41704,
+    "h": 48
+   },
+   {
+    "o": "Gerente comercial",
+    "x": 0.3,
+    "y": -16.4,
+    "n": 153142,
+    "h": 56
+   },
+   {
+    "o": "Operador de máquinas operatrizes",
+    "x": 3.16,
+    "y": -20.6,
+    "n": 42241,
+    "h": 83
+   },
+   {
+    "o": "Balanceiro",
+    "x": 1.67,
+    "y": -12.6,
+    "n": 24396,
+    "h": 70
+   },
+   {
+    "o": "Montador de calçados",
+    "x": 0.89,
+    "y": -6.6,
+    "n": 8572,
+    "h": 69
+   },
+   {
+    "o": "Carteiro",
+    "x": 10.99,
+    "y": -12.4,
+    "n": 43059,
+    "h": 90
+   },
+   {
+    "o": "Professor de ciências biológicas do ensino superior",
+    "x": 0.18,
+    "y": -5.9,
+    "n": 3271,
+    "h": 37
+   },
+   {
+    "o": "Armador de estrutura de concreto",
+    "x": 1.61,
+    "y": -13.3,
+    "n": 23610,
+    "h": 100
+   },
+   {
+    "o": "Operador de usinagem convencional por abrasão",
+    "x": 2.6,
+    "y": -28.9,
+    "n": 5549,
+    "h": 95
+   },
+   {
+    "o": "Gerente de instituição educacional da área privada",
+    "x": 0.25,
+    "y": -8.8,
+    "n": 3004,
+    "h": 32
+   },
+   {
+    "o": "Trabalhador do acabamento de artefatos de tecidos e couros",
+    "x": 1.48,
+    "y": -8.4,
+    "n": 3294,
+    "h": 42
+   },
+   {
+    "o": "Engenheiro de controle de qualidade",
+    "x": 0.16,
+    "y": -11.0,
+    "n": 9196,
+    "h": 64
+   },
+   {
+    "o": "Técnico de sistemas audiovisuais",
+    "x": 0.54,
+    "y": -12.4,
+    "n": 3328,
+    "h": 86
+   },
+   {
+    "o": "Técnico de seguros",
+    "x": 0.23,
+    "y": -9.1,
+    "n": 4630,
+    "h": 31
+   },
+   {
+    "o": "Técnico em nutrição e dietética",
+    "x": 1.27,
+    "y": -2.3,
+    "n": 8087,
+    "h": 7
+   },
+   {
+    "o": "Operador de serras no desdobramento de madeira",
+    "x": 3.87,
+    "y": -15.7,
+    "n": 4491,
+    "h": 93
+   },
+   {
+    "o": "Diretor de serviços de saúde",
+    "x": 0.12,
+    "y": -17.7,
+    "n": 9304,
+    "h": 34
+   },
+   {
+    "o": "Gerente de restaurante",
+    "x": 0.55,
+    "y": -6.6,
+    "n": 52584,
+    "h": 46
+   },
+   {
+    "o": "Rebarbador de metal",
+    "x": 8.71,
+    "y": -17.6,
+    "n": 9657,
+    "h": 92
+   },
+   {
+    "o": "Supervisor de manutenção eletromecânica industrial, comercial e predial",
+    "x": 1.13,
+    "y": -19.1,
+    "n": 11539,
+    "h": 95
+   },
+   {
+    "o": "Músico intérprete instrumentista",
+    "x": 0.26,
+    "y": 0.1,
+    "n": 4483,
+    "h": 81
+   },
+   {
+    "o": "Supervisor de manutenção elétrica de alta tensão industrial",
+    "x": 1.04,
+    "y": -9.8,
+    "n": 12869,
+    "h": 99
+   },
+   {
+    "o": "Enfermeiro da estratégia de saúde da família",
+    "x": 1.8,
+    "y": 0.1,
+    "n": 8989,
+    "h": 12
+   },
+   {
+    "o": "Inspetor de sinistros",
+    "x": 0.78,
+    "y": -14.9,
+    "n": 3442,
+    "h": 82
+   },
+   {
+    "o": "Técnico de manutenção eletrônica (circuitos de máquinas com comando numérico)",
+    "x": 1.21,
+    "y": -6.6,
+    "n": 4802,
+    "h": 95
+   },
+   {
+    "o": "Agente de viagem",
+    "x": 0.24,
+    "y": -3.3,
+    "n": 12815,
+    "h": 30
+   },
+   {
+    "o": "Agente de proteção de aviação civil",
+    "x": 0.37,
+    "y": -3.9,
+    "n": 8496,
+    "h": 36
+   },
+   {
+    "o": "Operador de prensa de enfardamento",
+    "x": 2.81,
+    "y": 5.8,
+    "n": 3268,
+    "h": 91
+   },
+   {
+    "o": "Agente funerário",
+    "x": 0.97,
+    "y": -9.2,
+    "n": 17063,
+    "h": 82
+   },
+   {
+    "o": "Impressor de ofsete (plano e rotativo)",
+    "x": 2.27,
+    "y": -25.3,
+    "n": 9763,
+    "h": 96
+   },
+   {
+    "o": "Bombeiro civil",
+    "x": 0.75,
+    "y": -6.6,
+    "n": 30569,
+    "h": 80
+   },
+   {
+    "o": "Mecânico de manutenção de máquinas, em geral",
+    "x": 3.12,
+    "y": -16.6,
+    "n": 199352,
+    "h": 96
+   },
+   {
+    "o": "Pesquisador de engenharia e tecnologia (outras áreas da engenharia)",
+    "x": 0.26,
+    "y": -12.6,
+    "n": 11589,
+    "h": 78
+   },
+   {
+    "o": "Amostrador de minérios",
+    "x": 1.31,
+    "y": -17.4,
+    "n": 4968,
+    "h": 94
+   },
+   {
+    "o": "Operador de incubadora de ovos",
+    "x": 2.34,
+    "y": -13.0,
+    "n": 5017,
+    "h": 58
+   },
+   {
+    "o": "Estoquista",
+    "x": 1.14,
+    "y": -6.5,
+    "n": 179060,
+    "h": 82
+   },
+   {
+    "o": "Operador de máquina de envasar líquidos",
+    "x": 2.54,
+    "y": -22.7,
+    "n": 18325,
+    "h": 82
+   },
+   {
+    "o": "Monitor de sistemas eletrônicos de segurança interno",
+    "x": 0.63,
+    "y": -8.2,
+    "n": 19998,
+    "h": 53
+   },
+   {
+    "o": "Psicólogo clínico",
+    "x": 0.93,
+    "y": -1.6,
+    "n": 60112,
+    "h": 17
+   },
+   {
+    "o": "Professor de administração",
+    "x": 0.13,
+    "y": -3.4,
+    "n": 7574,
+    "h": 49
+   },
+   {
+    "o": "Trabalhador da pecuária (bovinos corte)",
+    "x": 1.87,
+    "y": -17.5,
+    "n": 78971,
+    "h": 95
+   },
+   {
+    "o": "Juiz de direito",
+    "x": 0.0,
+    "y": -0.5,
+    "n": 11749,
+    "h": 60
+   },
+   {
+    "o": "Eletricista de manutenção eletroeletrônica",
+    "x": 2.06,
+    "y": -12.6,
+    "n": 98451,
+    "h": 97
+   },
+   {
+    "o": "Cobrador externo",
+    "x": 1.85,
+    "y": -8.2,
+    "n": 12780,
+    "h": 89
+   },
+   {
+    "o": "Promotor de vendas especializado",
+    "x": 0.68,
+    "y": -15.8,
+    "n": 41249,
+    "h": 49
+   },
+   {
+    "o": "Tesoureiro de banco",
+    "x": 0.2,
+    "y": -16.3,
+    "n": 4575,
+    "h": 32
+   },
+   {
+    "o": "Chefe de cozinha",
+    "x": 1.22,
+    "y": -20.7,
+    "n": 31516,
+    "h": 52
+   },
+   {
+    "o": "Soldado da polícia militar",
+    "x": 0.0,
+    "y": -0.6,
+    "n": 136607,
+    "h": 85
+   },
+   {
+    "o": "Monitor de transporte escolar",
+    "x": 0.56,
+    "y": -11.7,
+    "n": 29216,
+    "h": 16
+   },
+   {
+    "o": "Treinador profissional de futebol",
+    "x": 0.18,
+    "y": 5.0,
+    "n": 3083,
+    "h": 90
+   },
+   {
+    "o": "Professor de língua e literatura brasileira no ensino médio",
+    "x": 0.12,
+    "y": -1.3,
+    "n": 13557,
+    "h": 27
+   },
+   {
+    "o": "Fiscal de atividades urbanas",
+    "x": 0.41,
+    "y": 0.3,
+    "n": 9784,
+    "h": 71
+   },
+   {
+    "o": "Operador de extrusora (química, petroquímica e afins)",
+    "x": 4.52,
+    "y": -22.7,
+    "n": 13765,
+    "h": 96
+   },
+   {
+    "o": "Mecânico de manutenção de máquinas cortadoras de grama, roçadeiras, motosserras e similares",
+    "x": 1.91,
+    "y": -13.9,
+    "n": 11164,
+    "h": 99
+   },
+   {
+    "o": "Desenhista projetista de arquitetura",
+    "x": 0.27,
+    "y": -10.1,
+    "n": 9347,
+    "h": 45
+   },
+   {
+    "o": "Economista",
+    "x": 0.17,
+    "y": -23.2,
+    "n": 7531,
+    "h": 59
+   },
+   {
+    "o": "Comprador",
+    "x": 0.35,
+    "y": -8.2,
+    "n": 94175,
+    "h": 57
+   },
+   {
+    "o": "Gerente de compras",
+    "x": 0.19,
+    "y": -7.7,
+    "n": 17781,
+    "h": 61
+   },
+   {
+    "o": "Comerciante atacadista",
+    "x": 0.35,
+    "y": -9.9,
+    "n": 8587,
+    "h": 51
+   },
+   {
+    "o": "Trabalhador de preparação de pescados (limpeza)",
+    "x": 2.0,
+    "y": -10.3,
+    "n": 9981,
+    "h": 51
+   },
+   {
+    "o": "Auxiliar técnico em laboratório de farmácia",
+    "x": 0.94,
+    "y": -9.3,
+    "n": 12310,
+    "h": 27
+   },
+   {
+    "o": "Chapeador",
+    "x": 1.52,
+    "y": -10.3,
+    "n": 5494,
+    "h": 88
+   },
+   {
+    "o": "Técnico mecânico (calefação, ventilação, refrigeração e climatização)",
+    "x": 1.41,
+    "y": -9.0,
+    "n": 12915,
+    "h": 98
+   },
+   {
+    "o": "Xaropeiro",
+    "x": 2.02,
+    "y": -12.2,
+    "n": 3225,
+    "h": 79
+   },
+   {
+    "o": "Analista de testes de tecnologia da informação",
+    "x": 0.08,
+    "y": -6.7,
+    "n": 11946,
+    "h": 65
+   },
+   {
+    "o": "Motorista de caminhão (rotas regionais e internacionais)",
+    "x": 1.35,
+    "y": -5.3,
+    "n": 1031224,
+    "h": 99
+   },
+   {
+    "o": "Cobrador interno",
+    "x": 0.45,
+    "y": -4.4,
+    "n": 58844,
+    "h": 24
+   },
+   {
+    "o": "Mecânico de manutenção de máquinas têxteis",
+    "x": 3.24,
+    "y": -15.3,
+    "n": 8277,
+    "h": 97
+   },
+   {
+    "o": "Demonstrador de mercadorias",
+    "x": 0.82,
+    "y": -10.4,
+    "n": 17916,
+    "h": 30
+   },
+   {
+    "o": "Laminador de plástico",
+    "x": 3.45,
+    "y": -23.9,
+    "n": 6817,
+    "h": 89
+   },
+   {
+    "o": "Publicitário",
+    "x": 0.15,
+    "y": -0.2,
+    "n": 13294,
+    "h": 39
+   },
+   {
+    "o": "Preparador físico",
+    "x": 0.51,
+    "y": 0.4,
+    "n": 47426,
+    "h": 65
+   },
+   {
+    "o": "Supervisor de ensino",
+    "x": 0.27,
+    "y": -1.1,
+    "n": 34674,
+    "h": 16
+   },
+   {
+    "o": "Operador de máquina copiadora (exceto operador de gráfica rápida)",
+    "x": 0.59,
+    "y": -6.5,
+    "n": 5079,
+    "h": 60
+   },
+   {
+    "o": "Técnico em saúde bucal",
+    "x": 0.88,
+    "y": -6.2,
+    "n": 20048,
+    "h": 8
+   },
+   {
+    "o": "Tecnólogo em radiologia",
+    "x": 0.55,
+    "y": -5.3,
+    "n": 3307,
+    "h": 52
+   },
+   {
+    "o": "Pintor de veículos (fabricação)",
+    "x": 2.08,
+    "y": -6.4,
+    "n": 15139,
+    "h": 92
+   },
+   {
+    "o": "Chefe de bar",
+    "x": 0.89,
+    "y": -13.2,
+    "n": 12178,
+    "h": 51
+   },
+   {
+    "o": "Marinheiro de convés (marítimo e fluviário)",
+    "x": 1.51,
+    "y": -32.0,
+    "n": 10614,
+    "h": 98
+   },
+   {
+    "o": "Sapateiro (calçados sob medida)",
+    "x": 0.78,
+    "y": -7.8,
+    "n": 7320,
+    "h": 56
+   },
+   {
+    "o": "Emissor de passagens",
+    "x": 0.75,
+    "y": 1.0,
+    "n": 7218,
+    "h": 49
+   },
+   {
+    "o": "Procurador do município",
+    "x": 0.37,
+    "y": -0.4,
+    "n": 9987,
+    "h": 60
+   },
+   {
+    "o": "Operador de processos químicos e petroquímicos",
+    "x": 1.36,
+    "y": -5.1,
+    "n": 7455,
+    "h": 91
+   },
+   {
+    "o": "Técnico mecânico (aeronaves)",
+    "x": 0.87,
+    "y": -17.9,
+    "n": 4322,
+    "h": 94
+   },
+   {
+    "o": "Montador de equipamentos elétricos (centrais elétricas)",
+    "x": 1.47,
+    "y": -32.4,
+    "n": 5917,
+    "h": 95
+   },
+   {
+    "o": "Operador de colhedor florestal",
+    "x": 0.89,
+    "y": -23.4,
+    "n": 7901,
+    "h": 95
+   },
+   {
+    "o": "Churrasqueiro",
+    "x": 0.73,
+    "y": -5.3,
+    "n": 19591,
+    "h": 96
+   },
+   {
+    "o": "Professor de história do ensino fundamental",
+    "x": 0.6,
+    "y": -0.6,
+    "n": 15940,
+    "h": 48
+   },
+   {
+    "o": "Analista de projetos logisticos",
+    "x": 0.46,
+    "y": -2.6,
+    "n": 4037,
+    "h": 54
+   },
+   {
+    "o": "Advogado (direito público)",
+    "x": 0.06,
+    "y": -5.5,
+    "n": 3297,
+    "h": 53
+   },
+   {
+    "o": "Atendente de judiciário",
+    "x": 0.1,
+    "y": -3.0,
+    "n": 5052,
+    "h": 42
+   },
+   {
+    "o": "Técnico de apoio em pesquisa e desenvolvimento (exceto agropecuário e florestal)",
+    "x": 0.68,
+    "y": -13.1,
+    "n": 20138,
+    "h": 57
+   },
+   {
+    "o": "Técnico de obras civis",
+    "x": 0.68,
+    "y": -5.4,
+    "n": 56555,
+    "h": 70
+   },
+   {
+    "o": "Técnico de estradas",
+    "x": 0.58,
+    "y": -7.3,
+    "n": 3312,
+    "h": 79
+   },
+   {
+    "o": "Montador de móveis e artefatos de madeira",
+    "x": 1.7,
+    "y": -10.3,
+    "n": 62834,
+    "h": 96
+   },
+   {
+    "o": "Guarda-civil municipal",
+    "x": 0.74,
+    "y": -4.1,
+    "n": 99541,
+    "h": 84
+   },
+   {
+    "o": "Operador de caixa",
+    "x": 0.63,
+    "y": -3.5,
+    "n": 924474,
+    "h": 15
+   },
+   {
+    "o": "Atendente de lojas e mercados",
+    "x": 0.72,
+    "y": -3.1,
+    "n": 712236,
+    "h": 33
+   },
+   {
+    "o": "Garçom",
+    "x": 0.6,
+    "y": -7.2,
+    "n": 185776,
+    "h": 69
+   },
+   {
+    "o": "Gerente administrativo",
+    "x": 0.32,
+    "y": -13.9,
+    "n": 331739,
+    "h": 48
+   },
+   {
+    "o": "Tecnólogo em gestão da tecnologia da informação",
+    "x": 0.26,
+    "y": -10.7,
+    "n": 5250,
+    "h": 78
+   },
+   {
+    "o": "Operador de máquina de produtos farmacêuticos",
+    "x": 2.09,
+    "y": -14.7,
+    "n": 15370,
+    "h": 55
+   },
+   {
+    "o": "Auxiliar de laboratório de análises clínicas",
+    "x": 2.12,
+    "y": -6.6,
+    "n": 50093,
+    "h": 17
+   },
+   {
+    "o": "Motorista operacional de guincho",
+    "x": 1.57,
+    "y": -14.6,
+    "n": 46451,
+    "h": 99
+   },
+   {
+    "o": "Técnico de matéria-prima e material",
+    "x": 0.6,
+    "y": -3.6,
+    "n": 8017,
+    "h": 75
+   },
+   {
+    "o": "Oficial de justiça",
+    "x": 0.08,
+    "y": -4.8,
+    "n": 36100,
+    "h": 53
+   },
+   {
+    "o": "Gerente de produção e operações agropecuárias",
+    "x": 0.83,
+    "y": -14.1,
+    "n": 16097,
+    "h": 94
+   },
+   {
+    "o": "Farmacêutico",
+    "x": 0.51,
+    "y": 1.1,
+    "n": 170657,
+    "h": 28
+   },
+   {
+    "o": "Eletricista de manutenção de linhas elétricas, telefônicas e de comunicação de dados",
+    "x": 2.6,
+    "y": -13.6,
+    "n": 27903,
+    "h": 97
+   },
+   {
+    "o": "Engenheiro mecânico",
+    "x": 0.31,
+    "y": -4.1,
+    "n": 15063,
+    "h": 91
+   },
+   {
+    "o": "Auxiliar de contabilidade",
+    "x": 0.37,
+    "y": -5.6,
+    "n": 195849,
+    "h": 29
+   },
+   {
+    "o": "Carpinteiro",
+    "x": 2.25,
+    "y": -7.3,
+    "n": 62405,
+    "h": 100
+   },
+   {
+    "o": "Datilógrafo",
+    "x": 0.25,
+    "y": -2.8,
+    "n": 4919,
+    "h": 32
+   },
+   {
+    "o": "Armazenista",
+    "x": 2.03,
+    "y": -10.2,
+    "n": 180443,
+    "h": 84
+   },
+   {
+    "o": "Técnico de rede (telecomunicações)",
+    "x": 1.76,
+    "y": -6.7,
+    "n": 26933,
+    "h": 97
+   },
+   {
+    "o": "Analista de sinistros",
+    "x": 0.32,
+    "y": -11.4,
+    "n": 7569,
+    "h": 39
+   },
+   {
+    "o": "Segundo tenente de polícia militar",
+    "x": 0.0,
+    "y": -5.9,
+    "n": 6440,
+    "h": 82
+   },
+   {
+    "o": "Gerente de marketing",
+    "x": 0.13,
+    "y": -4.0,
+    "n": 32360,
+    "h": 43
+   },
+   {
+    "o": "Ferramenteiro",
+    "x": 3.2,
+    "y": -24.6,
+    "n": 21343,
+    "h": 97
+   },
+   {
+    "o": "Desenhista projetista de eletricidade",
+    "x": 0.6,
+    "y": -16.4,
+    "n": 4279,
+    "h": 79
+   },
+   {
+    "o": "Técnico de enfermagem da estratégia de saúde da família",
+    "x": 3.21,
+    "y": -1.0,
+    "n": 8247,
+    "h": 13
+   },
+   {
+    "o": "Supervisor de montagem e instalação eletroeletrônica",
+    "x": 0.84,
+    "y": -21.6,
+    "n": 11160,
+    "h": 87
+   },
+   {
+    "o": "Estivador",
+    "x": 3.15,
+    "y": -21.5,
+    "n": 9051,
+    "h": 95
+   },
+   {
+    "o": "Mecânico de refrigeração e climatização",
+    "x": 1.71,
+    "y": -10.9,
+    "n": 19189,
+    "h": 99
+   },
+   {
+    "o": "Cortador de pedras",
+    "x": 2.14,
+    "y": -19.4,
+    "n": 14489,
+    "h": 98
+   },
+   {
+    "o": "Operador de guindaste móvel",
+    "x": 1.59,
+    "y": -14.4,
+    "n": 15237,
+    "h": 99
+   },
+   {
+    "o": "Operador de estação de captação, tratamento e distribuição de água",
+    "x": 2.46,
+    "y": -6.2,
+    "n": 23178,
+    "h": 93
+   },
+   {
+    "o": "Analista de planejamento de manutenção",
+    "x": 0.68,
+    "y": -13.1,
+    "n": 11798,
+    "h": 75
+   },
+   {
+    "o": "Tecnólogo em logística de transporte",
+    "x": 0.7,
+    "y": -4.6,
+    "n": 66569,
+    "h": 66
+   },
+   {
+    "o": "Socorrista (exceto médicos e enfermeiros)",
+    "x": 1.13,
+    "y": -1.5,
+    "n": 11771,
+    "h": 66
+   },
+   {
+    "o": "Capitão da polícia militar",
+    "x": 0.0,
+    "y": 1.2,
+    "n": 7761,
+    "h": 80
+   },
+   {
+    "o": "Guincheiro (construção civil)",
+    "x": 2.25,
+    "y": -8.4,
+    "n": 8610,
+    "h": 99
+   },
+   {
+    "o": "Diretor de arte (publicidade)",
+    "x": 0.22,
+    "y": -7.5,
+    "n": 3858,
+    "h": 46
+   },
+   {
+    "o": "Operador de pá carregadeira",
+    "x": 1.41,
+    "y": -6.5,
+    "n": 28129,
+    "h": 99
+   },
+   {
+    "o": "Médico psiquiatra",
+    "x": 0.83,
+    "y": -7.3,
+    "n": 3522,
+    "h": 52
+   },
+   {
+    "o": "Costureiro, a  máquina  na confecção em série",
+    "x": 0.81,
+    "y": 0.5,
+    "n": 94084,
+    "h": 14
+   },
+   {
+    "o": "Gerente de clientes especiais (private)",
+    "x": 1.08,
+    "y": -9.9,
+    "n": 7056,
+    "h": 39
+   },
+   {
+    "o": "Mestre (indústria de máquinas e outros equipamentos mecânicos)",
+    "x": 1.34,
+    "y": -24.8,
+    "n": 9248,
+    "h": 91
+   },
+   {
+    "o": "Secretária(o) executiva(o)",
+    "x": 0.17,
+    "y": -24.8,
+    "n": 178206,
+    "h": 29
+   },
+   {
+    "o": "Analista de e-commerce",
+    "x": 0.31,
+    "y": -2.0,
+    "n": 5658,
+    "h": 47
+   },
+   {
+    "o": "Agente de recrutamento e seleção",
+    "x": 0.4,
+    "y": -15.6,
+    "n": 5440,
+    "h": 18
+   },
+   {
+    "o": "Pedreiro de edificações",
+    "x": 1.6,
+    "y": -6.5,
+    "n": 19711,
+    "h": 99
+   },
+   {
+    "o": "Forneiro e operador (alto-forno)",
+    "x": 2.9,
+    "y": -18.7,
+    "n": 8781,
+    "h": 96
+   },
+   {
+    "o": "Técnico de desporto individual e coletivo (exceto futebol)",
+    "x": 0.61,
+    "y": 2.7,
+    "n": 14668,
+    "h": 64
+   },
+   {
+    "o": "Mãe social",
+    "x": 0.96,
+    "y": -5.4,
+    "n": 13434,
+    "h": 11
+   },
+   {
+    "o": "Profissional de educação física na saúde",
+    "x": 0.89,
+    "y": 2.7,
+    "n": 12154,
+    "h": 62
+   },
+   {
+    "o": "Fisioterapeuta geral",
+    "x": 0.95,
+    "y": -0.3,
+    "n": 85745,
+    "h": 23
+   },
+   {
+    "o": "Limpador de fachadas",
+    "x": 1.08,
+    "y": -21.4,
+    "n": 3748,
+    "h": 71
+   },
+   {
+    "o": "Professor de língua inglesa",
+    "x": 0.48,
+    "y": 6.9,
+    "n": 22347,
+    "h": 27
+   },
+   {
+    "o": "Arrematadeira",
+    "x": 0.6,
+    "y": -3.2,
+    "n": 5428,
+    "h": 9
+   },
+   {
+    "o": "Primeiro tenente de polícia militar",
+    "x": 0.0,
+    "y": 3.6,
+    "n": 8460,
+    "h": 81
+   },
+   {
+    "o": "Policial penal",
+    "x": 0.08,
+    "y": -3.8,
+    "n": 60232,
+    "h": 80
+   },
+   {
+    "o": "Supervisor de carga e descarga",
+    "x": 1.16,
+    "y": -4.9,
+    "n": 22953,
+    "h": 90
+   },
+   {
+    "o": "Operador de linha de montagem (aparelhos eletrônicos)",
+    "x": 1.0,
+    "y": -5.8,
+    "n": 21179,
+    "h": 39
+   },
+   {
+    "o": "Agente de combate às endemias",
+    "x": 1.64,
+    "y": -4.6,
+    "n": 45970,
+    "h": 58
+   },
+   {
+    "o": "Masseiro (massas alimentícias)",
+    "x": 1.38,
+    "y": -12.3,
+    "n": 18023,
+    "h": 71
+   },
+   {
+    "o": "Ajustador mecânico",
+    "x": 2.44,
+    "y": -9.8,
+    "n": 23292,
+    "h": 92
+   },
+   {
+    "o": "Pintor, a  pistola (exceto obras e estruturas metálicas)",
+    "x": 2.15,
+    "y": -14.8,
+    "n": 19962,
+    "h": 90
+   },
+   {
+    "o": "Cozinheiro geral",
+    "x": 1.19,
+    "y": -14.5,
+    "n": 535260,
+    "h": 20
+   },
+   {
+    "o": "Policial rodoviário federal",
+    "x": 0.0,
+    "y": -1.8,
+    "n": 13516,
+    "h": 89
+   },
+   {
+    "o": "Ajudante de motorista",
+    "x": 1.83,
+    "y": -8.5,
+    "n": 283689,
+    "h": 98
+   },
+   {
+    "o": "Inspetor de qualidade",
+    "x": 1.88,
+    "y": -23.0,
+    "n": 126156,
+    "h": 57
+   },
+   {
+    "o": "Médico clínico",
+    "x": 0.52,
+    "y": -4.9,
+    "n": 127360,
+    "h": 50
+   },
+   {
+    "o": "Operador de forno (fabricação de pães, biscoitos e similares)",
+    "x": 1.7,
+    "y": -11.3,
+    "n": 8742,
+    "h": 81
+   },
+   {
+    "o": "Técnico florestal",
+    "x": 0.56,
+    "y": -6.4,
+    "n": 7246,
+    "h": 76
+   },
+   {
+    "o": "Supervisor de vigilantes",
+    "x": 0.9,
+    "y": -13.3,
+    "n": 19032,
+    "h": 89
+   },
+   {
+    "o": "Secretário - executivo",
+    "x": 0.12,
+    "y": -22.0,
+    "n": 22741,
+    "h": 47
+   },
+   {
+    "o": "Mestre (indústria têxtil e de confecções)",
+    "x": 0.94,
+    "y": -25.6,
+    "n": 5770,
+    "h": 66
+   },
+   {
+    "o": "Instalador de som e acessórios de veículos",
+    "x": 1.2,
+    "y": -8.2,
+    "n": 11728,
+    "h": 98
+   },
+   {
+    "o": "Colorista têxtil",
+    "x": 1.1,
+    "y": -3.9,
+    "n": 10044,
+    "h": 65
+   },
+   {
+    "o": "Técnico mecânico",
+    "x": 1.77,
+    "y": -17.7,
+    "n": 49888,
+    "h": 95
+   },
+   {
+    "o": "Montador de equipamentos eletrônicos (computadores e equipamentos auxiliares)",
+    "x": 1.01,
+    "y": 0.1,
+    "n": 7171,
+    "h": 47
+   },
+   {
+    "o": "Dirigente do serviço público estadual e distrital",
+    "x": 0.75,
+    "y": -14.4,
+    "n": 225126,
+    "h": 43
+   },
+   {
+    "o": "Trabalhador da avicultura de postura",
+    "x": 1.82,
+    "y": -9.6,
+    "n": 34673,
+    "h": 61
+   },
+   {
+    "o": "Desenhista projetista de construção civil",
+    "x": 0.25,
+    "y": -10.2,
+    "n": 9966,
+    "h": 65
+   },
+   {
+    "o": "Camareiro  de hotel",
+    "x": 1.28,
+    "y": -7.6,
+    "n": 91377,
+    "h": 8
+   },
+   {
+    "o": "Gerente de logística (armazenagem e distribuição)",
+    "x": 0.54,
+    "y": 7.6,
+    "n": 30134,
+    "h": 83
+   },
+   {
+    "o": "Supervisor de tesouraria",
+    "x": 0.32,
+    "y": -18.7,
+    "n": 20741,
+    "h": 29
+   },
+   {
+    "o": "Engenheiro civil",
+    "x": 0.26,
+    "y": -2.5,
+    "n": 55222,
+    "h": 71
+   },
+   {
+    "o": "Técnico em fotônica",
+    "x": 1.81,
+    "y": -21.7,
+    "n": 9008,
+    "h": 97
+   },
+   {
+    "o": "Atendente de agência",
+    "x": 0.48,
+    "y": -6.0,
+    "n": 33906,
+    "h": 31
+   },
+   {
+    "o": "Gerente de infraestrutura de tecnologia da informação",
+    "x": 0.25,
+    "y": -10.7,
+    "n": 7318,
+    "h": 87
+   },
+   {
+    "o": "Cirurgião dentista de saúde coletiva",
+    "x": 1.84,
+    "y": -6.4,
+    "n": 4450,
+    "h": 33
+   },
+   {
+    "o": "Engenheiro de aplicativos em computação",
+    "x": 0.15,
+    "y": -15.3,
+    "n": 9445,
+    "h": 85
+   },
+   {
+    "o": "Médico em medicina intensiva",
+    "x": 0.23,
+    "y": -1.2,
+    "n": 5792,
+    "h": 47
+   },
+   {
+    "o": "Agente indígena de saúde",
+    "x": 0.04,
+    "y": -3.3,
+    "n": 5344,
+    "h": 61
+   },
+   {
+    "o": "Assentador de revestimentos cerâmicos",
+    "x": 0.73,
+    "y": -5.1,
+    "n": 7563,
+    "h": 98
+   },
+   {
+    "o": "Costureira de reparação de roupas",
+    "x": 0.81,
+    "y": -1.3,
+    "n": 8115,
+    "h": 8
+   },
+   {
+    "o": "Assistente comercial de seguros",
+    "x": 0.38,
+    "y": -6.6,
+    "n": 8438,
+    "h": 29
+   },
+   {
+    "o": "Gerente de projetos de tecnologia da informação",
+    "x": 0.11,
+    "y": -11.1,
+    "n": 22466,
+    "h": 67
+   },
+   {
+    "o": "Gerente de agência",
+    "x": 1.43,
+    "y": -15.0,
+    "n": 14230,
+    "h": 56
+   },
+   {
+    "o": "Gerente de operação de tecnologia da informação",
+    "x": 0.13,
+    "y": -3.9,
+    "n": 6794,
+    "h": 79
+   },
+   {
+    "o": "Técnico de imobilização ortopédica",
+    "x": 2.01,
+    "y": -7.1,
+    "n": 4341,
+    "h": 55
+   },
+   {
+    "o": "Auxiliar de faturamento",
+    "x": 0.65,
+    "y": -9.2,
+    "n": 79249,
+    "h": 32
+   },
+   {
+    "o": "Operador de linha de montagem (aparelhos elétricos)",
+    "x": 1.47,
+    "y": -7.7,
+    "n": 15520,
+    "h": 40
+   },
+   {
+    "o": "Impressor digital",
+    "x": 1.07,
+    "y": -13.7,
+    "n": 5425,
+    "h": 83
+   },
+   {
+    "o": "Montador de máquinas",
+    "x": 2.34,
+    "y": -15.0,
+    "n": 37987,
+    "h": 95
+   },
+   {
+    "o": "Operador de serras (usinagem de madeira)",
+    "x": 3.42,
+    "y": -4.3,
+    "n": 3527,
+    "h": 94
+   },
+   {
+    "o": "Professor de língua estrangeira moderna no ensino médio",
+    "x": 0.21,
+    "y": -0.8,
+    "n": 8495,
+    "h": 21
+   },
+   {
+    "o": "Supervisor de caixas e bilheteiros (exceto caixa de banco)",
+    "x": 0.84,
+    "y": -10.2,
+    "n": 22603,
+    "h": 18
+   },
+   {
+    "o": "Desenhista industrial de produto de moda (designer de moda)",
+    "x": 0.31,
+    "y": 7.9,
+    "n": 4116,
+    "h": 23
+   },
+   {
+    "o": "Ajudante de carvoaria",
+    "x": 1.39,
+    "y": -4.0,
+    "n": 3937,
+    "h": 92
+   },
+   {
+    "o": "Diretor comercial",
+    "x": 0.1,
+    "y": -20.6,
+    "n": 9728,
+    "h": 74
+   },
+   {
+    "o": "Operador de centro de controle ( sinterização)",
+    "x": 1.58,
+    "y": -22.9,
+    "n": 3387,
+    "h": 77
+   },
+   {
+    "o": "Arquiteto de soluções de tecnologia da informação",
+    "x": 0.03,
+    "y": -16.4,
+    "n": 5903,
+    "h": 87
+   },
+   {
+    "o": "Cartonageiro, a máquina",
+    "x": 2.51,
+    "y": -19.8,
+    "n": 3051,
+    "h": 78
+   },
+   {
+    "o": "Técnico de manutenção elétrica de máquina",
+    "x": 1.64,
+    "y": -13.8,
+    "n": 4922,
+    "h": 97
+   },
+   {
+    "o": "Perfumista",
+    "x": 0.36,
+    "y": -15.9,
+    "n": 3002,
+    "h": 7
+   },
+   {
+    "o": "Vistoriador veicular",
+    "x": 0.66,
+    "y": -1.7,
+    "n": 6359,
+    "h": 83
+   },
+   {
+    "o": "Maquinista de trem",
+    "x": 0.97,
+    "y": -15.2,
+    "n": 6920,
+    "h": 95
+   },
+   {
+    "o": "Professor de artes no ensino médio",
+    "x": 0.15,
+    "y": -5.3,
+    "n": 10511,
+    "h": 28
+   },
+   {
+    "o": "Professor de alunos com deficiência múltipla",
+    "x": 0.9,
+    "y": -1.7,
+    "n": 30230,
+    "h": 7
+   },
+   {
+    "o": "Analista de transporte em comércio exterior",
+    "x": 0.67,
+    "y": -6.0,
+    "n": 7775,
+    "h": 59
+   },
+   {
+    "o": "Assessor de imprensa",
+    "x": 0.17,
+    "y": 3.8,
+    "n": 10136,
+    "h": 51
+   },
+   {
+    "o": "Trabalhador no cultivo de árvores frutíferas",
+    "x": 1.11,
+    "y": -9.6,
+    "n": 76241,
+    "h": 72
+   },
+   {
+    "o": "Vigilante patrimonial",
+    "x": 0.79,
+    "y": -7.8,
+    "n": 584875,
+    "h": 87
+   },
+   {
+    "o": "Engenheiro ambiental",
+    "x": 0.25,
+    "y": -5.3,
+    "n": 4788,
+    "h": 48
+   },
+   {
+    "o": "Conferente de carga e descarga",
+    "x": 1.74,
+    "y": -9.4,
+    "n": 160889,
+    "h": 86
+   },
+   {
+    "o": "Assistente técnico de seguros",
+    "x": 0.38,
+    "y": -2.8,
+    "n": 3081,
+    "h": 40
+   },
+   {
+    "o": "Técnico em manutenção de máquinas",
+    "x": 2.61,
+    "y": -14.0,
+    "n": 36526,
+    "h": 97
+   },
+   {
+    "o": "Faxineiro",
+    "x": 1.17,
+    "y": -5.1,
+    "n": 1912493,
+    "h": 26
+   },
+   {
+    "o": "Alimentador de linha de produção",
+    "x": 2.5,
+    "y": -12.0,
+    "n": 1197034,
+    "h": 63
+   },
+   {
+    "o": "Professor de disciplinas pedagógicas no ensino médio",
+    "x": 0.12,
+    "y": -1.2,
+    "n": 262705,
+    "h": 33
+   },
+   {
+    "o": "Soldador",
+    "x": 3.26,
+    "y": -14.6,
+    "n": 191106,
+    "h": 97
+   },
+   {
+    "o": "Técnico eletricista",
+    "x": 1.36,
+    "y": -15.4,
+    "n": 25639,
+    "h": 94
+   },
+   {
+    "o": "Professor de ensino superior na área de pesquisa educacional",
+    "x": 0.06,
+    "y": -4.7,
+    "n": 5664,
+    "h": 54
+   },
+   {
+    "o": "Operador de equipamentos de refinação de açúcar (processo contínuo)",
+    "x": 3.84,
+    "y": -23.4,
+    "n": 5795,
+    "h": 94
+   },
+   {
+    "o": "Vendedor de comércio varejista",
+    "x": 0.46,
+    "y": -13.7,
+    "n": 1747818,
+    "h": 39
+   },
+   {
+    "o": "Operador de turismo",
+    "x": 0.3,
+    "y": -1.6,
+    "n": 6046,
+    "h": 32
+   },
+   {
+    "o": "Fonoaudiólogo geral",
+    "x": 0.77,
+    "y": 6.6,
+    "n": 18921,
+    "h": 7
+   },
+   {
+    "o": "Auxiliar de desenvolvimento infantil",
+    "x": 0.96,
+    "y": -8.8,
+    "n": 290981,
+    "h": 5
+   },
+   {
+    "o": "Motorista de carro de passeio",
+    "x": 0.67,
+    "y": -7.8,
+    "n": 229896,
+    "h": 97
+   },
+   {
+    "o": "Técnico em manutenção de instrumentos de medição e precisão",
+    "x": 0.95,
+    "y": -8.0,
+    "n": 3543,
+    "h": 94
+   },
+   {
+    "o": "Relações públicas",
+    "x": 0.32,
+    "y": -0.4,
+    "n": 8826,
+    "h": 34
+   },
+   {
+    "o": "Professor de língua estrangeira moderna do ensino fundamental",
+    "x": 0.63,
+    "y": 3.1,
+    "n": 8500,
+    "h": 24
+   },
+   {
+    "o": "Pintor de obras",
+    "x": 1.22,
+    "y": -3.8,
+    "n": 73191,
+    "h": 98
+   },
+   {
+    "o": "Procurador do estado",
+    "x": 0.03,
+    "y": -0.2,
+    "n": 4029,
+    "h": 60
+   },
+   {
+    "o": "Analista de pcp (programação e controle da produção)",
+    "x": 0.53,
+    "y": -8.0,
+    "n": 16780,
+    "h": 62
+   },
+   {
+    "o": "Operador de telemarketing técnico",
+    "x": 0.51,
+    "y": -5.8,
+    "n": 17775,
+    "h": 38
+   },
+   {
+    "o": "Engenheiro de produção",
+    "x": 0.24,
+    "y": -5.2,
+    "n": 24379,
+    "h": 75
+   },
+   {
+    "o": "Gerente de serviços de saúde",
+    "x": 0.64,
+    "y": -7.5,
+    "n": 22261,
+    "h": 25
+   },
+   {
+    "o": "Professor instrutor de ensino e aprendizagem em serviços",
+    "x": 0.71,
+    "y": -3.4,
+    "n": 13278,
+    "h": 52
+   },
+   {
+    "o": "Consultor jurídico",
+    "x": 0.11,
+    "y": -3.9,
+    "n": 40376,
+    "h": 38
+   },
+   {
+    "o": "Técnico em segurança do trabalho",
+    "x": 0.67,
+    "y": -13.2,
+    "n": 122707,
+    "h": 61
+   },
+   {
+    "o": "Auxiliar de serviços jurídicos",
+    "x": 0.14,
+    "y": -10.0,
+    "n": 50536,
+    "h": 36
+   },
+   {
+    "o": "Cronoanalista",
+    "x": 0.66,
+    "y": -14.5,
+    "n": 10524,
+    "h": 71
+   },
+   {
+    "o": "Supervisor de crédito e cobrança",
+    "x": 0.4,
+    "y": -26.0,
+    "n": 14501,
+    "h": 24
+   },
+   {
+    "o": "Cozinheiro de hospital",
+    "x": 6.33,
+    "y": -13.9,
+    "n": 10219,
+    "h": 15
+   },
+   {
+    "o": "Montador de instrumentos de óptica",
+    "x": 0.61,
+    "y": -13.4,
+    "n": 3426,
+    "h": 86
+   },
+   {
+    "o": "Trabalhador na olericultura (raízes, bulbos e tubérculos)",
+    "x": 0.93,
+    "y": -10.7,
+    "n": 3073,
+    "h": 68
+   },
+   {
+    "o": "Editor de mídia audiovisual",
+    "x": 0.3,
+    "y": -5.5,
+    "n": 8812,
+    "h": 76
+   },
+   {
+    "o": "Médico de família e comunidade",
+    "x": 0.76,
+    "y": 0.9,
+    "n": 6101,
+    "h": 46
+   },
+   {
+    "o": "Professor de física no ensino médio",
+    "x": 0.23,
+    "y": -13.1,
+    "n": 6874,
+    "h": 69
+   },
+   {
+    "o": "Supervisor de compras",
+    "x": 0.37,
+    "y": -13.7,
+    "n": 11977,
+    "h": 59
+   },
+   {
+    "o": "Impressor flexográfico",
+    "x": 4.18,
+    "y": -26.1,
+    "n": 7458,
+    "h": 96
+   },
+   {
+    "o": "Costurador de calçados, a  máquina",
+    "x": 1.63,
+    "y": -4.8,
+    "n": 21724,
+    "h": 23
+   },
+   {
+    "o": "Lavador de garrafas, vidros e outros utensílios",
+    "x": 0.75,
+    "y": -7.0,
+    "n": 3140,
+    "h": 44
+   },
+   {
+    "o": "Analista de mídias sociais",
+    "x": 0.25,
+    "y": -5.3,
+    "n": 15059,
+    "h": 34
+   },
+   {
+    "o": "Soldado bombeiro militar",
+    "x": 0.0,
+    "y": -1.0,
+    "n": 11009,
+    "h": 84
+   },
+   {
+    "o": "Enfermeiro do trabalho",
+    "x": 0.95,
+    "y": -2.8,
+    "n": 5158,
+    "h": 15
+   },
+   {
+    "o": "Gerente de suprimentos",
+    "x": 0.21,
+    "y": -7.4,
+    "n": 7616,
+    "h": 67
+   },
+   {
+    "o": "Caminhoneiro autônomo (rotas regionais e internacionais)",
+    "x": 1.14,
+    "y": -8.6,
+    "n": 6179,
+    "h": 98
+   },
+   {
+    "o": "Trefilador de borracha",
+    "x": 3.77,
+    "y": -21.5,
+    "n": 8006,
+    "h": 91
+   },
+   {
+    "o": "Corretor de imóveis",
+    "x": 0.3,
+    "y": -5.3,
+    "n": 3546,
+    "h": 49
+   },
+   {
+    "o": "Diretor geral de empresa e organizações (exceto de interesse público)",
+    "x": 0.09,
+    "y": -36.5,
+    "n": 13219,
+    "h": 62
+   },
+   {
+    "o": "Engenheiro mecânico industrial",
+    "x": 0.21,
+    "y": -16.2,
+    "n": 5690,
+    "h": 93
+   },
+   {
+    "o": "Visual merchandiser",
+    "x": 0.86,
+    "y": -4.9,
+    "n": 4545,
+    "h": 42
+   },
+   {
+    "o": "Cabeleireiro",
+    "x": 0.27,
+    "y": -3.6,
+    "n": 8728,
+    "h": 17
+   },
+   {
+    "o": "Papiloscopista policial",
+    "x": 0.02,
+    "y": -4.9,
+    "n": 4479,
+    "h": 58
+   },
+   {
+    "o": "Técnico de celulose e papel",
+    "x": 1.57,
+    "y": -35.8,
+    "n": 3170,
+    "h": 80
+   },
+   {
+    "o": "Supervisor da confecção de artefatos de tecidos, couros e afins",
+    "x": 0.58,
+    "y": -21.0,
+    "n": 3346,
+    "h": 49
+   },
+   {
+    "o": "Técnico de enfermagem do trabalho",
+    "x": 1.13,
+    "y": -13.1,
+    "n": 11193,
+    "h": 17
+   },
+   {
+    "o": "Agenciador de propaganda",
+    "x": 0.17,
+    "y": 0.5,
+    "n": 3159,
+    "h": 43
+   },
+   {
+    "o": "Professor de dança",
+    "x": 0.32,
+    "y": 39.0,
+    "n": 3004,
+    "h": 31
+   },
+   {
+    "o": "Calceteiro",
+    "x": 1.62,
+    "y": -5.6,
+    "n": 7350,
+    "h": 96
+   },
+   {
+    "o": "Zelador de edifício",
+    "x": 0.79,
+    "y": -8.6,
+    "n": 253773,
+    "h": 57
+   },
+   {
+    "o": "Psicólogo hospitalar",
+    "x": 1.08,
+    "y": -1.6,
+    "n": 5963,
+    "h": 15
+   },
+   {
+    "o": "Cozinheiro industrial",
+    "x": 2.57,
+    "y": -13.9,
+    "n": 12125,
+    "h": 22
+   },
+   {
+    "o": "Lavadeiro, em geral",
+    "x": 1.42,
+    "y": -8.9,
+    "n": 10523,
+    "h": 30
+   },
+   {
+    "o": "Operador de estação de tratamento de água e efluentes",
+    "x": 2.31,
+    "y": -1.5,
+    "n": 28599,
+    "h": 93
+   },
+   {
+    "o": "Trabalhador de serviços de limpeza e conservação de áreas públicas",
+    "x": 1.04,
+    "y": -12.2,
+    "n": 541338,
+    "h": 38
+   },
+   {
+    "o": "Supervisor de vendas comercial",
+    "x": 0.43,
+    "y": -18.5,
+    "n": 135241,
+    "h": 52
+   },
+   {
+    "o": "Técnico de manutenção de sistemas e instrumentos",
+    "x": 1.38,
+    "y": -13.0,
+    "n": 6457,
+    "h": 94
+   },
+   {
+    "o": "Conferente mercadoria (exceto carga e descarga)",
+    "x": 1.48,
+    "y": -10.0,
+    "n": 41127,
+    "h": 76
+   },
+   {
+    "o": "Auxiliar de seguros",
+    "x": 0.25,
+    "y": -0.8,
+    "n": 3784,
+    "h": 29
+   },
+   {
+    "o": "Médico veterinário",
+    "x": 0.48,
+    "y": -4.1,
+    "n": 27742,
+    "h": 43
+   },
+   {
+    "o": "Diretor de recursos humanos",
+    "x": 0.24,
+    "y": -5.9,
+    "n": 3119,
+    "h": 33
+   },
+   {
+    "o": "Escrivão extra - judicial",
+    "x": 0.0,
+    "y": -14.3,
+    "n": 5641,
+    "h": 38
+   },
+   {
+    "o": "Escrevente",
+    "x": 0.09,
+    "y": -10.8,
+    "n": 83257,
+    "h": 39
+   },
+   {
+    "o": "Atendente de farmácia - balconista",
+    "x": 0.64,
+    "y": -3.4,
+    "n": 222917,
+    "h": 33
+   },
+   {
+    "o": "Professor de alunos com deficiência auditiva e surdos",
+    "x": 0.52,
+    "y": -8.3,
+    "n": 3826,
+    "h": 15
+   },
+   {
+    "o": "Agente de portaria",
+    "x": 0.5,
+    "y": -2.1,
+    "n": 62854,
+    "h": 81
+   },
+   {
+    "o": "Técnico de vendas",
+    "x": 0.76,
+    "y": -17.7,
+    "n": 35721,
+    "h": 68
+   },
+   {
+    "o": "Promotor de justiça",
+    "x": 0.39,
+    "y": 0.5,
+    "n": 8387,
+    "h": 58
+   },
+   {
+    "o": "Varredor de rua",
+    "x": 0.94,
+    "y": -4.8,
+    "n": 121561,
+    "h": 60
+   },
+   {
+    "o": "Médico ortopedista e traumatologista",
+    "x": 0.52,
+    "y": -8.6,
+    "n": 3860,
+    "h": 89
+   },
+   {
+    "o": "Tratorista agrícola",
+    "x": 1.35,
+    "y": -12.6,
+    "n": 170021,
+    "h": 97
+   },
+   {
+    "o": "Trabalhador da manutenção de edificações",
+    "x": 1.31,
+    "y": -14.9,
+    "n": 272952,
+    "h": 66
+   },
+   {
+    "o": "Desenvolvedor web (técnico)",
+    "x": 0.27,
+    "y": -16.7,
+    "n": 4742,
+    "h": 86
+   },
+   {
+    "o": "Gerente de hotel",
+    "x": 0.36,
+    "y": -7.2,
+    "n": 6711,
+    "h": 48
+   },
+   {
+    "o": "Governanta de hotelaria",
+    "x": 1.08,
+    "y": -4.7,
+    "n": 7570,
+    "h": 13
+   },
+   {
+    "o": "Eletricista de instalações (edifícios)",
+    "x": 1.66,
+    "y": -13.5,
+    "n": 23090,
+    "h": 99
+   },
+   {
+    "o": "Cortador de roupas",
+    "x": 1.4,
+    "y": -12.3,
+    "n": 17643,
+    "h": 67
+   },
+   {
+    "o": "Estampador de tecido",
+    "x": 1.77,
+    "y": -12.6,
+    "n": 7004,
+    "h": 79
+   },
+   {
+    "o": "Enfermeiro",
+    "x": 1.81,
+    "y": -0.4,
+    "n": 425132,
+    "h": 16
+   },
+   {
+    "o": "Defensor público",
+    "x": 0.0,
+    "y": -2.8,
+    "n": 6240,
+    "h": 51
+   },
+   {
+    "o": "Trabalhador da exploração de resinas",
+    "x": 0.93,
+    "y": -10.7,
+    "n": 4504,
+    "h": 77
+   },
+   {
+    "o": "Tecelão de malhas (máquina circular)",
+    "x": 2.1,
+    "y": -14.4,
+    "n": 4522,
+    "h": 79
+   },
+   {
+    "o": "Operador de telemarketing receptivo",
+    "x": 0.62,
+    "y": -2.9,
+    "n": 74076,
+    "h": 25
+   },
+   {
+    "o": "Mecânico de manutenção de máquinas-ferramentas (usinagem de metais)",
+    "x": 3.42,
+    "y": -16.1,
+    "n": 4787,
+    "h": 94
+   },
+   {
+    "o": "Gesseiro",
+    "x": 0.76,
+    "y": -3.1,
+    "n": 21061,
+    "h": 99
+   },
+   {
+    "o": "Pizzaiolo",
+    "x": 0.79,
+    "y": -6.1,
+    "n": 26323,
+    "h": 84
+   },
+   {
+    "o": "Analista de folha de pagamento",
+    "x": 0.39,
+    "y": -7.6,
+    "n": 35545,
+    "h": 19
+   },
+   {
+    "o": "Gerente financeiro",
+    "x": 0.14,
+    "y": -30.5,
+    "n": 49651,
+    "h": 37
+   },
+   {
+    "o": "Farmacêutico industrial",
+    "x": 0.7,
+    "y": -1.5,
+    "n": 5102,
+    "h": 28
+   },
+   {
+    "o": "Agente de estação (ferrovia e metrô)",
+    "x": 2.94,
+    "y": -25.9,
+    "n": 6476,
+    "h": 67
+   },
+   {
+    "o": "Operador de máquina de fabricação de produtos de higiene e limpeza (sabão, sabonete, detergente, absorvente, fraldas cotonetes e outros)",
+    "x": 2.98,
+    "y": -20.2,
+    "n": 6394,
+    "h": 73
+   },
+   {
+    "o": "Operador de guilhotina (corte de papel)",
+    "x": 2.48,
+    "y": -24.0,
+    "n": 4342,
+    "h": 93
+   },
+   {
+    "o": "Mineiro",
+    "x": 2.07,
+    "y": -16.0,
+    "n": 12936,
+    "h": 92
+   },
+   {
+    "o": "Mecânico de manutenção de motores diesel (exceto de veículos automotores)",
+    "x": 2.64,
+    "y": -21.3,
+    "n": 10125,
+    "h": 99
+   },
+   {
+    "o": "Operador de escavadeira",
+    "x": 0.94,
+    "y": -11.1,
+    "n": 49112,
+    "h": 99
+   },
+   {
+    "o": "Operador de máquina de fabricação de cosméticos",
+    "x": 2.42,
+    "y": -21.3,
+    "n": 3233,
+    "h": 56
+   },
+   {
+    "o": "Técnico em laboratório de farmácia",
+    "x": 0.59,
+    "y": -7.8,
+    "n": 9285,
+    "h": 26
+   },
+   {
+    "o": "Operador eletromecânico",
+    "x": 2.57,
+    "y": -24.9,
+    "n": 16524,
+    "h": 91
+   },
+   {
+    "o": "Operador de laminador",
+    "x": 2.59,
+    "y": -17.5,
+    "n": 7599,
+    "h": 93
+   },
+   {
+    "o": "Gerente de recursos humanos",
+    "x": 0.19,
+    "y": -12.8,
+    "n": 34605,
+    "h": 23
+   },
+   {
+    "o": "Jornalista",
+    "x": 0.29,
+    "y": 2.4,
+    "n": 9530,
+    "h": 43
+   },
+   {
+    "o": "Professor de ensino superior na área de orientação educacional",
+    "x": 0.06,
+    "y": -3.2,
+    "n": 58310,
+    "h": 39
+   },
+   {
+    "o": "Administrador de sistemas operacionais",
+    "x": 0.3,
+    "y": -16.6,
+    "n": 9466,
+    "h": 77
+   },
+   {
+    "o": "Pesquisador de clínica médica",
+    "x": 0.23,
+    "y": -7.0,
+    "n": 6792,
+    "h": 38
+   },
+   {
+    "o": "Operador de máquina de lavar fios e tecidos",
+    "x": 3.13,
+    "y": -18.3,
+    "n": 3904,
+    "h": 83
+   },
+   {
+    "o": "Gerente de comunicação",
+    "x": 0.16,
+    "y": 2.7,
+    "n": 8863,
+    "h": 39
+   },
+   {
+    "o": "Médico cirurgião geral",
+    "x": 0.38,
+    "y": -8.6,
+    "n": 5037,
+    "h": 66
+   },
+   {
+    "o": "Monitor de ressocialização prisional",
+    "x": 0.74,
+    "y": -0.8,
+    "n": 9118,
+    "h": 81
+   },
+   {
+    "o": "Gestor em segurança",
+    "x": 0.51,
+    "y": -4.2,
+    "n": 3601,
+    "h": 77
+   },
+   {
+    "o": "Engenheiros de sistemas operacionais em computação",
+    "x": 0.01,
+    "y": -12.1,
+    "n": 11424,
+    "h": 86
+   },
+   {
+    "o": "Operador de equipamento de destilação de álcool",
+    "x": 1.93,
+    "y": -19.7,
+    "n": 4097,
+    "h": 95
+   },
+   {
+    "o": "Cabo bombeiro militar",
+    "x": 0.0,
+    "y": -0.8,
+    "n": 7530,
+    "h": 91
+   },
+   {
+    "o": "Auxiliar de enfermagem da estratégia de saúde da família",
+    "x": 3.96,
+    "y": -1.5,
+    "n": 3134,
+    "h": 10
+   },
+   {
+    "o": "Operador de prensa de material reciclável",
+    "x": 2.75,
+    "y": -10.3,
+    "n": 3393,
+    "h": 93
+   },
+   {
+    "o": "Engenheiro aeronáutico",
+    "x": 0.06,
+    "y": -2.9,
+    "n": 4251,
+    "h": 83
+   },
+   {
+    "o": "Motofretista",
+    "x": 3.88,
+    "y": -3.8,
+    "n": 128499,
+    "h": 98
+   },
+   {
+    "o": "Recepcionista, em geral",
+    "x": 0.56,
+    "y": -7.9,
+    "n": 585624,
+    "h": 17
+   },
+   {
+    "o": "Auxiliar de farmácia de manipulação",
+    "x": 0.94,
+    "y": -6.7,
+    "n": 37525,
+    "h": 25
+   },
+   {
+    "o": "Analista de pesquisa de mercado",
+    "x": 0.27,
+    "y": -7.2,
+    "n": 89783,
+    "h": 40
+   },
+   {
+    "o": "Pedreiro",
+    "x": 1.5,
+    "y": -2.6,
+    "n": 341782,
+    "h": 99
+   },
+   {
+    "o": "Supervisor de transportes",
+    "x": 0.82,
+    "y": -14.5,
+    "n": 10021,
+    "h": 84
+   },
+   {
+    "o": "Babá",
+    "x": 1.25,
+    "y": -0.1,
+    "n": 17800,
+    "h": 5
+   },
+   {
+    "o": "Técnico de controle de meio ambiente",
+    "x": 0.68,
+    "y": -8.4,
+    "n": 10315,
+    "h": 54
+   },
+   {
+    "o": "Ascensorista",
+    "x": 0.92,
+    "y": -9.4,
+    "n": 5515,
+    "h": 50
+   },
+   {
+    "o": "Expedidor de mercadorias",
+    "x": 1.75,
+    "y": -12.8,
+    "n": 99633,
+    "h": 79
+   },
+   {
+    "o": "Assistente de vendas",
+    "x": 0.62,
+    "y": -9.0,
+    "n": 204232,
+    "h": 33
+   },
+   {
+    "o": "Atendente de lanchonete",
+    "x": 0.71,
+    "y": -3.4,
+    "n": 371193,
+    "h": 31
+   },
+   {
+    "o": "Controlador de entrada e saída",
+    "x": 0.73,
+    "y": -8.5,
+    "n": 54696,
+    "h": 76
+   },
+   {
+    "o": "Contínuo",
+    "x": 0.91,
+    "y": -5.9,
+    "n": 87192,
+    "h": 64
+   },
+   {
+    "o": "Auxiliar de escritório",
+    "x": 0.45,
+    "y": -7.7,
+    "n": 1774104,
+    "h": 33
+   },
+   {
+    "o": "Carregador (veículos de transportes terrestres)",
+    "x": 2.4,
+    "y": -4.5,
+    "n": 90947,
+    "h": 96
+   },
+   {
+    "o": "Trabalhador no cultivo de trepadeiras frutíferas",
+    "x": 0.67,
+    "y": -1.2,
+    "n": 10486,
+    "h": 49
+   },
+   {
+    "o": "Ceramista",
+    "x": 2.61,
+    "y": -22.3,
+    "n": 23010,
+    "h": 81
+   },
+   {
+    "o": "Trabalhador da cultura de cacau",
+    "x": 0.58,
+    "y": 0.8,
+    "n": 3329,
+    "h": 95
+   },
+   {
+    "o": "Forneiro e operador (forno elétrico)",
+    "x": 2.56,
+    "y": -7.2,
+    "n": 3525,
+    "h": 94
+   },
+   {
+    "o": "Supervisor de telemarketing e atendimento",
+    "x": 0.49,
+    "y": -7.0,
+    "n": 40711,
+    "h": 33
+   },
+   {
+    "o": "Técnico mecânico (máquinas)",
+    "x": 2.21,
+    "y": -12.1,
+    "n": 11556,
+    "h": 97
+   },
+   {
+    "o": "Monitor de sistemas eletrônicos de segurança externo",
+    "x": 2.88,
+    "y": -6.5,
+    "n": 10355,
+    "h": 77
+   },
+   {
+    "o": "Analista de planejamento e orçamento - apo",
+    "x": 0.6,
+    "y": -6.8,
+    "n": 9632,
+    "h": 55
+   },
+   {
+    "o": "Técnico agrícola",
+    "x": 0.62,
+    "y": -8.3,
+    "n": 26864,
+    "h": 84
+   },
+   {
+    "o": "Professor de geografia no ensino médio",
+    "x": 0.13,
+    "y": -7.0,
+    "n": 11675,
+    "h": 49
+   },
+   {
+    "o": "Supervisor de operação de fluidos (distribuição, captação, tratamento de água, gases, vapor)",
+    "x": 0.74,
+    "y": -16.7,
+    "n": 4240,
+    "h": 89
+   },
+   {
+    "o": "517315",
+    "x": 0.07,
+    "y": -1.4,
+    "n": 23752,
+    "h": 80
+   },
+   {
+    "o": "Instrutor de cursos livres",
+    "x": 0.49,
+    "y": -6.8,
+    "n": 30053,
+    "h": 48
+   },
+   {
+    "o": "Operador de máquina de dobrar chapas",
+    "x": 4.42,
+    "y": -18.9,
+    "n": 23932,
+    "h": 92
+   },
+   {
+    "o": "Inspetor de alunos de escola privada",
+    "x": 1.23,
+    "y": -6.8,
+    "n": 43599,
+    "h": 29
+   },
+   {
+    "o": "Engenheiro civil (edificações)",
+    "x": 0.26,
+    "y": -6.0,
+    "n": 3384,
+    "h": 70
+   },
+   {
+    "o": "Supervisor das artes gráficas (indústria editorial e gráfica)",
+    "x": 0.73,
+    "y": -17.4,
+    "n": 4125,
+    "h": 77
+   },
+   {
+    "o": "Coletor de lixo domiciliar",
+    "x": 8.54,
+    "y": -12.8,
+    "n": 64482,
+    "h": 93
+   },
+   {
+    "o": "Pintor de estruturas metálicas",
+    "x": 1.99,
+    "y": -14.3,
+    "n": 33633,
+    "h": 96
+   },
+   {
+    "o": "Gerente de crédito e cobrança",
+    "x": 0.17,
+    "y": -27.9,
+    "n": 3634,
+    "h": 47
+   },
+   {
+    "o": "Biomédico",
+    "x": 1.31,
+    "y": -8.3,
+    "n": 29471,
+    "h": 22
+   },
+   {
+    "o": "Mantenedor de sistemas eletroeletrônicos de segurança",
+    "x": 1.52,
+    "y": -14.4,
+    "n": 4804,
+    "h": 71
+   },
+   {
+    "o": "Instalador-reparador de linhas e aparelhos de telecomunicações",
+    "x": 2.35,
+    "y": -0.1,
+    "n": 17561,
+    "h": 98
+   },
+   {
+    "o": "Operador de máquinas de fabricação de chocolates e achocolatados",
+    "x": 1.62,
+    "y": -5.0,
+    "n": 3842,
+    "h": 50
+   },
+   {
+    "o": "Mestre (indústria de borracha e plástico)",
+    "x": 1.72,
+    "y": -28.0,
+    "n": 9385,
+    "h": 85
+   },
+   {
+    "o": "Trabalhador polivalente do curtimento de couros e peles",
+    "x": 2.38,
+    "y": -14.1,
+    "n": 6350,
+    "h": 66
+   },
+   {
+    "o": "Diretor financeiro",
+    "x": 0.03,
+    "y": -35.1,
+    "n": 6681,
+    "h": 55
+   },
+   {
+    "o": "Trabalhador de fabricação de sorvete",
+    "x": 1.04,
+    "y": -7.0,
+    "n": 5345,
+    "h": 56
+   },
+   {
+    "o": "Serrador de madeira",
+    "x": 3.47,
+    "y": -6.3,
+    "n": 10739,
+    "h": 93
+   },
+   {
+    "o": "Psicólogo do trabalho",
+    "x": 0.39,
+    "y": -3.2,
+    "n": 4256,
+    "h": 15
+   },
+   {
+    "o": "Coletor de resíduos sólidos de serviços de saúde",
+    "x": 4.52,
+    "y": -7.7,
+    "n": 7216,
+    "h": 51
+   },
+   {
+    "o": "Montador de equipamentos elétricos (transformadores)",
+    "x": 1.89,
+    "y": -17.2,
+    "n": 3764,
+    "h": 86
+   },
+   {
+    "o": "Desenhista industrial gráfico (designer gráfico)",
+    "x": 0.28,
+    "y": 7.8,
+    "n": 36495,
+    "h": 62
+   },
+   {
+    "o": "Auxiliar em saúde bucal da estratégia de saúde da família",
+    "x": 1.12,
+    "y": 0.3,
+    "n": 3056,
+    "h": 5
+   },
+   {
+    "o": "Agente de polícia federal",
+    "x": 0.0,
+    "y": -4.6,
+    "n": 9908,
+    "h": 83
+   },
+   {
+    "o": "Controlador de pragas",
+    "x": 1.9,
+    "y": -3.4,
+    "n": 15652,
+    "h": 93
+   },
+   {
+    "o": "Operador de triagem e transbordo",
+    "x": 4.59,
+    "y": -11.8,
+    "n": 9661,
+    "h": 74
+   },
+   {
+    "o": "Diretor de tecnologia da informação",
+    "x": 0.03,
+    "y": -5.8,
+    "n": 3341,
+    "h": 86
+   },
+   {
+    "o": "Ouvidor",
+    "x": 0.37,
+    "y": -9.1,
+    "n": 4095,
+    "h": 31
+   },
+   {
+    "o": "Analista de exportação e importação",
+    "x": 0.18,
+    "y": -1.5,
+    "n": 23081,
+    "h": 40
+   },
+   {
+    "o": "Porteiro (hotel)",
+    "x": 0.56,
+    "y": -4.6,
+    "n": 10374,
+    "h": 85
+   },
+   {
+    "o": "Borracheiro",
+    "x": 2.5,
+    "y": -11.6,
+    "n": 30595,
+    "h": 99
+   },
+   {
+    "o": "Auxiliar de manutenção predial",
+    "x": 1.89,
+    "y": -10.9,
+    "n": 134914,
+    "h": 80
+   },
+   {
+    "o": "Professor de ciências exatas e naturais do ensino fundamental",
+    "x": 0.33,
+    "y": -4.6,
+    "n": 51769,
+    "h": 27
+   },
+   {
+    "o": "Técnico em patologia clínica",
+    "x": 3.08,
+    "y": -9.2,
+    "n": 59594,
+    "h": 19
+   },
+   {
+    "o": "Operador de máquina de etiquetar",
+    "x": 1.92,
+    "y": -14.1,
+    "n": 3860,
+    "h": 55
+   },
+   {
+    "o": "Auxiliar nos serviços de alimentação",
+    "x": 1.43,
+    "y": -4.7,
+    "n": 506076,
+    "h": 30
+   },
+   {
+    "o": "Agente de trânsito",
+    "x": 1.44,
+    "y": -6.3,
+    "n": 33065,
+    "h": 80
+   },
+   {
+    "o": "Técnico de planejamento de produção",
+    "x": 0.84,
+    "y": -16.7,
+    "n": 74514,
+    "h": 69
+   },
+   {
+    "o": "Recepcionista de hotel",
+    "x": 0.5,
+    "y": -9.5,
+    "n": 45086,
+    "h": 51
+   },
+   {
+    "o": "Agente de vendas de serviços",
+    "x": 0.55,
+    "y": -13.4,
+    "n": 55173,
+    "h": 44
+   },
+   {
+    "o": "Caseiro (agricultura)",
+    "x": 0.62,
+    "y": -12.2,
+    "n": 15821,
+    "h": 76
+   },
+   {
+    "o": "Mecânico de manutenção de veículos ferroviários",
+    "x": 1.57,
+    "y": -21.9,
+    "n": 5324,
+    "h": 95
+   },
+   {
+    "o": "Tratador de animais",
+    "x": 2.02,
+    "y": -9.6,
+    "n": 11723,
+    "h": 74
+   },
+   {
+    "o": "Operador de torno com comando numérico",
+    "x": 3.68,
+    "y": -23.2,
+    "n": 19548,
+    "h": 94
+   },
+   {
+    "o": "Operador de atendimento aeroviário",
+    "x": 1.02,
+    "y": -5.3,
+    "n": 14417,
+    "h": 55
+   },
+   {
+    "o": "Cirurgião dentista - clínico geral",
+    "x": 1.0,
+    "y": 0.4,
+    "n": 51438,
+    "h": 35
+   },
+   {
+    "o": "Eletrotécnico",
+    "x": 1.31,
+    "y": -14.8,
+    "n": 33861,
+    "h": 93
+   },
+   {
+    "o": "Fiscal de tributos municipal",
+    "x": 0.53,
+    "y": -1.4,
+    "n": 20636,
+    "h": 66
+   },
+   {
+    "o": "Operador de rede de teleprocessamento",
+    "x": 0.84,
+    "y": -16.8,
+    "n": 5225,
+    "h": 76
+   },
+   {
+    "o": "Técnico em radiologia e imagenologia",
+    "x": 0.84,
+    "y": -6.7,
+    "n": 67905,
+    "h": 57
+   },
+   {
+    "o": "Instalador de sistemas eletroeletrônicos de segurança",
+    "x": 2.27,
+    "y": -8.6,
+    "n": 13675,
+    "h": 97
+   },
+   {
+    "o": "Montador de equipamentos eletrônicos",
+    "x": 1.2,
+    "y": -8.9,
+    "n": 14428,
+    "h": 50
+   },
+   {
+    "o": "Diretor administrativo e financeiro",
+    "x": 0.06,
+    "y": -28.4,
+    "n": 9686,
+    "h": 56
+   },
+   {
+    "o": "Gerente de operações de transportes",
+    "x": 0.3,
+    "y": -0.0,
+    "n": 14334,
+    "h": 87
+   },
+   {
+    "o": "Taquígrafo",
+    "x": 0.25,
+    "y": 1.4,
+    "n": 4537,
+    "h": 52
+   },
+   {
+    "o": "Operador de centro de usinagem com comando numérico",
+    "x": 3.54,
+    "y": -21.0,
+    "n": 24214,
+    "h": 92
+   },
+   {
+    "o": "Prensista (operador de prensa)",
+    "x": 3.99,
+    "y": -20.4,
+    "n": 18971,
+    "h": 89
+   },
+   {
+    "o": "Bilheteiro de transportes coletivos",
+    "x": 1.1,
+    "y": -8.5,
+    "n": 5197,
+    "h": 48
+   },
+   {
+    "o": "Auxiliar em saúde bucal",
+    "x": 0.73,
+    "y": -2.2,
+    "n": 86590,
+    "h": 5
+   },
+   {
+    "o": "Instalador de cortinas e persianas, portas sanfonadas e boxe",
+    "x": 1.85,
+    "y": -9.0,
+    "n": 5042,
+    "h": 96
+   },
+   {
+    "o": "Serralheiro",
+    "x": 2.65,
+    "y": -11.2,
+    "n": 61004,
+    "h": 98
+   },
+   {
+    "o": "Cabo da polícia militar",
+    "x": 0.0,
+    "y": 5.8,
+    "n": 95453,
+    "h": 87
+   },
+   {
+    "o": "Sushiman",
+    "x": 1.12,
+    "y": -6.3,
+    "n": 17102,
+    "h": 86
+   },
+   {
+    "o": "Desenhista técnico",
+    "x": 0.4,
+    "y": -10.1,
+    "n": 6461,
+    "h": 71
+   },
+   {
+    "o": "Ciclista mensageiro",
+    "x": 1.82,
+    "y": -2.0,
+    "n": 5632,
+    "h": 97
+   },
+   {
+    "o": "Professor de engenharia",
+    "x": 0.09,
+    "y": -6.2,
+    "n": 3167,
+    "h": 73
+   },
+   {
+    "o": "Profissional de relações institucionais e governamentais",
+    "x": 0.39,
+    "y": -10.8,
+    "n": 4387,
+    "h": 44
+   },
+   {
+    "o": "Esteticista",
+    "x": 0.4,
+    "y": -2.9,
+    "n": 12116,
+    "h": 3
+   },
+   {
+    "o": "Analista de planejamento de materias",
+    "x": 0.29,
+    "y": -1.1,
+    "n": 5279,
+    "h": 53
+   },
+   {
+    "o": "Analista de sistemas de automação",
+    "x": 0.32,
+    "y": -5.6,
+    "n": 10713,
+    "h": 82
+   },
+   {
+    "o": "Enfermeiro de terapia intensiva",
+    "x": 1.65,
+    "y": 1.2,
+    "n": 3587,
+    "h": 17
+   },
+   {
+    "o": "Analista de compliance",
+    "x": 0.3,
+    "y": -3.4,
+    "n": 9596,
+    "h": 40
+   },
+   {
+    "o": "Repórter (exclusive rádio e televisão)",
+    "x": 0.74,
+    "y": 2.2,
+    "n": 4111,
+    "h": 64
+   },
+   {
+    "o": "Operador de central hidrelétrica",
+    "x": 1.61,
+    "y": 0.4,
+    "n": 3099,
+    "h": 96
+   },
+   {
+    "o": "Queijeiro na fabricação de laticínio",
+    "x": 1.53,
+    "y": -21.0,
+    "n": 4631,
+    "h": 83
+   },
+   {
+    "o": "Oleiro (fabricação de telhas)",
+    "x": 1.18,
+    "y": -8.6,
+    "n": 3646,
+    "h": 92
+   },
+   {
+    "o": "Trabalhador na produção de mudas e sementes",
+    "x": 1.18,
+    "y": -9.3,
+    "n": 10787,
+    "h": 55
+   },
+   {
+    "o": "Agente de ação social",
+    "x": 0.63,
+    "y": -7.6,
+    "n": 15616,
+    "h": 33
+   },
+   {
+    "o": "Analista de riscos",
+    "x": 0.28,
+    "y": -11.5,
+    "n": 9536,
+    "h": 48
+   },
+   {
+    "o": "Corretor de valores, ativos financeiros, mercadorias e derivativos",
+    "x": 0.14,
+    "y": -24.9,
+    "n": 3886,
+    "h": 68
+   },
+   {
+    "o": "Moldador em fundição, a máquina",
+    "x": 4.44,
+    "y": -22.6,
+    "n": 3503,
+    "h": 93
+   },
+   {
+    "o": "Acabador de embalagens (flexíveis e cartotécnicas)",
+    "x": 2.2,
+    "y": -21.4,
+    "n": 6445,
+    "h": 58
+   },
+   {
+    "o": "Supervisor de manutenção eletromecânica",
+    "x": 0.94,
+    "y": -14.7,
+    "n": 9553,
+    "h": 95
+   },
+   {
+    "o": "Agente indígena de saneamento",
+    "x": 0.12,
+    "y": -0.1,
+    "n": 3200,
+    "h": 95
+   },
+   {
+    "o": "Procurador federal",
+    "x": 0.0,
+    "y": 0.2,
+    "n": 3671,
+    "h": 59
+   },
+   {
+    "o": "Lavador de veículos",
+    "x": 1.21,
+    "y": -12.7,
+    "n": 57302,
+    "h": 90
+   },
+   {
+    "o": "Repositor de mercadorias",
+    "x": 1.3,
+    "y": -2.2,
+    "n": 537723,
+    "h": 67
+   },
+   {
+    "o": "Instrutor de auto-escola",
+    "x": 0.52,
+    "y": -2.9,
+    "n": 40916,
+    "h": 78
+   },
+   {
+    "o": "Operador de rebobinadeira na fabricação de papel e papelão",
+    "x": 3.57,
+    "y": -26.4,
+    "n": 5197,
+    "h": 85
+   },
+   {
+    "o": "Supervisor de cobrança",
+    "x": 0.37,
+    "y": -8.9,
+    "n": 6527,
+    "h": 34
+   },
+   {
+    "o": "Açougueiro",
+    "x": 3.25,
+    "y": -8.1,
+    "n": 219380,
+    "h": 87
+   },
+   {
+    "o": "Administrador",
+    "x": 0.32,
+    "y": -15.4,
+    "n": 322482,
+    "h": 40
+   },
+   {
+    "o": "Economista do setor público",
+    "x": 0.14,
+    "y": -16.9,
+    "n": 16941,
+    "h": 46
+   },
+   {
+    "o": "Mestre (indústria de automotores e material de transportes)",
+    "x": 1.38,
+    "y": -24.6,
+    "n": 9786,
+    "h": 84
+   },
+   {
+    "o": "Encarregado de manutenção de instrumentos de controle, medição e similares",
+    "x": 0.97,
+    "y": -25.5,
+    "n": 5734,
+    "h": 90
+   },
+   {
+    "o": "Supervisor de lavanderia",
+    "x": 1.04,
+    "y": -15.3,
+    "n": 4224,
+    "h": 39
+   },
+   {
+    "o": "Copeiro",
+    "x": 1.17,
+    "y": -5.0,
+    "n": 110613,
+    "h": 21
+   },
+   {
+    "o": "Tecelão de malhas, a  máquina",
+    "x": 2.15,
+    "y": -12.3,
+    "n": 5308,
+    "h": 74
+   },
+   {
+    "o": "Auxiliar de enfermagem",
+    "x": 2.45,
+    "y": -4.7,
+    "n": 161143,
+    "h": 15
+   },
+   {
+    "o": "Sargento da policia militar",
+    "x": 0.0,
+    "y": 0.5,
+    "n": 96054,
+    "h": 90
+   },
+   {
+    "o": "Comerciante varejista",
+    "x": 1.11,
+    "y": -2.7,
+    "n": 31321,
+    "h": 53
+   },
+   {
+    "o": "Esteticista de animais domésticos",
+    "x": 0.73,
+    "y": -4.9,
+    "n": 3153,
+    "h": 20
+   },
+   {
+    "o": "Supervisor da manutenção e reparação de veículos leves",
+    "x": 0.94,
+    "y": -16.6,
+    "n": 5958,
+    "h": 93
+   },
+   {
+    "o": "Lavador de roupas  a maquina",
+    "x": 2.11,
+    "y": -10.4,
+    "n": 8432,
+    "h": 51
+   },
+   {
+    "o": "Professor de história no ensino médio",
+    "x": 0.11,
+    "y": -4.0,
+    "n": 13104,
+    "h": 48
+   },
+   {
+    "o": "Operador de máquina de cortar e dobrar papelão",
+    "x": 3.43,
+    "y": -23.4,
+    "n": 5530,
+    "h": 84
+   },
+   {
+    "o": "Instrutor de aprendizagem e treinamento industrial",
+    "x": 0.96,
+    "y": -21.8,
+    "n": 18752,
+    "h": 74
+   },
+   {
+    "o": "Gerente de projetos e serviços de manutenção",
+    "x": 0.49,
+    "y": -13.7,
+    "n": 32255,
+    "h": 84
+   },
+   {
+    "o": "Técnico de planejamento e programação da manutenção",
+    "x": 0.81,
+    "y": -17.5,
+    "n": 24914,
+    "h": 79
+   },
+   {
+    "o": "Operador de máquina de fundição",
+    "x": 4.68,
+    "y": -23.4,
+    "n": 3294,
+    "h": 92
+   },
+   {
+    "o": "Modelista de roupas",
+    "x": 0.33,
+    "y": -4.8,
+    "n": 5101,
+    "h": 21
+   },
+   {
+    "o": "Visitador sanitário",
+    "x": 0.97,
+    "y": -9.3,
+    "n": 21308,
+    "h": 48
+   },
+   {
+    "o": "Perito criminal",
+    "x": 0.01,
+    "y": -8.7,
+    "n": 10294,
+    "h": 69
+   },
+   {
+    "o": "Monitor de teleatendimento",
+    "x": 0.45,
+    "y": -4.6,
+    "n": 8543,
+    "h": 31
+   },
+   {
+    "o": "Professor de nível médio no ensino profissionalizante",
+    "x": 0.27,
+    "y": -3.7,
+    "n": 10861,
+    "h": 40
+   },
+   {
+    "o": "Pesquisador de engenharia civil",
+    "x": 0.05,
+    "y": 2.0,
+    "n": 4845,
+    "h": 60
+   },
+   {
+    "o": "Operador de exploração de petróleo",
+    "x": 0.98,
+    "y": -9.4,
+    "n": 9947,
+    "h": 90
+   },
+   {
+    "o": "Tecelão (tear automático)",
+    "x": 2.55,
+    "y": -14.7,
+    "n": 9101,
+    "h": 66
+   },
+   {
+    "o": "Trabalhador no cultivo de plantas ornamentais",
+    "x": 0.61,
+    "y": -4.5,
+    "n": 6326,
+    "h": 52
+   },
+   {
+    "o": "Condutor de ambulância",
+    "x": 0.99,
+    "y": -8.9,
+    "n": 29093,
+    "h": 97
+   },
+   {
+    "o": "Advogado de empresa",
+    "x": 0.13,
+    "y": -8.1,
+    "n": 12112,
+    "h": 35
+   },
+   {
+    "o": "Administrador de banco de dados",
+    "x": 0.08,
+    "y": -21.2,
+    "n": 12101,
+    "h": 74
+   },
+   {
+    "o": "Técnico agropecuário",
+    "x": 0.41,
+    "y": -8.0,
+    "n": 13367,
+    "h": 82
+   },
+   {
+    "o": "Técnico de comunicação de dados (telecomunicações)",
+    "x": 0.66,
+    "y": -9.5,
+    "n": 5613,
+    "h": 88
+   },
+   {
+    "o": "Enfermeiro obstétrico",
+    "x": 1.97,
+    "y": -2.7,
+    "n": 5011,
+    "h": 5
+   },
+   {
+    "o": "Encarregado geral de operações de conservação de vias permanentes (exceto trilhos)",
+    "x": 1.35,
+    "y": -27.9,
+    "n": 12690,
+    "h": 80
+   },
+   {
+    "o": "Preparador de máquinas-ferramenta",
+    "x": 3.6,
+    "y": -21.7,
+    "n": 19891,
+    "h": 92
+   },
+   {
+    "o": "Supervisor de operação elétrica (geração, transmissão e distribuição de energia elétrica)",
+    "x": 0.59,
+    "y": -12.5,
+    "n": 8958,
+    "h": 95
+   },
+   {
+    "o": "Entregador de publicações",
+    "x": 2.07,
+    "y": -8.5,
+    "n": 3191,
+    "h": 91
+   },
+   {
+    "o": "Farmacêutico hospitalar e clínico",
+    "x": 0.97,
+    "y": 0.1,
+    "n": 4572,
+    "h": 22
+   },
+   {
+    "o": "Operador de caldeira",
+    "x": 3.75,
+    "y": -14.3,
+    "n": 26470,
+    "h": 99
+   },
+   {
+    "o": "Fundidor de metais",
+    "x": 5.11,
+    "y": -24.4,
+    "n": 7870,
+    "h": 95
+   },
+   {
+    "o": "Eletrotécnico (produção de energia)",
+    "x": 0.86,
+    "y": -18.8,
+    "n": 4642,
+    "h": 93
+   },
+   {
+    "o": "Químico",
+    "x": 0.45,
+    "y": -0.9,
+    "n": 4584,
+    "h": 49
+   },
+   {
+    "o": "Engenheiro de controle e automação",
+    "x": 0.17,
+    "y": -3.7,
+    "n": 3227,
+    "h": 90
+   },
+   {
+    "o": "Analista de produtos bancários",
+    "x": 0.17,
+    "y": -11.6,
+    "n": 14502,
+    "h": 47
+   },
+   {
+    "o": "Analista financeiro (instituições financeiras)",
+    "x": 0.25,
+    "y": -26.1,
+    "n": 83271,
+    "h": 35
+   },
+   {
+    "o": "Trabalhador no cultivo de flores e folhagens de corte",
+    "x": 0.72,
+    "y": -4.9,
+    "n": 3003,
+    "h": 54
+   },
+   {
+    "o": "Praça do exército",
+    "x": 0.0,
+    "y": -5.4,
+    "n": 5135,
+    "h": 85
+   },
+   {
+    "o": "Gerente de serviços educacionais da área pública",
+    "x": 0.22,
+    "y": 1.9,
+    "n": 3576,
+    "h": 22
+   }
+  ]
+ },
+ "risco_dentro": {
+  "desvio_padrao_taxa": 0.981,
+  "interacao": {
+   "gap_risco_medio": {
+    "gap": -9.99,
+    "ic_baixo": -10.99,
+    "ic_alto": -8.97,
+    "ep_log": 0.00572
+   },
+   "coef_interacao_pp": -1.65,
+   "ep_pp": 0.67
+  },
+  "dif_exposicao_pp": -0.044,
+  "dif_exposicao_ep": 0.013,
+  "taxa_media_celula": 1.102,
+  "gap_sem_risco_celula": {
+   "gap": -9.49,
+   "ic_baixo": -10.5,
+   "ic_alto": -8.47,
+   "ep_log": 0.00572
+  },
+  "gap_com_risco_celula": {
+   "gap": -9.47,
+   "ic_baixo": -10.47,
+   "ic_alto": -8.46,
+   "ep_log": 0.00569
+  },
+  "premio_por_pp_risco": 0.47,
+  "premio_ep": 0.28,
+  "cobertura": 95.4
+ },
+ "bracal": {
+  "duncan": 52.7,
+  "gap_real_log": -9.5,
+  "gap_mulheres_com_ocupacoes_dos_homens": -11.3,
+  "gap_homens_com_ocupacoes_das_mulheres": -7.2,
+  "grupos": [
+   {
+    "bracal": true,
+    "sexo": 2,
+    "n": 1984162,
+    "pct_do_sexo": 8.3,
+    "media": 2350,
+    "mediana": 2119
+   },
+   {
+    "bracal": true,
+    "sexo": 1,
+    "n": 11093171,
+    "pct_do_sexo": 39.7,
+    "media": 3231,
+    "mediana": 2702
+   },
+   {
+    "bracal": false,
+    "sexo": 1,
+    "n": 16843483,
+    "pct_do_sexo": 60.3,
+    "media": 5185,
+    "mediana": 2859
+   },
+   {
+    "bracal": false,
+    "sexo": 2,
+    "n": 21921398,
+    "pct_do_sexo": 91.7,
+    "media": 4068,
+    "mediana": 2518
+   }
+  ],
+  "gap_ajustado_bracal": {
+   "gap": -13.72,
+   "ic_baixo": -15.12,
+   "ic_alto": -12.29,
+   "ep_log": 0.00835
+  },
+  "gap_ajustado_nao_bracal": {
+   "gap": -9.0,
+   "ic_baixo": -10.08,
+   "ic_alto": -7.9,
+   "ep_log": 0.00611
+  },
+  "premio_bracal": {
+   "gap": -0.51,
+   "ic_baixo": -6.47,
+   "ic_alto": 5.83,
+   "ep_log": 0.03153
+  },
+  "exemplos": [
+   {
+    "ocupacao": "Faxineiro",
+    "n": 1912493,
+    "pct_h": 26.1,
+    "mediana": 1804
+   },
+   {
+    "ocupacao": "Recepcionista, em geral",
+    "n": 585624,
+    "pct_h": 16.5,
+    "mediana": 1850
+   },
+   {
+    "ocupacao": "Servente de obras",
+    "n": 582891,
+    "pct_h": 95.5,
+    "mediana": 1903
+   },
+   {
+    "ocupacao": "Alimentador de linha de produção",
+    "n": 1197034,
+    "pct_h": 62.9,
+    "mediana": 2144
+   },
+   {
+    "ocupacao": "Pedreiro",
+    "n": 341782,
+    "pct_h": 99.4,
+    "mediana": 2563
+   },
+   {
+    "ocupacao": "Assistente administrativo",
+    "n": 2430011,
+    "pct_h": 35.5,
+    "mediana": 2593
+   },
+   {
+    "ocupacao": "Motorista de caminhão (rotas regionais e internacionais)",
+    "n": 1031224,
+    "pct_h": 98.6,
+    "mediana": 3291
+   },
+   {
+    "ocupacao": "Técnico de enfermagem",
+    "n": 959655,
+    "pct_h": 15.0,
+    "mediana": 3507
+   },
+   {
+    "ocupacao": "Professor de nível superior do ensino fundamental (primeira a quarta série)",
+    "n": 648947,
+    "pct_h": 17.0,
+    "mediana": 4956
+   },
+   {
+    "ocupacao": "Professor de nível médio no ensino fundamental",
+    "n": 787007,
+    "pct_h": 21.8,
+    "mediana": 5278
+   }
+  ],
+  "mediana_geral": 2632
+ },
+ "profissoes": [
+  {
+   "profissao": "Enfermeiro(a)",
+   "n": 462851,
+   "pct_m": 84.3,
+   "media_m": 6808,
+   "media_h": 6788,
+   "bruto": 0.3,
+   "pct_publico": 40.4,
+   "ajustado": {
+    "gap": -1.15,
+    "ic_baixo": -2.46,
+    "ic_alto": 0.18,
+    "ep_log": 0.00682
+   },
+   "ajustado_privado": {
+    "gap": -2.33,
+    "ic_baixo": -3.24,
+    "ic_alto": -1.43,
+    "ep_log": 0.00473
+   },
+   "ajustado_publico": {
+    "gap": 0.03,
+    "ic_baixo": -2.49,
+    "ic_alto": 2.61,
+    "ep_log": 0.013
+   }
+  },
+  {
+   "profissao": "Técnico(a) de enfermagem",
+   "n": 967342,
+   "pct_m": 84.9,
+   "media_m": 3763,
+   "media_h": 3929,
+   "bruto": -4.2,
+   "pct_publico": 32.5,
+   "ajustado": {
+    "gap": -3.27,
+    "ic_baixo": -4.82,
+    "ic_alto": -1.7,
+    "ep_log": 0.00823
+   },
+   "ajustado_privado": {
+    "gap": -3.67,
+    "ic_baixo": -5.14,
+    "ic_alto": -2.18,
+    "ep_log": 0.00784
+   },
+   "ajustado_publico": {
+    "gap": -2.01,
+    "ic_baixo": -4.87,
+    "ic_alto": 0.94,
+    "ep_log": 0.01513
+   }
+  },
+  {
+   "profissao": "Auxiliar de enfermagem",
+   "n": 161143,
+   "pct_m": 85.2,
+   "media_m": 4412,
+   "media_h": 4590,
+   "bruto": -3.9,
+   "pct_publico": 60.0,
+   "ajustado": {
+    "gap": -2.84,
+    "ic_baixo": -4.42,
+    "ic_alto": -1.22,
+    "ep_log": 0.00841
+   },
+   "ajustado_privado": {
+    "gap": -4.37,
+    "ic_baixo": -5.19,
+    "ic_alto": -3.54,
+    "ep_log": 0.00439
+   },
+   "ajustado_publico": {
+    "gap": -1.43,
+    "ic_baixo": -3.19,
+    "ic_alto": 0.36,
+    "ep_log": 0.00919
+   }
+  },
+  {
+   "profissao": "Nutricionista",
+   "n": 62810,
+   "pct_m": 92.3,
+   "media_m": 5006,
+   "media_h": 4629,
+   "bruto": 8.2,
+   "pct_publico": 37.3,
+   "ajustado": {
+    "gap": -0.35,
+    "ic_baixo": -2.65,
+    "ic_alto": 2.0,
+    "ep_log": 0.0119
+   },
+   "ajustado_privado": {
+    "gap": -1.56,
+    "ic_baixo": -3.42,
+    "ic_alto": 0.33,
+    "ep_log": 0.00971
+   },
+   "ajustado_publico": {
+    "gap": 0.69,
+    "ic_baixo": -2.53,
+    "ic_alto": 4.01,
+    "ep_log": 0.01659
+   }
+  },
+  {
+   "profissao": "Psicólogo(a)",
+   "n": 100385,
+   "pct_m": 83.3,
+   "media_m": 5322,
+   "media_h": 5417,
+   "bruto": -1.8,
+   "pct_publico": 59.4,
+   "ajustado": {
+    "gap": -2.72,
+    "ic_baixo": -3.82,
+    "ic_alto": -1.61,
+    "ep_log": 0.0058
+   },
+   "ajustado_privado": {
+    "gap": -0.82,
+    "ic_baixo": -2.17,
+    "ic_alto": 0.54,
+    "ep_log": 0.00697
+   },
+   "ajustado_publico": {
+    "gap": -3.7,
+    "ic_baixo": -4.97,
+    "ic_alto": -2.41,
+    "ep_log": 0.0068
+   }
+  },
+  {
+   "profissao": "Fisioterapeuta",
+   "n": 88781,
+   "pct_m": 76.7,
+   "media_m": 4908,
+   "media_h": 4970,
+   "bruto": -1.2,
+   "pct_publico": 37.6,
+   "ajustado": {
+    "gap": -0.51,
+    "ic_baixo": -1.53,
+    "ic_alto": 0.53,
+    "ep_log": 0.0053
+   },
+   "ajustado_privado": {
+    "gap": -0.6,
+    "ic_baixo": -1.48,
+    "ic_alto": 0.3,
+    "ep_log": 0.00457
+   },
+   "ajustado_publico": {
+    "gap": -0.64,
+    "ic_baixo": -2.1,
+    "ic_alto": 0.83,
+    "ep_log": 0.00754
+   }
+  },
+  {
+   "profissao": "Assistente social",
+   "n": 107232,
+   "pct_m": 91.5,
+   "media_m": 6101,
+   "media_h": 7246,
+   "bruto": -15.8,
+   "pct_publico": 68.0,
+   "ajustado": {
+    "gap": -6.72,
+    "ic_baixo": -10.29,
+    "ic_alto": -3.0,
+    "ep_log": 0.01991
+   },
+   "ajustado_privado": {
+    "gap": -0.41,
+    "ic_baixo": -2.93,
+    "ic_alto": 2.18,
+    "ep_log": 0.01311
+   },
+   "ajustado_publico": {
+    "gap": -7.35,
+    "ic_baixo": -11.52,
+    "ic_alto": -2.97,
+    "ep_log": 0.02353
+   }
+  },
+  {
+   "profissao": "Farmacêutico(a)",
+   "n": 189413,
+   "pct_m": 72.2,
+   "media_m": 5846,
+   "media_h": 5865,
+   "bruto": -0.3,
+   "pct_publico": 18.0,
+   "ajustado": {
+    "gap": 0.09,
+    "ic_baixo": -0.52,
+    "ic_alto": 0.69,
+    "ep_log": 0.00309
+   },
+   "ajustado_privado": {
+    "gap": 0.04,
+    "ic_baixo": -0.39,
+    "ic_alto": 0.47,
+    "ep_log": 0.00218
+   },
+   "ajustado_publico": {
+    "gap": -1.18,
+    "ic_baixo": -2.67,
+    "ic_alto": 0.34,
+    "ep_log": 0.00777
+   }
+  },
+  {
+   "profissao": "Professor(a) educação infantil",
+   "n": 803090,
+   "pct_m": 93.3,
+   "media_m": 4329,
+   "media_h": 4795,
+   "bruto": -9.7,
+   "pct_publico": 63.9,
+   "ajustado": {
+    "gap": -1.57,
+    "ic_baixo": -2.7,
+    "ic_alto": -0.43,
+    "ep_log": 0.00589
+   },
+   "ajustado_privado": {
+    "gap": -0.79,
+    "ic_baixo": -2.51,
+    "ic_alto": 0.96,
+    "ep_log": 0.00893
+   },
+   "ajustado_publico": {
+    "gap": -2.36,
+    "ic_baixo": -3.81,
+    "ic_alto": -0.89,
+    "ep_log": 0.00762
+   }
+  },
+  {
+   "profissao": "Professor(a) ensino fundamental",
+   "n": 1982142,
+   "pct_m": 78.2,
+   "media_m": 5653,
+   "media_h": 5695,
+   "bruto": -0.7,
+   "pct_publico": 87.7,
+   "ajustado": {
+    "gap": -0.39,
+    "ic_baixo": -1.96,
+    "ic_alto": 1.2,
+    "ep_log": 0.00809
+   },
+   "ajustado_privado": {
+    "gap": -1.66,
+    "ic_baixo": -3.32,
+    "ic_alto": 0.03,
+    "ep_log": 0.0087
+   },
+   "ajustado_publico": {
+    "gap": 0.23,
+    "ic_baixo": -1.29,
+    "ic_alto": 1.78,
+    "ep_log": 0.00782
+   }
+  },
+  {
+   "profissao": "Professor(a) ensino médio",
+   "n": 383039,
+   "pct_m": 63.9,
+   "media_m": 6228,
+   "media_h": 6391,
+   "bruto": -2.6,
+   "pct_publico": 84.2,
+   "ajustado": {
+    "gap": -3.97,
+    "ic_baixo": -5.2,
+    "ic_alto": -2.72,
+    "ep_log": 0.0066
+   },
+   "ajustado_privado": {
+    "gap": -4.92,
+    "ic_baixo": -6.28,
+    "ic_alto": -3.54,
+    "ep_log": 0.00735
+   },
+   "ajustado_publico": {
+    "gap": -3.32,
+    "ic_baixo": -4.73,
+    "ic_alto": -1.89,
+    "ep_log": 0.00751
+   }
+  },
+  {
+   "profissao": "Professor(a) ensino superior",
+   "n": 382339,
+   "pct_m": 56.2,
+   "media_m": 9595,
+   "media_h": 11761,
+   "bruto": -18.4,
+   "pct_publico": 62.0,
+   "ajustado": {
+    "gap": -1.81,
+    "ic_baixo": -3.05,
+    "ic_alto": -0.55,
+    "ep_log": 0.0065
+   },
+   "ajustado_privado": {
+    "gap": 1.24,
+    "ic_baixo": 0.03,
+    "ic_alto": 2.48,
+    "ep_log": 0.00617
+   },
+   "ajustado_publico": {
+    "gap": -2.91,
+    "ic_baixo": -4.12,
+    "ic_alto": -1.69,
+    "ep_log": 0.00638
+   }
+  },
+  {
+   "profissao": "Médico(a)",
+   "n": 231725,
+   "pct_m": 51.5,
+   "media_m": 14436,
+   "media_h": 15462,
+   "bruto": -6.6,
+   "pct_publico": 69.1,
+   "ajustado": {
+    "gap": -4.77,
+    "ic_baixo": -5.83,
+    "ic_alto": -3.7,
+    "ep_log": 0.00569
+   },
+   "ajustado_privado": {
+    "gap": -2.72,
+    "ic_baixo": -3.97,
+    "ic_alto": -1.46,
+    "ep_log": 0.0066
+   },
+   "ajustado_publico": {
+    "gap": -5.58,
+    "ic_baixo": -6.86,
+    "ic_alto": -4.28,
+    "ep_log": 0.00695
+   }
+  },
+  {
+   "profissao": "Advogado(a)",
+   "n": 120252,
+   "pct_m": 61.2,
+   "media_m": 10444,
+   "media_h": 12463,
+   "bruto": -16.2,
+   "pct_publico": 40.3,
+   "ajustado": {
+    "gap": -5.3,
+    "ic_baixo": -6.54,
+    "ic_alto": -4.04,
+    "ep_log": 0.00675
+   },
+   "ajustado_privado": {
+    "gap": -6.18,
+    "ic_baixo": -7.57,
+    "ic_alto": -4.78,
+    "ep_log": 0.00759
+   },
+   "ajustado_publico": {
+    "gap": -4.64,
+    "ic_baixo": -6.78,
+    "ic_alto": -2.44,
+    "ep_log": 0.0116
+   }
+  },
+  {
+   "profissao": "Contador(a)",
+   "n": 154992,
+   "pct_m": 59.0,
+   "media_m": 6930,
+   "media_h": 8905,
+   "bruto": -22.2,
+   "pct_publico": 11.9,
+   "ajustado": {
+    "gap": -10.4,
+    "ic_baixo": -11.27,
+    "ic_alto": -9.52,
+    "ep_log": 0.00499
+   },
+   "ajustado_privado": {
+    "gap": -10.56,
+    "ic_baixo": -11.35,
+    "ic_alto": -9.77,
+    "ep_log": 0.00452
+   },
+   "ajustado_publico": {
+    "gap": -9.11,
+    "ic_baixo": -12.19,
+    "ic_alto": -5.91,
+    "ep_log": 0.0176
+   }
+  },
+  {
+   "profissao": "Engenheiro(a) civil",
+   "n": 67858,
+   "pct_m": 29.2,
+   "media_m": 11543,
+   "media_h": 13065,
+   "bruto": -11.6,
+   "pct_publico": 28.1,
+   "ajustado": {
+    "gap": -3.36,
+    "ic_baixo": -4.51,
+    "ic_alto": -2.19,
+    "ep_log": 0.00613
+   },
+   "ajustado_privado": {
+    "gap": -4.03,
+    "ic_baixo": -4.93,
+    "ic_alto": -3.13,
+    "ep_log": 0.00476
+   },
+   "ajustado_publico": {
+    "gap": -1.44,
+    "ic_baixo": -3.75,
+    "ic_alto": 0.92,
+    "ep_log": 0.0121
+   }
+  },
+  {
+   "profissao": "Analista de sistemas",
+   "n": 265307,
+   "pct_m": 21.8,
+   "media_m": 9914,
+   "media_h": 11055,
+   "bruto": -10.3,
+   "pct_publico": 4.3,
+   "ajustado": {
+    "gap": -12.34,
+    "ic_baixo": -13.67,
+    "ic_alto": -10.98,
+    "ep_log": 0.00783
+   },
+   "ajustado_privado": {
+    "gap": -12.47,
+    "ic_baixo": -13.81,
+    "ic_alto": -11.12,
+    "ep_log": 0.00784
+   },
+   "ajustado_publico": {
+    "gap": -8.09,
+    "ic_baixo": -12.0,
+    "ic_alto": -4.0,
+    "ep_log": 0.02219
+   }
+  },
+  {
+   "profissao": "Assistente administrativo",
+   "n": 2430011,
+   "pct_m": 64.5,
+   "media_m": 3600,
+   "media_h": 4349,
+   "bruto": -17.2,
+   "pct_publico": 35.3,
+   "ajustado": {
+    "gap": -9.95,
+    "ic_baixo": -10.94,
+    "ic_alto": -8.94,
+    "ep_log": 0.00568
+   },
+   "ajustado_privado": {
+    "gap": -6.37,
+    "ic_baixo": -6.59,
+    "ic_alto": -6.15,
+    "ep_log": 0.00119
+   },
+   "ajustado_publico": {
+    "gap": -14.69,
+    "ic_baixo": -16.72,
+    "ic_alto": -12.61,
+    "ep_log": 0.01228
+   }
+  },
+  {
+   "profissao": "Vendedor(a) do varejo",
+   "n": 1747818,
+   "pct_m": 60.8,
+   "media_m": 2466,
+   "media_h": 3114,
+   "bruto": -20.8,
+   "pct_publico": 0.0,
+   "ajustado": {
+    "gap": -5.37,
+    "ic_baixo": -5.87,
+    "ic_alto": -4.87,
+    "ep_log": 0.00269
+   },
+   "ajustado_privado": {
+    "gap": -5.37,
+    "ic_baixo": -5.87,
+    "ic_alto": -4.87,
+    "ep_log": 0.00269
+   }
+  },
+  {
+   "profissao": "Faxineiro(a)",
+   "n": 1912493,
+   "pct_m": 73.9,
+   "media_m": 1888,
+   "media_h": 1995,
+   "bruto": -5.4,
+   "pct_publico": 11.5,
+   "ajustado": {
+    "gap": -6.51,
+    "ic_baixo": -7.22,
+    "ic_alto": -5.8,
+    "ep_log": 0.00387
+   },
+   "ajustado_privado": {
+    "gap": -5.79,
+    "ic_baixo": -6.74,
+    "ic_alto": -4.83,
+    "ep_log": 0.00517
+   },
+   "ajustado_publico": {
+    "gap": -9.29,
+    "ic_baixo": -10.82,
+    "ic_alto": -7.73,
+    "ep_log": 0.00869
+   }
+  },
+  {
+   "profissao": "Pedreiro(a)",
+   "n": 341782,
+   "pct_m": 0.6,
+   "media_m": 2551,
+   "media_h": 2728,
+   "bruto": -6.5,
+   "pct_publico": 5.1,
+   "ajustado": {
+    "gap": -7.51,
+    "ic_baixo": -10.79,
+    "ic_alto": -4.11,
+    "ep_log": 0.01841
+   },
+   "ajustado_privado": {
+    "gap": -6.01,
+    "ic_baixo": -9.68,
+    "ic_alto": -2.19,
+    "ep_log": 0.02032
+   },
+   "ajustado_publico": {
+    "gap": -12.37,
+    "ic_baixo": -18.85,
+    "ic_alto": -5.37,
+    "ep_log": 0.03922
+   }
+  },
+  {
+   "profissao": "Motorista de caminhão",
+   "n": 1031224,
+   "pct_m": 1.4,
+   "media_m": 3390,
+   "media_h": 3604,
+   "bruto": -6.0,
+   "pct_publico": 3.3,
+   "ajustado": {
+    "gap": -8.57,
+    "ic_baixo": -9.6,
+    "ic_alto": -7.53,
+    "ep_log": 0.00577
+   },
+   "ajustado_privado": {
+    "gap": -8.2,
+    "ic_baixo": -9.25,
+    "ic_alto": -7.13,
+    "ep_log": 0.0059
+   },
+   "ajustado_publico": {
+    "gap": -7.42,
+    "ic_baixo": -9.73,
+    "ic_alto": -5.04,
+    "ep_log": 0.01292
+   }
+  }
+ ],
+ "robustez": [
+  {
+   "amostra": "Todos",
+   "n": 2592021,
+   "gap": -8.06,
+   "ic_baixo": -8.9,
+   "ic_alto": -7.21,
+   "ep_log": 0.00468
+  },
+  {
+   "amostra": "Setor privado",
+   "n": 2072311,
+   "gap": -8.42,
+   "ic_baixo": -9.4,
+   "ic_alto": -7.43,
+   "ep_log": 0.00548
+  },
+  {
+   "amostra": "Setor público",
+   "n": 519710,
+   "gap": -4.45,
+   "ic_baixo": -6.8,
+   "ic_alto": -2.04,
+   "ep_log": 0.01268
+  },
+  {
+   "amostra": "Só jornada de 40 a 44h",
+   "n": 2259161,
+   "gap": -8.23,
+   "ic_baixo": -9.05,
+   "ic_alto": -7.4,
+   "ep_log": 0.00458
+  },
+  {
+   "amostra": "Até ensino médio",
+   "n": 1777714,
+   "gap": -7.83,
+   "ic_baixo": -8.73,
+   "ic_alto": -6.93,
+   "ep_log": 0.00499
+  },
+  {
+   "amostra": "Superior completo ou mais",
+   "n": 732589,
+   "gap": -7.41,
+   "ic_baixo": -8.77,
+   "ic_alto": -6.03,
+   "ep_log": 0.00753
+  },
+  {
+   "amostra": "Até 29 anos",
+   "n": 701685,
+   "gap": -4.28,
+   "ic_baixo": -5.01,
+   "ic_alto": -3.54,
+   "ep_log": 0.00392
+  },
+  {
+   "amostra": "40 anos ou mais",
+   "n": 1203130,
+   "gap": -8.94,
+   "ic_baixo": -10.24,
+   "ic_alto": -7.63,
+   "ep_log": 0.00732
+  },
+  {
+   "amostra": "Salário por hora (em vez de mensal)",
+   "n": 2592021,
+   "gap": -8.06,
+   "ic_baixo": -8.9,
+   "ic_alto": -7.21,
+   "ep_log": 0.00468
+  }
+ ]
+}

@@ -1,0 +1,854 @@
+{
+ "meta": {
+  "ano": 2024,
+  "fonte": "RAIS 2024, Ministério do Trabalho e Emprego (microdados públicos de vínculos)",
+  "gerado": "2026-09-30",
+  "amostra_regressoes": 2502327,
+  "fracao_amostra": "1 em 20",
+  "filtro": "Vínculos ativos em 31/12/2024 com jornada contratada de 10 a 48 h/semana, remuneração média de R$ 500 ou mais e idade de 16 a 70 anos."
+ },
+ "geral": {
+  "n": 50041592,
+  "n_m": 22694074,
+  "rem_h": 4172.768436903136,
+  "rem_m": 3713.1836006695485,
+  "med_h": 2628.48,
+  "med_m": 2317.24,
+  "hor_h": 42.18043567975712,
+  "hor_m": 40.59162603417967,
+  "hora_h": 23.460014173199088,
+  "hora_m": 21.937732832033177,
+  "sup_h": 0.20453856178099966,
+  "sup_m": 0.3585787637777157,
+  "parcial_h": 0.03426914281581239,
+  "parcial_m": 0.08346637100064096,
+  "n_licenca": 332878,
+  "n_acidente": 348639,
+  "n_total_ativos": 57800651,
+  "pct_mulheres": 45.4,
+  "gap_mensal": -11.0,
+  "gap_mediana": -11.8,
+  "gap_hora": -6.5
+ },
+ "escada": [
+  {
+   "passo": "Comparação direta",
+   "desc": "Média de todas as mulheres contra a de todos os homens",
+   "gap": -9.3
+  },
+  {
+   "passo": "Mesma jornada",
+   "desc": "Mesmas horas semanais contratadas",
+   "gap": -9.7
+  },
+  {
+   "passo": "Mesma instrução",
+   "desc": "Mesmo grau de instrução",
+   "gap": -19.9
+  },
+  {
+   "passo": "Mesma idade e tempo de casa",
+   "desc": "Mesma idade e mesma antiguidade no emprego",
+   "gap": -19.7
+  },
+  {
+   "passo": "Mesmo tipo de empregador",
+   "desc": "Mesmo porte, estado, setor econômico e público ou privado",
+   "gap": -16.8
+  },
+  {
+   "passo": "Mesma ocupação",
+   "desc": "Mesma função (CBO de 6 dígitos)",
+   "gap": -9.7
+  },
+  {
+   "passo": "Mesma ocupação, mesma cidade",
+   "desc": "Mesma função no mesmo município",
+   "gap": -8.1
+  }
+ ],
+ "decomposicao": {
+  "bruto_pp": -9.8,
+  "explicado_pp": 0.4,
+  "nao_explicado_pp": -10.3,
+  "fatores": [
+   {
+    "fator": "Horas trabalhadas",
+    "log": -0.02365818742594878,
+    "pp": -2.4
+   },
+   {
+    "fator": "Instrução",
+    "log": 0.05190575077958927,
+    "pp": 5.2
+   },
+   {
+    "fator": "Idade",
+    "log": 0.0027079890009871904,
+    "pp": 0.3
+   },
+   {
+    "fator": "Tempo de casa",
+    "log": 0.007862953653697302,
+    "pp": 0.8
+   },
+   {
+    "fator": "Setor, porte, estado e público/privado",
+    "log": -0.00965271540292303,
+    "pp": -1.0
+   },
+   {
+    "fator": "Adicionais: periculosidade, confinamento e turno",
+    "log": -0.006251928810402856,
+    "pp": -0.6
+   },
+   {
+    "fator": "Risco de acidente da ocupação",
+    "log": 0.02966347249206093,
+    "pp": 3.0
+   },
+   {
+    "fator": "Demais diferenças de ocupação",
+    "log": -0.0481344361276744,
+    "pp": -4.8
+   },
+   {
+    "fator": "Não explicado",
+    "log": -0.10250291255907833,
+    "pp": -10.3
+   }
+  ],
+  "premio_risco": {
+   "Confinamento, embarcado ou subsolo": 22.7,
+   "Periculosidade (NR-16)": 6.8,
+   "Turnos irregulares": 26.3,
+   "taxa": -8.3
+  }
+ },
+ "instrucao": [
+  {
+   "faixa": "Até fund. incompleto",
+   "n_h": 2454231,
+   "n_m": 885658,
+   "pct_m": 26.5,
+   "rem_h": 2718,
+   "rem_m": 2011,
+   "horas_h": 43.2,
+   "horas_m": 41.8,
+   "gap_bruto": -26.0,
+   "gap_ajustado": -12.1
+  },
+  {
+   "faixa": "Fundamental completo",
+   "n_h": 2060892,
+   "n_m": 958244,
+   "pct_m": 31.7,
+   "rem_h": 2900,
+   "rem_m": 2146,
+   "horas_h": 42.9,
+   "horas_m": 41.7,
+   "gap_bruto": -26.0,
+   "gap_ajustado": -11.6
+  },
+  {
+   "faixa": "Médio incompleto",
+   "n_h": 1713820,
+   "n_m": 899035,
+   "pct_m": 34.4,
+   "rem_h": 2505,
+   "rem_m": 1848,
+   "horas_h": 41.8,
+   "horas_m": 39.6,
+   "gap_bruto": -26.2,
+   "gap_ajustado": -9.3
+  },
+  {
+   "faixa": "Médio completo",
+   "n_h": 14781170,
+   "n_m": 10967546,
+   "pct_m": 42.6,
+   "rem_h": 3025,
+   "rem_m": 2340,
+   "horas_h": 42.7,
+   "horas_m": 41.7,
+   "gap_bruto": -22.6,
+   "gap_ajustado": -9.2
+  },
+  {
+   "faixa": "Superior incompleto",
+   "n_h": 743783,
+   "n_m": 845978,
+   "pct_m": 53.2,
+   "rem_h": 4041,
+   "rem_m": 2869,
+   "horas_h": 41.7,
+   "horas_m": 41.1,
+   "gap_bruto": -29.0,
+   "gap_ajustado": -7.6
+  },
+  {
+   "faixa": "Superior completo",
+   "n_h": 5344320,
+   "n_m": 7843300,
+   "pct_m": 59.5,
+   "rem_h": 8545,
+   "rem_m": 6034,
+   "horas_h": 40.3,
+   "horas_m": 39.0,
+   "gap_bruto": -29.4,
+   "gap_ajustado": -8.8
+  },
+  {
+   "faixa": "Mestrado ou doutorado",
+   "n_h": 249302,
+   "n_m": 294313,
+   "pct_m": 54.1,
+   "rem_h": 15207,
+   "rem_m": 11383,
+   "horas_h": 37.9,
+   "horas_m": 37.2,
+   "gap_bruto": -25.1,
+   "gap_ajustado": -5.6
+  }
+ ],
+ "gap_sem_instrucao": -9.3,
+ "top_diploma": {
+  "homens": [
+   {
+    "ocupacao": "Assistente administrativo",
+    "pct_do_sexo": 4.0,
+    "mediana": 4732,
+    "pct_m": 67.7
+   },
+   {
+    "ocupacao": "Analista de desenvolvimento de sistemas",
+    "pct_do_sexo": 3.6,
+    "mediana": 9000,
+    "pct_m": 21.8
+   },
+   {
+    "ocupacao": "Gerente administrativo",
+    "pct_do_sexo": 2.7,
+    "mediana": 4342,
+    "pct_m": 51.8
+   },
+   {
+    "ocupacao": "Professor de nível médio no ensino fundamental",
+    "pct_do_sexo": 2.4,
+    "mediana": 5140,
+    "pct_m": 78.9
+   },
+   {
+    "ocupacao": "Administrador",
+    "pct_do_sexo": 2.2,
+    "mediana": 5792,
+    "pct_m": 59.7
+   },
+   {
+    "ocupacao": "Professor de nível superior do ensino fundamental (primeira a quarta série)",
+    "pct_do_sexo": 1.8,
+    "mediana": 4418,
+    "pct_m": 82.7
+   },
+   {
+    "ocupacao": "Dirigente do serviço público estadual e distrital",
+    "pct_do_sexo": 1.8,
+    "mediana": 6172,
+    "pct_m": 55.5
+   },
+   {
+    "ocupacao": "Dirigente do serviço público municipal",
+    "pct_do_sexo": 1.7,
+    "mediana": 3618,
+    "pct_m": 54.4
+   },
+   {
+    "ocupacao": "Gerente comercial",
+    "pct_do_sexo": 1.5,
+    "mediana": 4205,
+    "pct_m": 43.3
+   },
+   {
+    "ocupacao": "Escriturário de banco",
+    "pct_do_sexo": 1.5,
+    "mediana": 12208,
+    "pct_m": 45.2
+   }
+  ],
+  "mulheres": [
+   {
+    "ocupacao": "Professor de nível médio no ensino fundamental",
+    "pct_do_sexo": 6.1,
+    "mediana": 5144,
+    "pct_m": 78.9
+   },
+   {
+    "ocupacao": "Professor de nível superior do ensino fundamental (primeira a quarta série)",
+    "pct_do_sexo": 6.1,
+    "mediana": 4585,
+    "pct_m": 82.7
+   },
+   {
+    "ocupacao": "Assistente administrativo",
+    "pct_do_sexo": 5.8,
+    "mediana": 3428,
+    "pct_m": 67.7
+   },
+   {
+    "ocupacao": "Enfermeiro",
+    "pct_do_sexo": 4.0,
+    "mediana": 5647,
+    "pct_m": 84.3
+   },
+   {
+    "ocupacao": "Professor da  educação de jovens e adultos do ensino fundamental (primeira a quarta série)",
+    "pct_do_sexo": 3.1,
+    "mediana": 4814,
+    "pct_m": 79.9
+   },
+   {
+    "ocupacao": "Auxiliar de escritório",
+    "pct_do_sexo": 2.5,
+    "mediana": 2405,
+    "pct_m": 72.8
+   },
+   {
+    "ocupacao": "Administrador",
+    "pct_do_sexo": 2.2,
+    "mediana": 4669,
+    "pct_m": 59.7
+   },
+   {
+    "ocupacao": "Professor de disciplinas pedagógicas no ensino médio",
+    "pct_do_sexo": 2.1,
+    "mediana": 5258,
+    "pct_m": 68.1
+   },
+   {
+    "ocupacao": "Gerente administrativo",
+    "pct_do_sexo": 2.0,
+    "mediana": 3671,
+    "pct_m": 51.8
+   },
+   {
+    "ocupacao": "Professor de nível médio na educação infantil",
+    "pct_do_sexo": 1.8,
+    "mediana": 4919,
+    "pct_m": 95.2
+   }
+  ]
+ },
+ "idade": [
+  {
+   "faixa": "16-24",
+   "bruto": -9.4,
+   "ajustado": -3.9,
+   "tempo_h": 14.3,
+   "gestao_h": 1.3,
+   "gestao_sup_h": 21.5,
+   "licenca_h": 0.01,
+   "horas_h": 41.7,
+   "tempo_m": 12.8,
+   "gestao_m": 1.88,
+   "gestao_sup_m": 18.3,
+   "licenca_m": 0.72,
+   "horas_m": 40.5
+  },
+  {
+   "faixa": "25-29",
+   "bruto": -7.4,
+   "ajustado": -6.7,
+   "tempo_h": 25.5,
+   "gestao_h": 3.46,
+   "gestao_sup_h": 18.9,
+   "licenca_h": 0.02,
+   "horas_h": 42.7,
+   "tempo_m": 23.1,
+   "gestao_m": 4.67,
+   "gestao_sup_m": 14.7,
+   "licenca_m": 2.15,
+   "horas_m": 41.5
+  },
+  {
+   "faixa": "30-34",
+   "bruto": -9.5,
+   "ajustado": -9.2,
+   "tempo_h": 36.7,
+   "gestao_h": 4.72,
+   "gestao_sup_h": 20.1,
+   "licenca_h": 0.03,
+   "horas_h": 42.5,
+   "tempo_m": 34.6,
+   "gestao_m": 5.98,
+   "gestao_sup_m": 15.2,
+   "licenca_m": 3.21,
+   "horas_m": 41.1
+  },
+  {
+   "faixa": "35-39",
+   "bruto": -11.9,
+   "ajustado": -10.8,
+   "tempo_h": 51.3,
+   "gestao_h": 5.32,
+   "gestao_sup_h": 21.0,
+   "licenca_h": 0.03,
+   "horas_h": 42.3,
+   "tempo_m": 50.0,
+   "gestao_m": 6.32,
+   "gestao_sup_m": 14.8,
+   "licenca_m": 3.0,
+   "horas_m": 40.7
+  },
+  {
+   "faixa": "40-44",
+   "bruto": -12.3,
+   "ajustado": -11.0,
+   "tempo_h": 67.0,
+   "gestao_h": 5.57,
+   "gestao_sup_h": 21.7,
+   "licenca_h": 0.02,
+   "horas_h": 42.1,
+   "tempo_m": 68.8,
+   "gestao_m": 6.09,
+   "gestao_sup_m": 14.0,
+   "licenca_m": 1.31,
+   "horas_m": 40.4
+  },
+  {
+   "faixa": "45-49",
+   "bruto": -11.3,
+   "ajustado": -10.9,
+   "tempo_h": 82.6,
+   "gestao_h": 5.36,
+   "gestao_sup_h": 22.4,
+   "licenca_h": 0.01,
+   "horas_h": 42.1,
+   "tempo_m": 91.3,
+   "gestao_m": 5.48,
+   "gestao_sup_m": 12.8,
+   "licenca_m": 0.19,
+   "horas_m": 40.2
+  },
+  {
+   "faixa": "50-54",
+   "bruto": -9.0,
+   "ajustado": -11.3,
+   "tempo_h": 99.3,
+   "gestao_h": 5.05,
+   "gestao_sup_h": 22.8,
+   "licenca_h": 0.01,
+   "horas_h": 42.1,
+   "tempo_m": 116.6,
+   "gestao_m": 4.93,
+   "gestao_sup_m": 11.9,
+   "licenca_m": 0.03,
+   "horas_m": 40.1
+  },
+  {
+   "faixa": "55+",
+   "bruto": -6.3,
+   "ajustado": -10.2,
+   "tempo_h": 132.0,
+   "gestao_h": 5.05,
+   "gestao_sup_h": 22.5,
+   "licenca_h": 0.01,
+   "horas_h": 41.9,
+   "tempo_m": 156.7,
+   "gestao_m": 4.66,
+   "gestao_sup_m": 11.5,
+   "licenca_m": 0.02,
+   "horas_m": 39.8
+  }
+ ],
+ "maternidade": {
+  "n": 327872,
+  "idade_mediana": 34.0,
+  "efeito_media_ano": 0.9,
+  "efeito_dezembro": 0.8,
+  "gap_20_39_todas": -8.3,
+  "gap_20_39_sem_licenca": -8.3,
+  "tempo_lic": 71.7,
+  "tempo_outras": 40.8
+ },
+ "risco": {
+  "grupos": [
+   {
+    "grupo": "Confinamento, embarcado ou subsolo",
+    "n": 219240,
+    "pct_h": 93.9,
+    "rem": 5008,
+    "taxa_acidente": 1.79,
+    "premio": 49.0,
+    "exemplos": [
+     "Mineiro",
+     "Marinheiro de convés (marítimo e fluviário)",
+     "Operador de pá carregadeira",
+     "Operador de caminhão (minas e pedreiras)",
+     "Operador de máquina perfuratriz"
+    ]
+   },
+   {
+    "grupo": "Periculosidade (NR-16)",
+    "n": 1646763,
+    "pct_h": 89.5,
+    "rem": 3711,
+    "taxa_acidente": 1.27,
+    "premio": 6.3,
+    "exemplos": [
+     "Vigilante patrimonial",
+     "Frentista",
+     "Motofretista",
+     "Eletricista de instalações",
+     "Eletricista de manutenção eletroeletrônica"
+    ]
+   },
+   {
+    "grupo": "Turnos irregulares",
+    "n": 3165583,
+    "pct_h": 57.4,
+    "rem": 4003,
+    "taxa_acidente": 2.25,
+    "premio": 22.1,
+    "exemplos": [
+     "Motorista de caminhão (rotas regionais e internacionais)",
+     "Técnico de enfermagem",
+     "Enfermeiro",
+     "Motorista de ônibus urbano",
+     "Operador de máquinas fixas, em geral"
+    ]
+   },
+   {
+    "grupo": "Demais ocupações",
+    "n": 45010006,
+    "pct_h": 53.0,
+    "rem": 3966,
+    "taxa_acidente": 1.01,
+    "premio": 0.0,
+    "exemplos": []
+   }
+  ],
+  "quintis": [
+   {
+    "quintil": 1,
+    "taxa": 0.23,
+    "pct_h": 45.8,
+    "med_hora": 37.42
+   },
+   {
+    "quintil": 2,
+    "taxa": 0.47,
+    "pct_h": 42.6,
+    "med_hora": 16.52
+   },
+   {
+    "quintil": 3,
+    "taxa": 0.83,
+    "pct_h": 48.8,
+    "med_hora": 16.25
+   },
+   {
+    "quintil": 4,
+    "taxa": 1.29,
+    "pct_h": 63.3,
+    "med_hora": 12.27
+   },
+   {
+    "quintil": 5,
+    "taxa": 2.65,
+    "pct_h": 73.1,
+    "med_hora": 15.63
+   }
+  ],
+  "gap_sem_risco": -9.9,
+  "gap_sem_risco_bruto": -10.7
+ },
+ "ocupacoes": {
+  "n": 1295,
+  "vinculos": 48812187,
+  "mulher_ganha_mais": 125,
+  "empate": 147,
+  "homem_ganha_mais": 1023,
+  "mediana_gap": -9.3,
+  "hist": [
+   {
+    "de": -50,
+    "ate": -45,
+    "n": 6
+   },
+   {
+    "de": -45,
+    "ate": -40,
+    "n": 11
+   },
+   {
+    "de": -40,
+    "ate": -35,
+    "n": 20
+   },
+   {
+    "de": -35,
+    "ate": -30,
+    "n": 38
+   },
+   {
+    "de": -30,
+    "ate": -25,
+    "n": 70
+   },
+   {
+    "de": -25,
+    "ate": -20,
+    "n": 113
+   },
+   {
+    "de": -20,
+    "ate": -15,
+    "n": 162
+   },
+   {
+    "de": -15,
+    "ate": -10,
+    "n": 201
+   },
+   {
+    "de": -10,
+    "ate": -5,
+    "n": 248
+   },
+   {
+    "de": -5,
+    "ate": 0,
+    "n": 237
+   },
+   {
+    "de": 0,
+    "ate": 5,
+    "n": 113
+   },
+   {
+    "de": 5,
+    "ate": 10,
+    "n": 44
+   },
+   {
+    "de": 10,
+    "ate": 15,
+    "n": 12
+   },
+   {
+    "de": 15,
+    "ate": 20,
+    "n": 9
+   },
+   {
+    "de": 20,
+    "ate": 25,
+    "n": 2
+   },
+   {
+    "de": 25,
+    "ate": 30,
+    "n": 2
+   },
+   {
+    "de": 30,
+    "ate": 35,
+    "n": 1
+   },
+   {
+    "de": 35,
+    "ate": 40,
+    "n": 2
+   },
+   {
+    "de": 40,
+    "ate": 45,
+    "n": 2
+   },
+   {
+    "de": 45,
+    "ate": 50,
+    "n": 2
+   }
+  ],
+  "grandes": [
+   {
+    "ocupacao": "Assistente administrativo",
+    "n": 2247272,
+    "pct_m": 64.8,
+    "gap": -14.8
+   },
+   {
+    "ocupacao": "Faxineiro",
+    "n": 1811799,
+    "pct_m": 73.6,
+    "gap": -1.4
+   },
+   {
+    "ocupacao": "Vendedor de comércio varejista",
+    "n": 1765276,
+    "pct_m": 60.5,
+    "gap": -14.5
+   },
+   {
+    "ocupacao": "Auxiliar de escritório",
+    "n": 1740417,
+    "pct_m": 67.1,
+    "gap": -6.4
+   },
+   {
+    "ocupacao": "Alimentador de linha de produção",
+    "n": 1192601,
+    "pct_m": 35.9,
+    "gap": -8.7
+   },
+   {
+    "ocupacao": "Motorista de caminhão (rotas regionais e internacionais)",
+    "n": 1013211,
+    "pct_m": 1.3,
+    "gap": -4.0
+   },
+   {
+    "ocupacao": "Operador de caixa",
+    "n": 911205,
+    "pct_m": 85.3,
+    "gap": -1.4
+   },
+   {
+    "ocupacao": "Técnico de enfermagem",
+    "n": 879062,
+    "pct_m": 85.1,
+    "gap": -2.6
+   },
+   {
+    "ocupacao": "Professor de nível médio no ensino fundamental",
+    "n": 731935,
+    "pct_m": 79.3,
+    "gap": 5.4
+   },
+   {
+    "ocupacao": "Atendente de lojas e mercados",
+    "n": 669972,
+    "pct_m": 66.8,
+    "gap": -1.1
+   },
+   {
+    "ocupacao": "Professor de nível superior do ensino fundamental (primeira a quarta série)",
+    "n": 595566,
+    "pct_m": 82.7,
+    "gap": 10.0
+   },
+   {
+    "ocupacao": "Servente de obras",
+    "n": 581783,
+    "pct_m": 4.2,
+    "gap": 9.5
+   },
+   {
+    "ocupacao": "Vigilante patrimonial",
+    "n": 576454,
+    "pct_m": 12.0,
+    "gap": -5.7
+   },
+   {
+    "ocupacao": "Recepcionista, em geral",
+    "n": 571138,
+    "pct_m": 83.3,
+    "gap": -6.1
+   },
+   {
+    "ocupacao": "Porteiro de edifícios",
+    "n": 570310,
+    "pct_m": 13.2,
+    "gap": -11.0
+   },
+   {
+    "ocupacao": "Repositor de mercadorias",
+    "n": 526354,
+    "pct_m": 32.4,
+    "gap": 1.1
+   },
+   {
+    "ocupacao": "Trabalhador de serviços de limpeza e conservação de áreas públicas",
+    "n": 524258,
+    "pct_m": 62.9,
+    "gap": -11.7
+   },
+   {
+    "ocupacao": "Cozinheiro geral",
+    "n": 510690,
+    "pct_m": 79.5,
+    "gap": -12.3
+   },
+   {
+    "ocupacao": "Auxiliar nos serviços de alimentação",
+    "n": 482317,
+    "pct_m": 69.6,
+    "gap": -1.5
+   },
+   {
+    "ocupacao": "Supervisor administrativo",
+    "n": 443361,
+    "pct_m": 55.4,
+    "gap": -15.3
+   },
+   {
+    "ocupacao": "Almoxarife",
+    "n": 389809,
+    "pct_m": 17.1,
+    "gap": -8.7
+   },
+   {
+    "ocupacao": "Enfermeiro",
+    "n": 386912,
+    "pct_m": 84.3,
+    "gap": -0.1
+   },
+   {
+    "ocupacao": "Atendente de lanchonete",
+    "n": 368144,
+    "pct_m": 68.5,
+    "gap": -2.7
+   },
+   {
+    "ocupacao": "Pedreiro",
+    "n": 334722,
+    "pct_m": 0.6,
+    "gap": -4.3
+   },
+   {
+    "ocupacao": "Trabalhador agropecuário em geral",
+    "n": 332370,
+    "pct_m": 13.1,
+    "gap": -13.8
+   }
+  ]
+ },
+ "horas": [
+  {
+   "faixa": "Até 20h",
+   "h": 1.4,
+   "m": 3.1
+  },
+  {
+   "faixa": "21 a 30h",
+   "h": 2.0,
+   "m": 5.3
+  },
+  {
+   "faixa": "31 a 39h",
+   "h": 4.6,
+   "m": 7.3
+  },
+  {
+   "faixa": "40 a 43h",
+   "h": 21.3,
+   "m": 30.7
+  },
+  {
+   "faixa": "44h",
+   "h": 70.7,
+   "m": 53.6
+  }
+ ]
+}

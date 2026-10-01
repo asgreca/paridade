@@ -1,0 +1,2237 @@
+{
+ "ano": 2024,
+ "mesos": [
+  {
+   "id": "1101",
+   "nome": "Madeira-Guaporé",
+   "uf": "RO",
+   "regiao": "Norte",
+   "n": 132949,
+   "pct_m": 46.1,
+   "bruto": -5.9,
+   "ajustado": -8.39,
+   "ic": [
+    -10.06,
+    -6.7
+   ]
+  },
+  {
+   "id": "1102",
+   "nome": "Leste Rondoniense",
+   "uf": "RO",
+   "regiao": "Norte",
+   "n": 182588,
+   "pct_m": 46.9,
+   "bruto": -8.6,
+   "ajustado": -11.3,
+   "ic": [
+    -13.39,
+    -9.15
+   ]
+  },
+  {
+   "id": "1201",
+   "nome": "Vale do Juruá",
+   "uf": "AC",
+   "regiao": "Norte",
+   "n": 21047,
+   "pct_m": 48.7,
+   "bruto": 12.0,
+   "ajustado": -3.35,
+   "ic": [
+    -6.31,
+    -0.3
+   ]
+  },
+  {
+   "id": "1202",
+   "nome": "Vale do Acre",
+   "uf": "AC",
+   "regiao": "Norte",
+   "n": 133299,
+   "pct_m": 48.7,
+   "bruto": -5.6,
+   "ajustado": -3.98,
+   "ic": [
+    -5.95,
+    -1.96
+   ]
+  },
+  {
+   "id": "1301",
+   "nome": "Norte Amazonense",
+   "uf": "AM",
+   "regiao": "Norte",
+   "n": 4989,
+   "pct_m": 51.1,
+   "bruto": -3.2,
+   "ajustado": -4.32,
+   "ic": [
+    -7.47,
+    -1.06
+   ]
+  },
+  {
+   "id": "1302",
+   "nome": "Sudoeste Amazonense",
+   "uf": "AM",
+   "regiao": "Norte",
+   "n": 21850,
+   "pct_m": 46.8,
+   "bruto": -1.7,
+   "ajustado": -1.91,
+   "ic": [
+    -4.57,
+    0.82
+   ]
+  },
+  {
+   "id": "1303",
+   "nome": "Centro Amazonense",
+   "uf": "AM",
+   "regiao": "Norte",
+   "n": 627397,
+   "pct_m": 43.0,
+   "bruto": -7.6,
+   "ajustado": -6.22,
+   "ic": [
+    -7.56,
+    -4.87
+   ]
+  },
+  {
+   "id": "1304",
+   "nome": "Sul Amazonense",
+   "uf": "AM",
+   "regiao": "Norte",
+   "n": 15892,
+   "pct_m": 45.3,
+   "bruto": -2.6,
+   "ajustado": -2.1,
+   "ic": [
+    -4.9,
+    0.77
+   ]
+  },
+  {
+   "id": "1401",
+   "nome": "Norte de Roraima",
+   "uf": "RR",
+   "regiao": "Norte",
+   "n": 119708,
+   "pct_m": 50.1,
+   "bruto": -1.7,
+   "ajustado": -5.63,
+   "ic": [
+    -9.68,
+    -1.4
+   ]
+  },
+  {
+   "id": "1402",
+   "nome": "Sul de Roraima",
+   "uf": "RR",
+   "regiao": "Norte",
+   "n": 8829,
+   "pct_m": 47.5,
+   "bruto": 6.9,
+   "ajustado": -3.17,
+   "ic": [
+    -5.91,
+    -0.35
+   ]
+  },
+  {
+   "id": "1501",
+   "nome": "Baixo Amazonas",
+   "uf": "PA",
+   "regiao": "Norte",
+   "n": 85868,
+   "pct_m": 45.5,
+   "bruto": 4.6,
+   "ajustado": -7.87,
+   "ic": [
+    -9.89,
+    -5.8
+   ]
+  },
+  {
+   "id": "1502",
+   "nome": "Marajó",
+   "uf": "PA",
+   "regiao": "Norte",
+   "n": 33197,
+   "pct_m": 50.5,
+   "bruto": 6.9,
+   "ajustado": -4.86,
+   "ic": [
+    -6.96,
+    -2.71
+   ]
+  },
+  {
+   "id": "1503",
+   "nome": "Metropolitana de Belém",
+   "uf": "PA",
+   "regiao": "Norte",
+   "n": 578635,
+   "pct_m": 41.6,
+   "bruto": 9.5,
+   "ajustado": -6.51,
+   "ic": [
+    -7.67,
+    -5.33
+   ]
+  },
+  {
+   "id": "1504",
+   "nome": "Nordeste Paraense",
+   "uf": "PA",
+   "regiao": "Norte",
+   "n": 147167,
+   "pct_m": 42.4,
+   "bruto": 26.3,
+   "ajustado": -4.37,
+   "ic": [
+    -6.02,
+    -2.69
+   ]
+  },
+  {
+   "id": "1505",
+   "nome": "Sudoeste Paraense",
+   "uf": "PA",
+   "regiao": "Norte",
+   "n": 56107,
+   "pct_m": 45.5,
+   "bruto": -3.5,
+   "ajustado": -6.35,
+   "ic": [
+    -9.13,
+    -3.48
+   ]
+  },
+  {
+   "id": "1506",
+   "nome": "Sudeste Paraense",
+   "uf": "PA",
+   "regiao": "Norte",
+   "n": 319739,
+   "pct_m": 38.4,
+   "bruto": -3.5,
+   "ajustado": -11.02,
+   "ic": [
+    -12.98,
+    -9.02
+   ]
+  },
+  {
+   "id": "1601",
+   "nome": "Norte do Amapá",
+   "uf": "AP",
+   "regiao": "Norte",
+   "n": 4231,
+   "pct_m": 51.4,
+   "bruto": 10.1,
+   "ajustado": -5.09,
+   "ic": [
+    -9.55,
+    -0.4
+   ]
+  },
+  {
+   "id": "1602",
+   "nome": "Sul do Amapá",
+   "uf": "AP",
+   "regiao": "Norte",
+   "n": 105948,
+   "pct_m": 44.0,
+   "bruto": 0.6,
+   "ajustado": -5.11,
+   "ic": [
+    -6.52,
+    -3.69
+   ]
+  },
+  {
+   "id": "1701",
+   "nome": "Ocidental do Tocantins",
+   "uf": "TO",
+   "regiao": "Norte",
+   "n": 137145,
+   "pct_m": 41.1,
+   "bruto": -1.1,
+   "ajustado": -6.73,
+   "ic": [
+    -8.97,
+    -4.44
+   ]
+  },
+  {
+   "id": "1702",
+   "nome": "Oriental do Tocantins",
+   "uf": "TO",
+   "regiao": "Norte",
+   "n": 193792,
+   "pct_m": 50.3,
+   "bruto": -12.0,
+   "ajustado": -6.99,
+   "ic": [
+    -8.83,
+    -5.11
+   ]
+  },
+  {
+   "id": "2101",
+   "nome": "Norte Maranhense",
+   "uf": "MA",
+   "regiao": "Nordeste",
+   "n": 474889,
+   "pct_m": 45.6,
+   "bruto": -5.5,
+   "ajustado": -8.65,
+   "ic": [
+    -14.37,
+    -2.55
+   ]
+  },
+  {
+   "id": "2102",
+   "nome": "Oeste Maranhense",
+   "uf": "MA",
+   "regiao": "Nordeste",
+   "n": 140666,
+   "pct_m": 43.5,
+   "bruto": 5.0,
+   "ajustado": -4.35,
+   "ic": [
+    -6.42,
+    -2.23
+   ]
+  },
+  {
+   "id": "2103",
+   "nome": "Centro Maranhense",
+   "uf": "MA",
+   "regiao": "Nordeste",
+   "n": 55910,
+   "pct_m": 45.5,
+   "bruto": 10.8,
+   "ajustado": -2.22,
+   "ic": [
+    -4.01,
+    -0.4
+   ]
+  },
+  {
+   "id": "2104",
+   "nome": "Leste Maranhense",
+   "uf": "MA",
+   "regiao": "Nordeste",
+   "n": 85357,
+   "pct_m": 45.8,
+   "bruto": 22.0,
+   "ajustado": -4.35,
+   "ic": [
+    -6.03,
+    -2.64
+   ]
+  },
+  {
+   "id": "2105",
+   "nome": "Sul Maranhense",
+   "uf": "MA",
+   "regiao": "Nordeste",
+   "n": 50114,
+   "pct_m": 41.6,
+   "bruto": -4.8,
+   "ajustado": -8.97,
+   "ic": [
+    -11.27,
+    -6.61
+   ]
+  },
+  {
+   "id": "2201",
+   "nome": "Norte Piauiense",
+   "uf": "PI",
+   "regiao": "Nordeste",
+   "n": 57188,
+   "pct_m": 47.9,
+   "bruto": 24.6,
+   "ajustado": -4.23,
+   "ic": [
+    -6.04,
+    -2.39
+   ]
+  },
+  {
+   "id": "2202",
+   "nome": "Centro-Norte Piauiense",
+   "uf": "PI",
+   "regiao": "Nordeste",
+   "n": 336434,
+   "pct_m": 45.9,
+   "bruto": -0.9,
+   "ajustado": -5.76,
+   "ic": [
+    -8.27,
+    -3.18
+   ]
+  },
+  {
+   "id": "2203",
+   "nome": "Sudoeste Piauiense",
+   "uf": "PI",
+   "regiao": "Nordeste",
+   "n": 58116,
+   "pct_m": 44.0,
+   "bruto": 5.9,
+   "ajustado": -5.41,
+   "ic": [
+    -7.72,
+    -3.05
+   ]
+  },
+  {
+   "id": "2204",
+   "nome": "Sudeste Piauiense",
+   "uf": "PI",
+   "regiao": "Nordeste",
+   "n": 41453,
+   "pct_m": 49.6,
+   "bruto": 15.4,
+   "ajustado": -3.72,
+   "ic": [
+    -5.77,
+    -1.64
+   ]
+  },
+  {
+   "id": "2301",
+   "nome": "Noroeste Cearense",
+   "uf": "CE",
+   "regiao": "Nordeste",
+   "n": 152685,
+   "pct_m": 47.9,
+   "bruto": 10.4,
+   "ajustado": -3.85,
+   "ic": [
+    -5.32,
+    -2.36
+   ]
+  },
+  {
+   "id": "2302",
+   "nome": "Norte Cearense",
+   "uf": "CE",
+   "regiao": "Nordeste",
+   "n": 109539,
+   "pct_m": 43.6,
+   "bruto": 6.2,
+   "ajustado": -3.36,
+   "ic": [
+    -4.89,
+    -1.79
+   ]
+  },
+  {
+   "id": "2303",
+   "nome": "Metropolitana de Fortaleza",
+   "uf": "CE",
+   "regiao": "Nordeste",
+   "n": 986498,
+   "pct_m": 42.6,
+   "bruto": 1.9,
+   "ajustado": -5.09,
+   "ic": [
+    -6.31,
+    -3.85
+   ]
+  },
+  {
+   "id": "2304",
+   "nome": "Sertões Cearenses",
+   "uf": "CE",
+   "regiao": "Nordeste",
+   "n": 71711,
+   "pct_m": 51.5,
+   "bruto": 12.7,
+   "ajustado": -3.26,
+   "ic": [
+    -5.19,
+    -1.3
+   ]
+  },
+  {
+   "id": "2305",
+   "nome": "Jaguaribe",
+   "uf": "CE",
+   "regiao": "Nordeste",
+   "n": 71884,
+   "pct_m": 43.6,
+   "bruto": 5.4,
+   "ajustado": -4.86,
+   "ic": [
+    -6.85,
+    -2.82
+   ]
+  },
+  {
+   "id": "2306",
+   "nome": "Centro-Sul Cearense",
+   "uf": "CE",
+   "regiao": "Nordeste",
+   "n": 32500,
+   "pct_m": 49.0,
+   "bruto": 11.6,
+   "ajustado": -7.35,
+   "ic": [
+    -10.41,
+    -4.19
+   ]
+  },
+  {
+   "id": "2307",
+   "nome": "Sul Cearense",
+   "uf": "CE",
+   "regiao": "Nordeste",
+   "n": 124249,
+   "pct_m": 49.2,
+   "bruto": 8.2,
+   "ajustado": -3.73,
+   "ic": [
+    -5.07,
+    -2.38
+   ]
+  },
+  {
+   "id": "2401",
+   "nome": "Oeste Potiguar",
+   "uf": "RN",
+   "regiao": "Nordeste",
+   "n": 135459,
+   "pct_m": 42.2,
+   "bruto": -0.0,
+   "ajustado": -6.75,
+   "ic": [
+    -8.08,
+    -5.39
+   ]
+  },
+  {
+   "id": "2402",
+   "nome": "Central Potiguar",
+   "uf": "RN",
+   "regiao": "Nordeste",
+   "n": 52360,
+   "pct_m": 42.2,
+   "bruto": -2.7,
+   "ajustado": -4.97,
+   "ic": [
+    -6.91,
+    -2.99
+   ]
+  },
+  {
+   "id": "2403",
+   "nome": "Agreste Potiguar",
+   "uf": "RN",
+   "regiao": "Nordeste",
+   "n": 31694,
+   "pct_m": 46.6,
+   "bruto": 23.3,
+   "ajustado": -3.97,
+   "ic": [
+    -6.24,
+    -1.65
+   ]
+  },
+  {
+   "id": "2404",
+   "nome": "Leste Potiguar",
+   "uf": "RN",
+   "regiao": "Nordeste",
+   "n": 415856,
+   "pct_m": 42.9,
+   "bruto": -1.5,
+   "ajustado": -5.56,
+   "ic": [
+    -7.01,
+    -4.09
+   ]
+  },
+  {
+   "id": "2501",
+   "nome": "Sertão Paraibano",
+   "uf": "PB",
+   "regiao": "Nordeste",
+   "n": 83673,
+   "pct_m": 47.2,
+   "bruto": 18.7,
+   "ajustado": -2.86,
+   "ic": [
+    -4.54,
+    -1.15
+   ]
+  },
+  {
+   "id": "2502",
+   "nome": "Borborema",
+   "uf": "PB",
+   "regiao": "Nordeste",
+   "n": 26300,
+   "pct_m": 49.8,
+   "bruto": 15.8,
+   "ajustado": -0.64,
+   "ic": [
+    -3.46,
+    2.26
+   ]
+  },
+  {
+   "id": "2503",
+   "nome": "Agreste Paraibano",
+   "uf": "PB",
+   "regiao": "Nordeste",
+   "n": 182427,
+   "pct_m": 43.7,
+   "bruto": 9.9,
+   "ajustado": -4.12,
+   "ic": [
+    -5.41,
+    -2.8
+   ]
+  },
+  {
+   "id": "2504",
+   "nome": "Mata Paraibana",
+   "uf": "PB",
+   "regiao": "Nordeste",
+   "n": 419303,
+   "pct_m": 41.2,
+   "bruto": 2.0,
+   "ajustado": -6.53,
+   "ic": [
+    -7.73,
+    -5.31
+   ]
+  },
+  {
+   "id": "2601",
+   "nome": "Sertão Pernambucano",
+   "uf": "PE",
+   "regiao": "Nordeste",
+   "n": 83190,
+   "pct_m": 49.8,
+   "bruto": 13.5,
+   "ajustado": -2.03,
+   "ic": [
+    -4.2,
+    0.19
+   ]
+  },
+  {
+   "id": "2602",
+   "nome": "São Francisco Pernambucano",
+   "uf": "PE",
+   "regiao": "Nordeste",
+   "n": 114468,
+   "pct_m": 48.5,
+   "bruto": 0.1,
+   "ajustado": -6.53,
+   "ic": [
+    -8.11,
+    -4.92
+   ]
+  },
+  {
+   "id": "2603",
+   "nome": "Agreste Pernambucano",
+   "uf": "PE",
+   "regiao": "Nordeste",
+   "n": 256289,
+   "pct_m": 43.7,
+   "bruto": 11.1,
+   "ajustado": -4.45,
+   "ic": [
+    -5.39,
+    -3.5
+   ]
+  },
+  {
+   "id": "2604",
+   "nome": "Mata Pernambucana",
+   "uf": "PE",
+   "regiao": "Nordeste",
+   "n": 174844,
+   "pct_m": 32.1,
+   "bruto": 7.0,
+   "ajustado": -6.47,
+   "ic": [
+    -8.27,
+    -4.64
+   ]
+  },
+  {
+   "id": "2605",
+   "nome": "Metropolitana de Recife",
+   "uf": "PE",
+   "regiao": "Nordeste",
+   "n": 1028505,
+   "pct_m": 43.0,
+   "bruto": 1.3,
+   "ajustado": -6.69,
+   "ic": [
+    -8.28,
+    -5.07
+   ]
+  },
+  {
+   "id": "2701",
+   "nome": "Sertão Alagoano",
+   "uf": "AL",
+   "regiao": "Nordeste",
+   "n": 31620,
+   "pct_m": 50.7,
+   "bruto": 16.3,
+   "ajustado": -2.85,
+   "ic": [
+    -5.26,
+    -0.38
+   ]
+  },
+  {
+   "id": "2702",
+   "nome": "Agreste Alagoano",
+   "uf": "AL",
+   "regiao": "Nordeste",
+   "n": 79686,
+   "pct_m": 46.9,
+   "bruto": 1.9,
+   "ajustado": -3.45,
+   "ic": [
+    -5.18,
+    -1.68
+   ]
+  },
+  {
+   "id": "2703",
+   "nome": "Leste Alagoano",
+   "uf": "AL",
+   "regiao": "Nordeste",
+   "n": 428954,
+   "pct_m": 39.4,
+   "bruto": 0.4,
+   "ajustado": -7.59,
+   "ic": [
+    -9.06,
+    -6.1
+   ]
+  },
+  {
+   "id": "2801",
+   "nome": "Sertão Sergipano",
+   "uf": "SE",
+   "regiao": "Nordeste",
+   "n": 20804,
+   "pct_m": 46.5,
+   "bruto": 27.9,
+   "ajustado": -2.42,
+   "ic": [
+    -5.49,
+    0.74
+   ]
+  },
+  {
+   "id": "2802",
+   "nome": "Agreste Sergipano",
+   "uf": "SE",
+   "regiao": "Nordeste",
+   "n": 56809,
+   "pct_m": 42.7,
+   "bruto": 23.7,
+   "ajustado": -5.05,
+   "ic": [
+    -7.42,
+    -2.61
+   ]
+  },
+  {
+   "id": "2803",
+   "nome": "Leste Sergipano",
+   "uf": "SE",
+   "regiao": "Nordeste",
+   "n": 314162,
+   "pct_m": 43.6,
+   "bruto": 1.4,
+   "ajustado": -7.62,
+   "ic": [
+    -9.03,
+    -6.19
+   ]
+  },
+  {
+   "id": "2901",
+   "nome": "Extremo Oeste Baiano",
+   "uf": "BA",
+   "regiao": "Nordeste",
+   "n": 127568,
+   "pct_m": 38.5,
+   "bruto": -1.2,
+   "ajustado": -5.56,
+   "ic": [
+    -7.5,
+    -3.58
+   ]
+  },
+  {
+   "id": "2902",
+   "nome": "Vale São-Franciscano da Bahia",
+   "uf": "BA",
+   "regiao": "Nordeste",
+   "n": 109699,
+   "pct_m": 46.2,
+   "bruto": 4.6,
+   "ajustado": -6.24,
+   "ic": [
+    -7.65,
+    -4.81
+   ]
+  },
+  {
+   "id": "2903",
+   "nome": "Centro Norte Baiano",
+   "uf": "BA",
+   "regiao": "Nordeste",
+   "n": 305897,
+   "pct_m": 45.0,
+   "bruto": 2.5,
+   "ajustado": -5.88,
+   "ic": [
+    -7.2,
+    -4.55
+   ]
+  },
+  {
+   "id": "2904",
+   "nome": "Nordeste Baiano",
+   "uf": "BA",
+   "regiao": "Nordeste",
+   "n": 141648,
+   "pct_m": 47.8,
+   "bruto": 21.2,
+   "ajustado": -5.42,
+   "ic": [
+    -7.33,
+    -3.47
+   ]
+  },
+  {
+   "id": "2905",
+   "nome": "Metropolitana de Salvador",
+   "uf": "BA",
+   "regiao": "Nordeste",
+   "n": 1147954,
+   "pct_m": 44.5,
+   "bruto": -2.7,
+   "ajustado": -7.83,
+   "ic": [
+    -9.51,
+    -6.11
+   ]
+  },
+  {
+   "id": "2906",
+   "nome": "Centro Sul Baiano",
+   "uf": "BA",
+   "regiao": "Nordeste",
+   "n": 301012,
+   "pct_m": 44.5,
+   "bruto": 11.5,
+   "ajustado": -5.78,
+   "ic": [
+    -6.84,
+    -4.71
+   ]
+  },
+  {
+   "id": "2907",
+   "nome": "Sul Baiano",
+   "uf": "BA",
+   "regiao": "Nordeste",
+   "n": 288658,
+   "pct_m": 44.0,
+   "bruto": 7.7,
+   "ajustado": -6.15,
+   "ic": [
+    -7.52,
+    -4.77
+   ]
+  },
+  {
+   "id": "3101",
+   "nome": "Noroeste de Minas",
+   "uf": "MG",
+   "regiao": "Sudeste",
+   "n": 91970,
+   "pct_m": 40.1,
+   "bruto": -19.5,
+   "ajustado": -13.7,
+   "ic": [
+    -16.23,
+    -11.09
+   ]
+  },
+  {
+   "id": "3102",
+   "nome": "Norte de Minas",
+   "uf": "MG",
+   "regiao": "Sudeste",
+   "n": 244243,
+   "pct_m": 45.2,
+   "bruto": -3.6,
+   "ajustado": -6.75,
+   "ic": [
+    -8.16,
+    -5.32
+   ]
+  },
+  {
+   "id": "3103",
+   "nome": "Jequitinhonha",
+   "uf": "MG",
+   "regiao": "Sudeste",
+   "n": 82296,
+   "pct_m": 45.3,
+   "bruto": -2.9,
+   "ajustado": -5.91,
+   "ic": [
+    -7.42,
+    -4.37
+   ]
+  },
+  {
+   "id": "3104",
+   "nome": "Vale do Mucuri",
+   "uf": "MG",
+   "regiao": "Sudeste",
+   "n": 52450,
+   "pct_m": 44.4,
+   "bruto": 4.4,
+   "ajustado": -6.31,
+   "ic": [
+    -8.03,
+    -4.56
+   ]
+  },
+  {
+   "id": "3105",
+   "nome": "Triângulo Mineiro/Alto Paranaíba",
+   "uf": "MG",
+   "regiao": "Sudeste",
+   "n": 656529,
+   "pct_m": 45.1,
+   "bruto": -14.8,
+   "ajustado": -12.05,
+   "ic": [
+    -13.91,
+    -10.15
+   ]
+  },
+  {
+   "id": "3106",
+   "nome": "Central Mineira",
+   "uf": "MG",
+   "regiao": "Sudeste",
+   "n": 93608,
+   "pct_m": 45.9,
+   "bruto": -8.4,
+   "ajustado": -9.94,
+   "ic": [
+    -11.83,
+    -8.01
+   ]
+  },
+  {
+   "id": "3107",
+   "nome": "Metropolitana de Belo Horizonte",
+   "uf": "MG",
+   "regiao": "Sudeste",
+   "n": 2386880,
+   "pct_m": 48.0,
+   "bruto": -17.3,
+   "ajustado": -9.14,
+   "ic": [
+    -10.53,
+    -7.74
+   ]
+  },
+  {
+   "id": "3108",
+   "nome": "Vale do Rio Doce",
+   "uf": "MG",
+   "regiao": "Sudeste",
+   "n": 273319,
+   "pct_m": 47.5,
+   "bruto": -11.8,
+   "ajustado": -8.99,
+   "ic": [
+    -10.43,
+    -7.53
+   ]
+  },
+  {
+   "id": "3109",
+   "nome": "Oeste de Minas",
+   "uf": "MG",
+   "regiao": "Sudeste",
+   "n": 267995,
+   "pct_m": 44.9,
+   "bruto": -10.6,
+   "ajustado": -10.18,
+   "ic": [
+    -11.58,
+    -8.76
+   ]
+  },
+  {
+   "id": "3110",
+   "nome": "Sul/Sudoeste de Minas",
+   "uf": "MG",
+   "regiao": "Sudeste",
+   "n": 630028,
+   "pct_m": 46.1,
+   "bruto": -10.8,
+   "ajustado": -9.65,
+   "ic": [
+    -10.72,
+    -8.56
+   ]
+  },
+  {
+   "id": "3111",
+   "nome": "Campo das Vertentes",
+   "uf": "MG",
+   "regiao": "Sudeste",
+   "n": 121843,
+   "pct_m": 45.4,
+   "bruto": -8.4,
+   "ajustado": -7.4,
+   "ic": [
+    -8.72,
+    -6.07
+   ]
+  },
+  {
+   "id": "3112",
+   "nome": "Zona da Mata",
+   "uf": "MG",
+   "regiao": "Sudeste",
+   "n": 445028,
+   "pct_m": 45.8,
+   "bruto": -5.7,
+   "ajustado": -6.27,
+   "ic": [
+    -7.27,
+    -5.26
+   ]
+  },
+  {
+   "id": "3201",
+   "nome": "Noroeste Espírito-santense",
+   "uf": "ES",
+   "regiao": "Sudeste",
+   "n": 80902,
+   "pct_m": 46.8,
+   "bruto": -9.6,
+   "ajustado": -7.78,
+   "ic": [
+    -10.11,
+    -5.4
+   ]
+  },
+  {
+   "id": "3202",
+   "nome": "Litoral Norte Espírito-santense",
+   "uf": "ES",
+   "regiao": "Sudeste",
+   "n": 150827,
+   "pct_m": 42.7,
+   "bruto": -20.4,
+   "ajustado": -11.29,
+   "ic": [
+    -13.09,
+    -9.44
+   ]
+  },
+  {
+   "id": "3203",
+   "nome": "Central Espírito-santense",
+   "uf": "ES",
+   "regiao": "Sudeste",
+   "n": 642763,
+   "pct_m": 44.8,
+   "bruto": -17.7,
+   "ajustado": -8.72,
+   "ic": [
+    -9.85,
+    -7.56
+   ]
+  },
+  {
+   "id": "3204",
+   "nome": "Sul Espírito-santense",
+   "uf": "ES",
+   "regiao": "Sudeste",
+   "n": 109360,
+   "pct_m": 46.8,
+   "bruto": -3.8,
+   "ajustado": -8.67,
+   "ic": [
+    -10.28,
+    -7.04
+   ]
+  },
+  {
+   "id": "3301",
+   "nome": "Noroeste Fluminense",
+   "uf": "RJ",
+   "regiao": "Sudeste",
+   "n": 61279,
+   "pct_m": 46.2,
+   "bruto": 2.9,
+   "ajustado": -8.36,
+   "ic": [
+    -10.44,
+    -6.23
+   ]
+  },
+  {
+   "id": "3302",
+   "nome": "Norte Fluminense",
+   "uf": "RJ",
+   "regiao": "Sudeste",
+   "n": 250460,
+   "pct_m": 39.0,
+   "bruto": -37.7,
+   "ajustado": -10.52,
+   "ic": [
+    -12.81,
+    -8.18
+   ]
+  },
+  {
+   "id": "3303",
+   "nome": "Centro Fluminense",
+   "uf": "RJ",
+   "regiao": "Sudeste",
+   "n": 115722,
+   "pct_m": 45.7,
+   "bruto": -2.5,
+   "ajustado": -5.25,
+   "ic": [
+    -6.74,
+    -3.73
+   ]
+  },
+  {
+   "id": "3304",
+   "nome": "Baixadas",
+   "uf": "RJ",
+   "regiao": "Sudeste",
+   "n": 179229,
+   "pct_m": 48.4,
+   "bruto": -12.2,
+   "ajustado": -5.77,
+   "ic": [
+    -6.99,
+    -4.53
+   ]
+  },
+  {
+   "id": "3305",
+   "nome": "Sul Fluminense",
+   "uf": "RJ",
+   "regiao": "Sudeste",
+   "n": 260696,
+   "pct_m": 44.4,
+   "bruto": -19.3,
+   "ajustado": -10.5,
+   "ic": [
+    -12.25,
+    -8.72
+   ]
+  },
+  {
+   "id": "3306",
+   "nome": "Metropolitana do Rio de Janeiro",
+   "uf": "RJ",
+   "regiao": "Sudeste",
+   "n": 3157105,
+   "pct_m": 43.4,
+   "bruto": -15.8,
+   "ajustado": -6.69,
+   "ic": [
+    -8.55,
+    -4.78
+   ]
+  },
+  {
+   "id": "3501",
+   "nome": "São José do Rio Preto",
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "n": 478631,
+   "pct_m": 44.9,
+   "bruto": -11.2,
+   "ajustado": -10.23,
+   "ic": [
+    -11.46,
+    -8.98
+   ]
+  },
+  {
+   "id": "3502",
+   "nome": "Ribeirão Preto",
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "n": 766464,
+   "pct_m": 44.7,
+   "bruto": -16.5,
+   "ajustado": -10.98,
+   "ic": [
+    -12.12,
+    -9.82
+   ]
+  },
+  {
+   "id": "3503",
+   "nome": "Araçatuba",
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "n": 182631,
+   "pct_m": 45.2,
+   "bruto": -14.6,
+   "ajustado": -10.94,
+   "ic": [
+    -12.24,
+    -9.63
+   ]
+  },
+  {
+   "id": "3504",
+   "nome": "Bauru",
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "n": 468351,
+   "pct_m": 44.5,
+   "bruto": -17.2,
+   "ajustado": -10.45,
+   "ic": [
+    -11.8,
+    -9.07
+   ]
+  },
+  {
+   "id": "3505",
+   "nome": "Araraquara",
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "n": 277752,
+   "pct_m": 44.4,
+   "bruto": -21.9,
+   "ajustado": -11.35,
+   "ic": [
+    -12.9,
+    -9.78
+   ]
+  },
+  {
+   "id": "3506",
+   "nome": "Piracicaba",
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "n": 482189,
+   "pct_m": 44.5,
+   "bruto": -21.4,
+   "ajustado": -11.79,
+   "ic": [
+    -13.32,
+    -10.24
+   ]
+  },
+  {
+   "id": "3507",
+   "nome": "Campinas",
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "n": 1355097,
+   "pct_m": 45.9,
+   "bruto": -19.8,
+   "ajustado": -11.67,
+   "ic": [
+    -13.13,
+    -10.19
+   ]
+  },
+  {
+   "id": "3508",
+   "nome": "Presidente Prudente",
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "n": 208007,
+   "pct_m": 45.4,
+   "bruto": -11.6,
+   "ajustado": -8.98,
+   "ic": [
+    -10.58,
+    -7.35
+   ]
+  },
+  {
+   "id": "3509",
+   "nome": "Marília",
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "n": 135187,
+   "pct_m": 47.3,
+   "bruto": -11.9,
+   "ajustado": -8.73,
+   "ic": [
+    -10.34,
+    -7.08
+   ]
+  },
+  {
+   "id": "3510",
+   "nome": "Assis",
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "n": 149882,
+   "pct_m": 43.1,
+   "bruto": -12.8,
+   "ajustado": -10.77,
+   "ic": [
+    -12.77,
+    -8.71
+   ]
+  },
+  {
+   "id": "3511",
+   "nome": "Itapetininga",
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "n": 225252,
+   "pct_m": 43.4,
+   "bruto": -10.2,
+   "ajustado": -8.35,
+   "ic": [
+    -9.88,
+    -6.8
+   ]
+  },
+  {
+   "id": "3512",
+   "nome": "Macro Metropolitana Paulista",
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "n": 938139,
+   "pct_m": 46.2,
+   "bruto": -20.2,
+   "ajustado": -11.0,
+   "ic": [
+    -12.3,
+    -9.67
+   ]
+  },
+  {
+   "id": "3513",
+   "nome": "Vale do Paraíba Paulista",
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "n": 627401,
+   "pct_m": 45.5,
+   "bruto": -22.9,
+   "ajustado": -9.31,
+   "ic": [
+    -11.07,
+    -7.52
+   ]
+  },
+  {
+   "id": "3514",
+   "nome": "Litoral Sul Paulista",
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "n": 88194,
+   "pct_m": 47.0,
+   "bruto": 3.8,
+   "ajustado": -6.18,
+   "ic": [
+    -8.02,
+    -4.32
+   ]
+  },
+  {
+   "id": "3515",
+   "nome": "Metropolitana de São Paulo",
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "n": 7603397,
+   "pct_m": 47.2,
+   "bruto": -14.7,
+   "ajustado": -10.38,
+   "ic": [
+    -11.62,
+    -9.13
+   ]
+  },
+  {
+   "id": "4101",
+   "nome": "Noroeste Paranaense",
+   "uf": "PR",
+   "regiao": "Sul",
+   "n": 176759,
+   "pct_m": 46.0,
+   "bruto": -8.9,
+   "ajustado": -9.21,
+   "ic": [
+    -10.47,
+    -7.93
+   ]
+  },
+  {
+   "id": "4102",
+   "nome": "Centro Ocidental Paranaense",
+   "uf": "PR",
+   "regiao": "Sul",
+   "n": 74919,
+   "pct_m": 47.0,
+   "bruto": -16.8,
+   "ajustado": -9.16,
+   "ic": [
+    -10.94,
+    -7.35
+   ]
+  },
+  {
+   "id": "4103",
+   "nome": "Norte Central Paranaense",
+   "uf": "PR",
+   "regiao": "Sul",
+   "n": 620534,
+   "pct_m": 47.2,
+   "bruto": -11.1,
+   "ajustado": -9.33,
+   "ic": [
+    -10.32,
+    -8.32
+   ]
+  },
+  {
+   "id": "4104",
+   "nome": "Norte Pioneiro Paranaense",
+   "uf": "PR",
+   "regiao": "Sul",
+   "n": 115494,
+   "pct_m": 48.5,
+   "bruto": -12.7,
+   "ajustado": -9.5,
+   "ic": [
+    -11.12,
+    -7.84
+   ]
+  },
+  {
+   "id": "4105",
+   "nome": "Centro Oriental Paranaense",
+   "uf": "PR",
+   "regiao": "Sul",
+   "n": 200472,
+   "pct_m": 42.0,
+   "bruto": -17.2,
+   "ajustado": -11.13,
+   "ic": [
+    -12.78,
+    -9.44
+   ]
+  },
+  {
+   "id": "4106",
+   "nome": "Oeste Paranaense",
+   "uf": "PR",
+   "regiao": "Sul",
+   "n": 412877,
+   "pct_m": 48.5,
+   "bruto": -13.0,
+   "ajustado": -8.6,
+   "ic": [
+    -9.76,
+    -7.43
+   ]
+  },
+  {
+   "id": "4107",
+   "nome": "Sudoeste Paranaense",
+   "uf": "PR",
+   "regiao": "Sul",
+   "n": 154641,
+   "pct_m": 48.1,
+   "bruto": -13.7,
+   "ajustado": -8.75,
+   "ic": [
+    -10.15,
+    -7.33
+   ]
+  },
+  {
+   "id": "4108",
+   "nome": "Centro-Sul Paranaense",
+   "uf": "PR",
+   "regiao": "Sul",
+   "n": 114366,
+   "pct_m": 44.4,
+   "bruto": -9.2,
+   "ajustado": -8.98,
+   "ic": [
+    -10.96,
+    -6.95
+   ]
+  },
+  {
+   "id": "4109",
+   "nome": "Sudeste Paranaense",
+   "uf": "PR",
+   "regiao": "Sul",
+   "n": 82393,
+   "pct_m": 46.1,
+   "bruto": -9.3,
+   "ajustado": -8.01,
+   "ic": [
+    -9.52,
+    -6.47
+   ]
+  },
+  {
+   "id": "4110",
+   "nome": "Metropolitana de Curitiba",
+   "uf": "PR",
+   "regiao": "Sul",
+   "n": 1369759,
+   "pct_m": 47.5,
+   "bruto": -14.1,
+   "ajustado": -8.42,
+   "ic": [
+    -9.47,
+    -7.36
+   ]
+  },
+  {
+   "id": "4201",
+   "nome": "Oeste Catarinense",
+   "uf": "SC",
+   "regiao": "Sul",
+   "n": 423264,
+   "pct_m": 45.2,
+   "bruto": -13.2,
+   "ajustado": -10.45,
+   "ic": [
+    -11.69,
+    -9.2
+   ]
+  },
+  {
+   "id": "4202",
+   "nome": "Norte Catarinense",
+   "uf": "SC",
+   "regiao": "Sul",
+   "n": 475392,
+   "pct_m": 46.1,
+   "bruto": -18.2,
+   "ajustado": -10.48,
+   "ic": [
+    -11.86,
+    -9.09
+   ]
+  },
+  {
+   "id": "4203",
+   "nome": "Serrana",
+   "uf": "SC",
+   "regiao": "Sul",
+   "n": 103689,
+   "pct_m": 43.7,
+   "bruto": -11.7,
+   "ajustado": -9.33,
+   "ic": [
+    -11.07,
+    -7.56
+   ]
+  },
+  {
+   "id": "4204",
+   "nome": "Vale do Itajaí",
+   "uf": "SC",
+   "regiao": "Sul",
+   "n": 683067,
+   "pct_m": 47.5,
+   "bruto": -13.6,
+   "ajustado": -8.91,
+   "ic": [
+    -10.14,
+    -7.67
+   ]
+  },
+  {
+   "id": "4205",
+   "nome": "Grande Florianópolis",
+   "uf": "SC",
+   "regiao": "Sul",
+   "n": 553435,
+   "pct_m": 49.1,
+   "bruto": -16.7,
+   "ajustado": -7.28,
+   "ic": [
+    -8.58,
+    -5.97
+   ]
+  },
+  {
+   "id": "4206",
+   "nome": "Sul Catarinense",
+   "uf": "SC",
+   "regiao": "Sul",
+   "n": 307831,
+   "pct_m": 45.9,
+   "bruto": -15.4,
+   "ajustado": -9.88,
+   "ic": [
+    -11.41,
+    -8.34
+   ]
+  },
+  {
+   "id": "4301",
+   "nome": "Noroeste Rio-grandense",
+   "uf": "RS",
+   "regiao": "Sul",
+   "n": 466662,
+   "pct_m": 47.2,
+   "bruto": -13.7,
+   "ajustado": -10.09,
+   "ic": [
+    -11.49,
+    -8.67
+   ]
+  },
+  {
+   "id": "4302",
+   "nome": "Nordeste Rio-grandense",
+   "uf": "RS",
+   "regiao": "Sul",
+   "n": 375653,
+   "pct_m": 46.9,
+   "bruto": -19.1,
+   "ajustado": -12.43,
+   "ic": [
+    -13.96,
+    -10.87
+   ]
+  },
+  {
+   "id": "4303",
+   "nome": "Centro Ocidental Rio-grandense",
+   "uf": "RS",
+   "regiao": "Sul",
+   "n": 110911,
+   "pct_m": 48.0,
+   "bruto": -1.8,
+   "ajustado": -7.15,
+   "ic": [
+    -8.76,
+    -5.52
+   ]
+  },
+  {
+   "id": "4304",
+   "nome": "Centro Oriental Rio-grandense",
+   "uf": "RS",
+   "regiao": "Sul",
+   "n": 210076,
+   "pct_m": 49.8,
+   "bruto": -15.3,
+   "ajustado": -10.04,
+   "ic": [
+    -11.46,
+    -8.61
+   ]
+  },
+  {
+   "id": "4305",
+   "nome": "Metropolitana de Porto Alegre",
+   "uf": "RS",
+   "regiao": "Sul",
+   "n": 1449895,
+   "pct_m": 49.4,
+   "bruto": -15.6,
+   "ajustado": -10.27,
+   "ic": [
+    -11.65,
+    -8.88
+   ]
+  },
+  {
+   "id": "4306",
+   "nome": "Sudoeste Rio-grandense",
+   "uf": "RS",
+   "regiao": "Sul",
+   "n": 126659,
+   "pct_m": 43.5,
+   "bruto": -3.9,
+   "ajustado": -8.83,
+   "ic": [
+    -10.44,
+    -7.2
+   ]
+  },
+  {
+   "id": "4307",
+   "nome": "Sudeste Rio-grandense",
+   "uf": "RS",
+   "regiao": "Sul",
+   "n": 169775,
+   "pct_m": 46.9,
+   "bruto": -8.4,
+   "ajustado": -7.84,
+   "ic": [
+    -9.42,
+    -6.23
+   ]
+  },
+  {
+   "id": "5001",
+   "nome": "Pantanais Sul Mato-grossense",
+   "uf": "MS",
+   "regiao": "Centro-Oeste",
+   "n": 38829,
+   "pct_m": 41.0,
+   "bruto": 5.1,
+   "ajustado": -9.36,
+   "ic": [
+    -11.87,
+    -6.77
+   ]
+  },
+  {
+   "id": "5002",
+   "nome": "Centro Norte de Mato Grosso do Sul",
+   "uf": "MS",
+   "regiao": "Centro-Oeste",
+   "n": 322305,
+   "pct_m": 47.1,
+   "bruto": -9.9,
+   "ajustado": -10.04,
+   "ic": [
+    -11.87,
+    -8.16
+   ]
+  },
+  {
+   "id": "5003",
+   "nome": "Leste de Mato Grosso do Sul",
+   "uf": "MS",
+   "regiao": "Centro-Oeste",
+   "n": 148015,
+   "pct_m": 38.6,
+   "bruto": -19.3,
+   "ajustado": -14.73,
+   "ic": [
+    -17.16,
+    -12.22
+   ]
+  },
+  {
+   "id": "5004",
+   "nome": "Sudoeste de Mato Grosso do Sul",
+   "uf": "MS",
+   "regiao": "Centro-Oeste",
+   "n": 203276,
+   "pct_m": 43.0,
+   "bruto": -7.5,
+   "ajustado": -10.38,
+   "ic": [
+    -11.98,
+    -8.75
+   ]
+  },
+  {
+   "id": "5101",
+   "nome": "Norte Mato-grossense",
+   "uf": "MT",
+   "regiao": "Centro-Oeste",
+   "n": 328295,
+   "pct_m": 39.8,
+   "bruto": -15.4,
+   "ajustado": -11.85,
+   "ic": [
+    -13.74,
+    -9.93
+   ]
+  },
+  {
+   "id": "5102",
+   "nome": "Nordeste Mato-grossense",
+   "uf": "MT",
+   "regiao": "Centro-Oeste",
+   "n": 70782,
+   "pct_m": 37.2,
+   "bruto": -11.7,
+   "ajustado": -11.68,
+   "ic": [
+    -14.59,
+    -8.67
+   ]
+  },
+  {
+   "id": "5103",
+   "nome": "Sudoeste Mato-grossense",
+   "uf": "MT",
+   "regiao": "Centro-Oeste",
+   "n": 73892,
+   "pct_m": 40.5,
+   "bruto": -15.1,
+   "ajustado": -11.98,
+   "ic": [
+    -14.78,
+    -9.09
+   ]
+  },
+  {
+   "id": "5104",
+   "nome": "Centro-Sul Mato-grossense",
+   "uf": "MT",
+   "regiao": "Centro-Oeste",
+   "n": 394059,
+   "pct_m": 49.3,
+   "bruto": -11.9,
+   "ajustado": -8.96,
+   "ic": [
+    -11.95,
+    -5.86
+   ]
+  },
+  {
+   "id": "5105",
+   "nome": "Sudeste Mato-grossense",
+   "uf": "MT",
+   "regiao": "Centro-Oeste",
+   "n": 152095,
+   "pct_m": 40.9,
+   "bruto": -8.2,
+   "ajustado": -12.57,
+   "ic": [
+    -14.08,
+    -11.03
+   ]
+  },
+  {
+   "id": "5201",
+   "nome": "Noroeste Goiano",
+   "uf": "GO",
+   "regiao": "Centro-Oeste",
+   "n": 36238,
+   "pct_m": 38.9,
+   "bruto": -12.9,
+   "ajustado": -15.73,
+   "ic": [
+    -20.12,
+    -11.1
+   ]
+  },
+  {
+   "id": "5202",
+   "nome": "Norte Goiano",
+   "uf": "GO",
+   "regiao": "Centro-Oeste",
+   "n": 48127,
+   "pct_m": 44.6,
+   "bruto": -12.1,
+   "ajustado": -10.36,
+   "ic": [
+    -12.24,
+    -8.44
+   ]
+  },
+  {
+   "id": "5203",
+   "nome": "Centro Goiano",
+   "uf": "GO",
+   "regiao": "Centro-Oeste",
+   "n": 1026690,
+   "pct_m": 46.6,
+   "bruto": -6.7,
+   "ajustado": -9.37,
+   "ic": [
+    -10.5,
+    -8.23
+   ]
+  },
+  {
+   "id": "5204",
+   "nome": "Leste Goiano",
+   "uf": "GO",
+   "regiao": "Centro-Oeste",
+   "n": 164840,
+   "pct_m": 45.8,
+   "bruto": 2.5,
+   "ajustado": -7.86,
+   "ic": [
+    -9.56,
+    -6.12
+   ]
+  },
+  {
+   "id": "5205",
+   "nome": "Sul Goiano",
+   "uf": "GO",
+   "regiao": "Centro-Oeste",
+   "n": 376592,
+   "pct_m": 42.2,
+   "bruto": -15.1,
+   "ajustado": -13.3,
+   "ic": [
+    -15.17,
+    -11.38
+   ]
+  },
+  {
+   "id": "5301",
+   "nome": "Distrito Federal",
+   "uf": "DF",
+   "regiao": "Centro-Oeste",
+   "n": 1388677,
+   "pct_m": 38.8,
+   "bruto": 4.6,
+   "ajustado": -3.73,
+   "ic": [
+    -5.94,
+    -1.48
+   ]
+  }
+ ],
+ "ufs": [
+  {
+   "cod": "11",
+   "bruto": -7.5,
+   "ajustado": -10.35,
+   "ic": [
+    -11.92,
+    -8.77
+   ]
+  },
+  {
+   "cod": "12",
+   "bruto": -4.0,
+   "ajustado": -3.7,
+   "ic": [
+    -5.44,
+    -1.93
+   ]
+  },
+  {
+   "cod": "13",
+   "bruto": -7.7,
+   "ajustado": -5.9,
+   "ic": [
+    -7.24,
+    -4.55
+   ]
+  },
+  {
+   "cod": "14",
+   "bruto": -1.1,
+   "ajustado": -6.23,
+   "ic": [
+    -9.86,
+    -2.45
+   ]
+  },
+  {
+   "cod": "15",
+   "bruto": 6.4,
+   "ajustado": -7.54,
+   "ic": [
+    -8.83,
+    -6.23
+   ]
+  },
+  {
+   "cod": "16",
+   "bruto": 0.6,
+   "ajustado": -5.36,
+   "ic": [
+    -6.8,
+    -3.91
+   ]
+  },
+  {
+   "cod": "17",
+   "bruto": -5.2,
+   "ajustado": -7.21,
+   "ic": [
+    -9.01,
+    -5.36
+   ]
+  },
+  {
+   "cod": "21",
+   "bruto": -0.7,
+   "ajustado": -8.29,
+   "ic": [
+    -13.75,
+    -2.48
+   ]
+  },
+  {
+   "cod": "22",
+   "bruto": 2.9,
+   "ajustado": -5.62,
+   "ic": [
+    -7.71,
+    -3.49
+   ]
+  },
+  {
+   "cod": "23",
+   "bruto": 2.7,
+   "ajustado": -5.01,
+   "ic": [
+    -6.36,
+    -3.63
+   ]
+  },
+  {
+   "cod": "24",
+   "bruto": -0.3,
+   "ajustado": -5.99,
+   "ic": [
+    -7.2,
+    -4.78
+   ]
+  },
+  {
+   "cod": "25",
+   "bruto": 4.6,
+   "ajustado": -5.88,
+   "ic": [
+    -6.98,
+    -4.76
+   ]
+  },
+  {
+   "cod": "26",
+   "bruto": 3.5,
+   "ajustado": -6.89,
+   "ic": [
+    -8.46,
+    -5.3
+   ]
+  },
+  {
+   "cod": "27",
+   "bruto": -0.1,
+   "ajustado": -6.83,
+   "ic": [
+    -8.19,
+    -5.44
+   ]
+  },
+  {
+   "cod": "28",
+   "bruto": 4.8,
+   "ajustado": -7.51,
+   "ic": [
+    -8.81,
+    -6.19
+   ]
+  },
+  {
+   "cod": "29",
+   "bruto": 1.6,
+   "ajustado": -7.34,
+   "ic": [
+    -8.44,
+    -6.22
+   ]
+  },
+  {
+   "cod": "31",
+   "bruto": -13.4,
+   "ajustado": -9.43,
+   "ic": [
+    -10.41,
+    -8.43
+   ]
+  },
+  {
+   "cod": "32",
+   "bruto": -16.4,
+   "ajustado": -9.37,
+   "ic": [
+    -10.51,
+    -8.2
+   ]
+  },
+  {
+   "cod": "33",
+   "bruto": -17.9,
+   "ajustado": -7.28,
+   "ic": [
+    -8.95,
+    -5.57
+   ]
+  },
+  {
+   "cod": "35",
+   "bruto": -15.6,
+   "ajustado": -10.82,
+   "ic": [
+    -11.99,
+    -9.64
+   ]
+  },
+  {
+   "cod": "41",
+   "bruto": -13.0,
+   "ajustado": -9.24,
+   "ic": [
+    -10.15,
+    -8.32
+   ]
+  },
+  {
+   "cod": "42",
+   "bruto": -14.6,
+   "ajustado": -10.15,
+   "ic": [
+    -11.18,
+    -9.1
+   ]
+  },
+  {
+   "cod": "43",
+   "bruto": -14.1,
+   "ajustado": -10.49,
+   "ic": [
+    -11.66,
+    -9.3
+   ]
+  },
+  {
+   "cod": "50",
+   "bruto": -8.9,
+   "ajustado": -11.49,
+   "ic": [
+    -12.91,
+    -10.04
+   ]
+  },
+  {
+   "cod": "51",
+   "bruto": -10.1,
+   "ajustado": -10.98,
+   "ic": [
+    -13.6,
+    -8.28
+   ]
+  },
+  {
+   "cod": "52",
+   "bruto": -7.6,
+   "ajustado": -10.49,
+   "ic": [
+    -11.67,
+    -9.3
+   ]
+  },
+  {
+   "cod": "53",
+   "bruto": 4.6,
+   "ajustado": -3.73,
+   "ic": [
+    -5.94,
+    -1.48
+   ]
+  }
+ ],
+ "regioes": [
+  {
+   "regiao": "Norte",
+   "ajustado": -7.22,
+   "ic": [
+    -8.42,
+    -6.01
+   ]
+  },
+  {
+   "regiao": "Nordeste",
+   "ajustado": -6.85,
+   "ic": [
+    -8.43,
+    -5.24
+   ]
+  },
+  {
+   "regiao": "Sudeste",
+   "ajustado": -10.12,
+   "ic": [
+    -11.18,
+    -9.04
+   ]
+  },
+  {
+   "regiao": "Sul",
+   "ajustado": -10.19,
+   "ic": [
+    -11.17,
+    -9.2
+   ]
+  },
+  {
+   "regiao": "Centro-Oeste",
+   "ajustado": -9.92,
+   "ic": [
+    -11.44,
+    -8.37
+   ]
+  }
+ ],
+ "homog_meso": {
+  "k": 137,
+  "Q": 1394.4,
+  "gl": 136,
+  "I2": 90.2,
+  "media": -7.7,
+  "tau_pp": 2.71
+ },
+ "homog_uf": {
+  "k": 27,
+  "Q": 245.8,
+  "gl": 26,
+  "I2": 89.4,
+  "media": -8.06,
+  "tau_pp": 2.21
+ },
+ "homog_regiao": {
+  "k": 5,
+  "Q": 26.5,
+  "gl": 4,
+  "I2": 84.9,
+  "media": -9.12,
+  "tau_pp": 1.64
+ },
+ "dp_bruto_meso": 12.09,
+ "dp_ajustado_meso": 2.99,
+ "corr_bruto_ajustado": 0.78
+}
