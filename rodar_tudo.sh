@@ -10,7 +10,7 @@ for a in "${ANOS[@]}"; do
   echo "== ETL $a =="; "$PY" analise/etl.py "$a"
 done
 for a in "${ANOS[@]}"; do
-  for s in analise estatistica extra mapa teses ocupacoes combinado porte forca completa; do
+  for s in analise estatistica extra mapa teses ocupacoes feminina combinado porte forca completa; do
     echo "== $s $a =="; "$PY" "analise/$s.py" "$a"
   done
 done

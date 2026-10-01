@@ -1,0 +1,338 @@
+{
+ "ano": 2023,
+ "criterio": {
+  "n_min": 50000,
+  "top": 20
+ },
+ "ocupacoes": [
+  {
+   "cbo": "231110",
+   "ocupacao": "Professor de nível superior na educação infantil (zero a três anos)",
+   "n": 78402,
+   "pct_m": 96.3,
+   "n_homens": 2885,
+   "media_m": 4085,
+   "media_h": 4271,
+   "bruto": -4.3,
+   "pct_publico": 35.5,
+   "ajustado": {
+    "gap": -0.4,
+    "ic_baixo": -2.7,
+    "ic_alto": 1.9
+   }
+  },
+  {
+   "cbo": "322415",
+   "ocupacao": "Auxiliar em saúde bucal",
+   "n": 82838,
+   "pct_m": 95.0,
+   "n_homens": 4158,
+   "media_m": 2131,
+   "media_h": 2095,
+   "bruto": 1.7,
+   "pct_publico": 29.0,
+   "ajustado": {
+    "gap": 0.2,
+    "ic_baixo": -1.2,
+    "ic_alto": 1.7
+   }
+  },
+  {
+   "cbo": "331110",
+   "ocupacao": "Auxiliar de desenvolvimento infantil",
+   "n": 226126,
+   "pct_m": 94.8,
+   "n_homens": 11679,
+   "media_m": 2157,
+   "media_h": 2195,
+   "bruto": -1.7,
+   "pct_publico": 51.6,
+   "ajustado": {
+    "gap": -5.0,
+    "ic_baixo": -6.9,
+    "ic_alto": -3.1
+   }
+  },
+  {
+   "cbo": "331105",
+   "ocupacao": "Professor de nível médio na educação infantil",
+   "n": 228152,
+   "pct_m": 94.8,
+   "n_homens": 11971,
+   "media_m": 5126,
+   "media_h": 4560,
+   "bruto": 12.4,
+   "pct_publico": 77.0,
+   "ajustado": {
+    "gap": 0.3,
+    "ic_baixo": -1.4,
+    "ic_alto": 2.1
+   }
+  },
+  {
+   "cbo": "223710",
+   "ocupacao": "Nutricionista",
+   "n": 54062,
+   "pct_m": 93.4,
+   "n_homens": 3578,
+   "media_m": 4488,
+   "media_h": 4223,
+   "bruto": 6.3,
+   "pct_publico": 36.6,
+   "ajustado": {
+    "gap": -0.7,
+    "ic_baixo": -3.3,
+    "ic_alto": 1.9
+   }
+  },
+  {
+   "cbo": "251605",
+   "ocupacao": "Assistente social",
+   "n": 96118,
+   "pct_m": 91.4,
+   "n_homens": 8265,
+   "media_m": 5489,
+   "media_h": 6467,
+   "bruto": -15.1,
+   "pct_publico": 68.5,
+   "ajustado": {
+    "gap": -7.1,
+    "ic_baixo": -10.9,
+    "ic_alto": -3.1
+   }
+  },
+  {
+   "cbo": "513315",
+   "ocupacao": "Camareiro  de hotel",
+   "n": 87066,
+   "pct_m": 91.4,
+   "n_homens": 7487,
+   "media_m": 1796,
+   "media_h": 1922,
+   "bruto": -6.6,
+   "pct_publico": 0.1,
+   "ajustado": {
+    "gap": -4.3,
+    "ic_baixo": -5.6,
+    "ic_alto": -3.0
+   }
+  },
+  {
+   "cbo": "422110",
+   "ocupacao": "Recepcionista de consultório médico ou dentário",
+   "n": 137310,
+   "pct_m": 90.5,
+   "n_homens": 13109,
+   "media_m": 1810,
+   "media_h": 1904,
+   "bruto": -4.9,
+   "pct_publico": 2.8,
+   "ajustado": {
+    "gap": -2.9,
+    "ic_baixo": -3.6,
+    "ic_alto": -2.1
+   }
+  },
+  {
+   "cbo": "239415",
+   "ocupacao": "Pedagogo",
+   "n": 59021,
+   "pct_m": 89.8,
+   "n_homens": 6031,
+   "media_m": 5319,
+   "media_h": 5655,
+   "bruto": -5.9,
+   "pct_publico": 76.6,
+   "ajustado": {
+    "gap": -4.2,
+    "ic_baixo": -7.1,
+    "ic_alto": -1.2
+   }
+  },
+  {
+   "cbo": "231105",
+   "ocupacao": "Professor de nível superior na educação infantil (quatro a seis anos)",
+   "n": 165443,
+   "pct_m": 88.4,
+   "n_homens": 19156,
+   "media_m": 4660,
+   "media_h": 5590,
+   "bruto": -16.6,
+   "pct_publico": 68.4,
+   "ajustado": {
+    "gap": -2.0,
+    "ic_baixo": -4.0,
+    "ic_alto": 0.1
+   }
+  },
+  {
+   "cbo": "516210",
+   "ocupacao": "Cuidador de idosos",
+   "n": 58459,
+   "pct_m": 86.4,
+   "n_homens": 7942,
+   "media_m": 1811,
+   "media_h": 1894,
+   "bruto": -4.4,
+   "pct_publico": 13.0,
+   "ajustado": {
+    "gap": -5.1,
+    "ic_baixo": -6.7,
+    "ic_alto": -3.5
+   }
+  },
+  {
+   "cbo": "763215",
+   "ocupacao": "Costureiro, a  máquina  na confecção em série",
+   "n": 95455,
+   "pct_m": 86.2,
+   "n_homens": 13128,
+   "media_m": 1840,
+   "media_h": 1722,
+   "bruto": 6.8,
+   "pct_publico": 0.1,
+   "ajustado": {
+    "gap": -1.5,
+    "ic_baixo": -3.2,
+    "ic_alto": 0.2
+   }
+  },
+  {
+   "cbo": "763210",
+   "ocupacao": "Costureiro na confecção em série",
+   "n": 126563,
+   "pct_m": 85.6,
+   "n_homens": 18268,
+   "media_m": 1779,
+   "media_h": 1637,
+   "bruto": 8.7,
+   "pct_publico": 0.1,
+   "ajustado": {
+    "gap": -0.2,
+    "ic_baixo": -1.5,
+    "ic_alto": 1.0
+   }
+  },
+  {
+   "cbo": "421125",
+   "ocupacao": "Operador de caixa",
+   "n": 890386,
+   "pct_m": 85.1,
+   "n_homens": 132280,
+   "media_m": 1825,
+   "media_h": 1866,
+   "bruto": -2.1,
+   "pct_publico": 0.0,
+   "ajustado": {
+    "gap": -3.5,
+    "ic_baixo": -3.8,
+    "ic_alto": -3.1
+   }
+  },
+  {
+   "cbo": "322230",
+   "ocupacao": "Auxiliar de enfermagem",
+   "n": 174604,
+   "pct_m": 85.1,
+   "n_homens": 25944,
+   "media_m": 3909,
+   "media_h": 4042,
+   "bruto": -3.3,
+   "pct_publico": 60.0,
+   "ajustado": {
+    "gap": -2.9,
+    "ic_baixo": -4.1,
+    "ic_alto": -1.7
+   }
+  },
+  {
+   "cbo": "322205",
+   "ocupacao": "Técnico de enfermagem",
+   "n": 837664,
+   "pct_m": 85.1,
+   "n_homens": 124999,
+   "media_m": 3301,
+   "media_h": 3462,
+   "bruto": -4.6,
+   "pct_publico": 31.9,
+   "ajustado": {
+    "gap": -3.4,
+    "ic_baixo": -5.1,
+    "ic_alto": -1.6
+   }
+  },
+  {
+   "cbo": "223505",
+   "ocupacao": "Enfermeiro",
+   "n": 372705,
+   "pct_m": 84.3,
+   "n_homens": 58660,
+   "media_m": 6315,
+   "media_h": 6275,
+   "bruto": 0.6,
+   "pct_publico": 41.4,
+   "ajustado": {
+    "gap": -0.5,
+    "ic_baixo": -1.9,
+    "ic_alto": 1.0
+   }
+  },
+  {
+   "cbo": "231210",
+   "ocupacao": "Professor de nível superior do ensino fundamental (primeira a quarta série)",
+   "n": 528170,
+   "pct_m": 84.2,
+   "n_homens": 83487,
+   "media_m": 4917,
+   "media_h": 4967,
+   "bruto": -1.0,
+   "pct_publico": 85.0,
+   "ajustado": {
+    "gap": 1.3,
+    "ic_baixo": -1.1,
+    "ic_alto": 3.8
+   }
+  },
+  {
+   "cbo": "251510",
+   "ocupacao": "Psicólogo clínico",
+   "n": 51296,
+   "pct_m": 83.4,
+   "n_homens": 8508,
+   "media_m": 4993,
+   "media_h": 5080,
+   "bruto": -1.7,
+   "pct_publico": 70.8,
+   "ajustado": {
+    "gap": -2.7,
+    "ic_baixo": -3.9,
+    "ic_alto": -1.5
+   }
+  },
+  {
+   "cbo": "351505",
+   "ocupacao": "Técnico em secretariado",
+   "n": 51247,
+   "pct_m": 83.2,
+   "n_homens": 8626,
+   "media_m": 2889,
+   "media_h": 3524,
+   "bruto": -18.0,
+   "pct_publico": 23.3,
+   "ajustado": {
+    "gap": -8.5,
+    "ic_baixo": -10.9,
+    "ic_alto": -6.1
+   }
+  }
+ ],
+ "resumo": {
+  "ocupacoes": 20,
+  "vinculos": 4401087,
+  "pct_m_medio": 87.0,
+  "gap_medio_ponderado": -2.3,
+  "homem_ganha_mais": 11.0,
+  "empate": 9.0,
+  "mulher_ganha_mais": 0.0
+ }
+}

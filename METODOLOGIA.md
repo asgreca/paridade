@@ -205,6 +205,16 @@ Em 2025: Q = 1.550 (136 gl) e I² = 91%. As regiões diferem de verdade, mas τ 
 
 O gap dentro da ocupação é calculado por **pareamento exato** em células de ocupação × escolaridade × faixa de idade × UF, com média dos d ponderada por min(n_H, n_M). Ocupações com peso < 50 ficam como "sem comparação possível".
 
+## 14b. Ocupações com maior presença feminina
+
+`feminina.py`. Em cada ano, as 20 ocupações (CBO de 6 dígitos) com maior percentual de mulheres entre as que têm 50 mil vínculos ou mais. Para cada uma, com **todos** os vínculos da ocupação, estimamos
+
+```
+ln(rem) = α + δ·mulher + ln(horas), idade, idade², tempo de casa, tempo², público + dummies de instrução, porte, UF e divisão CNAE + ε
+```
+
+com erro-padrão agrupado por município. O resumo conta em quantas o IC de 95% fica abaixo de zero (homem ganha mais), cruza o zero (empate) ou fica acima (mulher ganha mais), e calcula a média de δ ponderada pelo número de vínculos.
+
 ## 15. Esforço físico
 
 `forca.py`. "Esforço físico pesado" reúne pedreiros e serventes, carregadores, trabalhadores agrícolas braçais, mineiros, abate de animais e coleta de lixo (prefixos em `PESADO`). "Operacional leve ou de precisão" reúne embaladores, costureiras e montadores de precisão (`LEVE`). Medimos:

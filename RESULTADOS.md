@@ -48,6 +48,19 @@ As mulheres trabalham menos horas contratadas (40,5 contra 42,1 por semana). Qua
 - Esforço físico pesado: 16,9% de mulheres, gap de -12,8% na mesma ocupação. Operacional leve ou de precisão: 44,9% de mulheres, gap de -9,8%.
 - Para homens, o trabalho pesado paga +10,8% sobre o leve (IC 3,9 a 18,2). É o teto do que a força física poderia explicar, cerca de 3 p.p. do gap.
 
+## 4b. Ocupações com mais mulheres
+
+`feminina_ANO.json`: as 20 maiores ocupações em que as mulheres são maioria (50 mil vínculos ou mais; 83% a 96% de mulheres; 5,4 milhões de vínculos em 2025). Na mesma ocupação, com o mesmo perfil:
+
+| | 2023 | 2024 | 2025 |
+|---|---:|---:|---:|
+| Gap médio ponderado | -2,3% | -3,0% | -2,6% |
+| Homem ganha mais (IC abaixo de zero) | 11 | 12 | 12 |
+| Empate estatístico | 9 | 8 | 8 |
+| Mulher ganha mais | 0 | 0 | 0 |
+
+A diferença encolhe para cerca de um quarto do gap geral, mas não se inverte. Os empates estão em educação infantil, enfermagem, nutrição, saúde bucal e costura.
+
 ## 5. Teto de vidro
 
 Gap na mesma ocupação por quantil da distribuição de salários (RIF, `estat_2025.json` → `quantis`):
@@ -87,6 +100,7 @@ Gap na mesma ocupação por quantil da distribuição de salários (RIF, `estat_
 | `extra_ANO.json` | `bracal_adverso`, `tempo_casa`, `experiencia`, `perfil_exp`, `perfil_tempo`, `retorno` |
 | `forca_ANO.json` | `classes` (pesado, leve, outro operacional), `premio_pesado_sobre_leve`, `perigo` |
 | `combinado_ANO.json` | `sem_ocupacao`, `com_ocupacao` (fatores em p.p. com EP), `medias` |
+| `feminina_ANO.json` | `ocupacoes` (20 ocupações de maioria feminina, com bruto, ajustado e IC), `resumo` |
 | `ocupacoes_ANO.json` | `pontos` (uma linha por ocupação com 1.000+ vínculos), `fluxos` (Sankey), `resumo` |
 | `teses_ANO.json` | eixo pessoas x coisas, caudas, segregação (Duncan), diretoria por idade |
 | `mapa_ANO.json` | `mesos`, `ufs`, `regioes`, testes `homog_*` |
